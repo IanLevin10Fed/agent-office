@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:47:39.969131Z",
+  "generatedAt": "2026-09-10T23:54:08.650780Z",
   "timezone": "America/Los_Angeles",
   "activeAgentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 24m ago",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (30m ago)",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -68,7 +68,7 @@
       "desk": "Central glass office",
       "x": 50,
       "y": 34,
-      "status": "recent",
+      "status": "idle",
       "lastSeenAt": "2026-09-10T23:23:23.285000Z",
       "recentEvents": [
         {
@@ -135,38 +135,38 @@
       "x": 36,
       "y": 46,
       "status": "active",
-      "lastSeenAt": "2026-09-10T23:47:22.800000Z",
+      "lastSeenAt": "2026-09-10T23:53:49.938000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T23:47:22.800Z",
+          "ts": "2026-09-10T23:53:49.938Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:45:39.913Z",
+          "ts": "2026-09-10T23:53:29.400Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:33:28.393Z",
+          "ts": "2026-09-10T23:53:15.859Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:32:26.523Z",
+          "ts": "2026-09-10T23:51:50.377Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:32:02.943Z",
+          "ts": "2026-09-10T23:51:37.834Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:31:21.275Z",
+          "ts": "2026-09-10T23:51:22.691Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:28:59.896Z",
+          "ts": "2026-09-10T23:50:46.120Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-10T23:28:34.070Z",
+          "ts": "2026-09-10T23:50:33.140Z",
           "label": "Browsing Outlook"
         }
       ]
@@ -256,7 +256,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: SharePoint \u00b7 10Fed Critical Files - Documents - Store #&#39;s TBD - City Storag\u2026 (58m ago)",
+      "doingNow": "Idle \u2014 last: SharePoint \u00b7 10Fed Critical Files - Documents - Store #&#39;s TBD - City Storag\u2026 (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -747,8 +747,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-10T23:47:39.908000Z",
+      "lastSeenAt": "2026-09-10T23:54:08.596000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T23:54:08.596Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-10T23:54:04.282Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-10T23:47:39.908Z",
           "label": "Refreshing office viz"
@@ -771,14 +779,6 @@
         },
         {
           "ts": "2026-09-10T23:32:46.166Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-10T23:32:36.121Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-10T23:28:32.303Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -944,7 +944,7 @@
       "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T22:43:59.674Z"
+      "ts": "2026-09-10T22:50:55.147Z"
     },
     {
       "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
@@ -1096,7 +1096,7 @@
       "toName": "Investor Inbox",
       "kind": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T22:43:59.674Z"
+      "ts": "2026-09-10T22:50:55.147Z"
     },
     {
       "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
@@ -1308,6 +1308,66 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-10T23:54:08.596Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-10T23:54:04.282Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-10T23:53:49.938Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:53:29.400Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:53:15.859Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:51:50.377Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:51:37.834Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:51:22.691Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:50:46.120Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-10T23:50:33.140Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browsing Outlook"
+    },
+    {
       "ts": "2026-09-10T23:47:39.908Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1326,18 +1386,6 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-10T23:47:22.800Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-10T23:45:39.913Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
       "ts": "2026-09-10T23:40:49.104Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1350,55 +1398,7 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-10T23:33:28.393Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
       "ts": "2026-09-10T23:32:46.166Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-10T23:32:36.121Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-10T23:32:26.523Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-10T23:32:02.943Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-10T23:31:21.275Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-10T23:28:59.896Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-10T23:28:34.070Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-10T23:28:32.303Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
