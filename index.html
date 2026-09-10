@@ -221,6 +221,14 @@
     opacity: 0.95; stroke-width: 2.25;
     filter: drop-shadow(0 0 6px currentColor);
   }
+  .floor.has-selection .conn-line:not(.linked) {
+    opacity: 0.14;
+  }
+  .floor.has-selection .conn-line.linked {
+    opacity: 0.9;
+    stroke-width: 2.1;
+    filter: drop-shadow(0 0 6px currentColor);
+  }
   .conn-packet {
     pointer-events: none;
   }
@@ -518,6 +526,121 @@
   .empty-hint {
     color: var(--muted); font-size: 0.78rem; line-height: 1.45;
     padding: 0.5rem 0;
+  }
+
+  .panel-section {
+    margin-bottom: 1.05rem;
+  }
+  .panel-section:last-child { margin-bottom: 0.35rem; }
+  .panel-section .sec-body {
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .panel-section .sec-body.muted { color: var(--muted); }
+  .mandate-box {
+    max-height: 7.5rem;
+    overflow-y: auto;
+    padding: 0.55rem 0.65rem;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.025);
+    border: 1px solid var(--stroke);
+    font-size: 0.76rem;
+    line-height: 1.5;
+    color: var(--text);
+    scrollbar-width: thin;
+  }
+  .doing-now {
+    display: flex;
+    gap: 0.55rem;
+    align-items: flex-start;
+    padding: 0.65rem 0.7rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(62,207,142,0.08), rgba(232,148,58,0.06));
+    border: 1px solid rgba(62,207,142,0.22);
+    box-shadow: 0 0 18px rgba(62,207,142,0.06);
+  }
+  .doing-now .pulse {
+    width: 8px; height: 8px; border-radius: 50%;
+    margin-top: 0.35rem; flex-shrink: 0;
+    background: #3ecf8e;
+    box-shadow: 0 0 10px rgba(62,207,142,0.55);
+    animation: pulseDot 1.6s ease-in-out infinite;
+  }
+  .doing-now.idle {
+    background: rgba(255,255,255,0.02);
+    border-color: var(--stroke);
+    box-shadow: none;
+  }
+  .doing-now.idle .pulse {
+    background: #6a6a72;
+    box-shadow: none;
+    animation: none;
+  }
+  .doing-now.recent .pulse {
+    background: var(--warm);
+    box-shadow: 0 0 10px rgba(201,166,107,0.4);
+  }
+  .doing-now .dn-text {
+    font-size: 0.82rem;
+    font-weight: 550;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+  }
+  @keyframes pulseDot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.55; transform: scale(0.85); }
+  }
+  .partner-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .partner-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    text-align: left;
+    padding: 0.48rem 0.6rem;
+    border-radius: 10px;
+    border: 1px solid var(--stroke);
+    background: rgba(255,255,255,0.025);
+    color: var(--text);
+    cursor: pointer;
+    font: inherit;
+    transition: background 0.15s, border-color 0.15s, transform 0.15s;
+  }
+  .partner-chip:hover, .partner-chip:focus-visible {
+    background: rgba(255,255,255,0.05);
+    border-color: var(--stroke2);
+    outline: none;
+  }
+  .partner-chip .pip {
+    width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+    box-shadow: 0 0 8px currentColor;
+  }
+  .partner-chip .p-name {
+    font-size: 0.76rem; font-weight: 600; line-height: 1.2;
+  }
+  .partner-chip .p-label {
+    font-size: 0.66rem; color: var(--muted); margin-top: 1px;
+  }
+  .partner-chip .p-go {
+    margin-left: auto;
+    font-size: 0.7rem;
+    color: var(--muted);
+    opacity: 0.7;
+  }
+  .desk-meta {
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-family: var(--mono);
+    margin-top: 0.35rem;
+  }
+  .event-list.tight li {
+    padding: 0.38rem 0;
+    font-size: 0.74rem;
   }
 
   .feed-section {
@@ -843,6 +966,11 @@
     }
     .panel-body h3 { font-size: 0.68rem; }
     .event-list li, .msg-chip, .feed-item { font-size: 0.8rem; }
+    .doing-now .dn-text { font-size: 0.88rem; }
+    .mandate-box { max-height: 6.5rem; font-size: 0.8rem; }
+    .partner-chip { min-height: 44px; padding: 0.55rem 0.7rem; }
+    .partner-chip .p-name { font-size: 0.8rem; }
+    .desk-meta { font-size: 0.64rem; }
     .feed-item {
       padding: 0.55rem 0;
       min-height: 44px;
@@ -951,7 +1079,8 @@
       <div class="panel-head" id="panelHead">
         <div class="eyebrow">Selected desk</div>
         <h2 id="panelName">Click a desk</h2>
-        <p class="role" id="panelRole">Select an agent on the floor to see role, timeline, and conversations.</p>
+        <p class="role" id="panelRole">Select an agent to see definition, mandate, live work, and how they interact.</p>
+        <div class="desk-meta" id="panelDeskMeta" hidden></div>
         <div class="status-pill idle" id="panelStatus" hidden>—</div>
       </div>
       <div class="panel-body" id="panelBody">
@@ -1276,13 +1405,17 @@
       d.classList.toggle("selected", d.dataset.id === selectedId);
     });
     document.querySelectorAll(".conn-line").forEach(p => {
+      const linked = !!selectedId && (
+        p.dataset.from === selectedId || p.dataset.to === selectedId
+      );
       const on = !prefs.focus || !selectedId
         ? true
-        : (p.dataset.from === selectedId || p.dataset.to === selectedId ||
-           focusPartners.has(p.dataset.from) || focusPartners.has(p.dataset.to));
+        : (linked || focusPartners.has(p.dataset.from) || focusPartners.has(p.dataset.to));
       p.classList.toggle("focus-on", on);
+      p.classList.toggle("linked", linked);
     });
     floor.classList.toggle("focus-mode", prefs.focus && !!selectedId);
+    floor.classList.toggle("has-selection", !!selectedId);
   }
 
   function renderLandmarks() {
@@ -1313,7 +1446,9 @@
       el.style.setProperty("--agent-glow", fill + "55");
       el.setAttribute("aria-label", a.name + ", " + (a.status || "idle"));
       if (selectedId === a.id) el.classList.add("selected");
-      const last = (a.recentEvents && a.recentEvents[0] && a.recentEvents[0].label) || "";
+      const last = a.doingNow
+        || (a.recentEvents && a.recentEvents[0] && a.recentEvents[0].label)
+        || "";
       el.innerHTML = `
         <div class="preview">${escapeHtml(last || a.desk || "")}</div>
         <div class="pad">
@@ -1324,12 +1459,7 @@
         <div class="name">${escapeHtml(a.name)}</div>
         <div class="desk-label">${escapeHtml(a.desk || "")}</div>`;
       el.addEventListener("click", () => {
-        focusPartners = new Set([a.id]);
-        // partners from interactions
-        (activity.interactions || []).forEach(it => {
-          if (it.from === a.id) focusPartners.add(it.to);
-          if (it.to === a.id) focusPartners.add(it.from);
-        });
+        setFocusPartnersFor(a.id);
         selectAgent(a.id);
         applyFocusClasses();
       });
@@ -1361,7 +1491,15 @@
     const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
     svg.appendChild(defs);
 
-    (activity.interactions || []).forEach((it, i) => {
+    const edgeMap = new Map();
+    function addEdge(it) {
+      if (!it || !it.from || !it.to) return;
+      const key = it.from + ">" + it.to;
+      if (!edgeMap.has(key)) edgeMap.set(key, it);
+    }
+    (activity.playbook || []).forEach(addEdge);
+    (activity.interactions || []).forEach(addEdge);
+    Array.from(edgeMap.values()).forEach((it, i) => {
       const a = pos[it.from], b = pos[it.to];
       if (!a || !b) return;
       const midX = (a.x + b.x) / 2 + ((i % 3) - 1) * 12;
@@ -1400,6 +1538,20 @@
     applyFocusClasses();
   }
 
+  function setFocusPartnersFor(agentId) {
+    focusPartners = new Set([agentId]);
+    const a = agentById(agentId);
+    (a && a.partners || []).forEach(p => { if (p && p.id) focusPartners.add(p.id); });
+    (activity.interactions || []).forEach(it => {
+      if (it.from === agentId) focusPartners.add(it.to);
+      if (it.to === agentId) focusPartners.add(it.from);
+    });
+    (activity.playbook || []).forEach(it => {
+      if (it.from === agentId) focusPartners.add(it.to);
+      if (it.to === agentId) focusPartners.add(it.from);
+    });
+  }
+
   function selectAgent(id, opts) {
     opts = opts || {};
     selectedId = id;
@@ -1409,7 +1561,16 @@
     const a = agentById(id);
     if (!a) return;
     document.getElementById("panelName").textContent = a.name;
-    document.getElementById("panelRole").textContent = a.role || a.desk || "";
+    document.getElementById("panelRole").textContent = a.definition || a.role || a.desk || "";
+    const deskMeta = document.getElementById("panelDeskMeta");
+    const zoneBit = [a.desk, a.zone].filter(Boolean).join(" · ");
+    if (zoneBit) {
+      deskMeta.hidden = false;
+      deskMeta.textContent = zoneBit;
+    } else {
+      deskMeta.hidden = true;
+      deskMeta.textContent = "";
+    }
     const pill = document.getElementById("panelStatus");
     pill.hidden = false;
     pill.className = "status-pill " + (a.status || "idle");
@@ -1417,48 +1578,79 @@
 
     const body = document.getElementById("panelBody");
     const events = a.recentEvents || [];
+    const st = a.status || "idle";
     let html = `<div class="meta-row">Last seen · ${fmtPT(a.lastSeenAt)}</div>`;
 
     if (opts.conv) {
       const other = agentById(opts.highlightPartner);
-      html += `<h3>Conversation</h3>`;
+      html += `<div class="panel-section"><h3>Conversation</h3>`;
       html += `<div class="msg-chip"><span class="pip" style="background:${hexFor(a)}"></span>
         <div><strong>${escapeHtml(a.name)}</strong> → ${escapeHtml((other && other.name) || "agent")}
         <div style="color:var(--muted);margin-top:2px">${escapeHtml(opts.conv.text || opts.conv.label || opts.conv.kind || "")}</div>
-        <span class="ts">${fmtPT(opts.conv.ts)}</span></div></div>`;
+        <span class="ts">${fmtPT(opts.conv.ts)}</span></div></div></div>`;
     }
 
-    html += `<h3>Status timeline</h3>`;
+    html += `<div class="panel-section"><h3>Definition</h3>
+      <div class="sec-body">${escapeHtml(a.definition || a.role || "—")}</div></div>`;
+
+    const mandate = a.mandate || a.instructions || a.role || "";
+    html += `<div class="panel-section"><h3>Mandate</h3>
+      <div class="mandate-box">${escapeHtml(mandate || "—")}</div></div>`;
+
+    html += `<div class="panel-section"><h3>Doing now</h3>
+      <div class="doing-now ${escapeHtml(st)}">
+        <span class="pulse" aria-hidden="true"></span>
+        <div class="dn-text">${escapeHtml(a.doingNow || (st === "idle" ? "Idle" : "Working"))}</div>
+      </div></div>`;
+
+    html += `<div class="panel-section"><h3>Recent activity</h3>`;
     if (!events.length) {
       html += `<p class="empty-hint">No recent audit events.</p>`;
     } else {
-      html += `<ul class="event-list">`;
-      events.forEach(e => {
+      html += `<ul class="event-list tight">`;
+      events.slice(0, 6).forEach(e => {
         html += `<li><span class="ts">${fmtPT(e.ts)}</span>${escapeHtml(e.label)}</li>`;
       });
       html += `</ul>`;
     }
+    html += `</div>`;
 
-    const links = (activity.interactions || []).filter(i => i.from === id || i.to === id);
-    const convs = conversationSource().filter(c => c.from === id || c.to === id);
-    if (convs.length || links.length) {
-      html += `<h3>Messages involving them</h3>`;
-      (convs.length ? convs : links).slice(0, 8).forEach(i => {
-        const otherId = i.from === id ? i.to : i.from;
-        const other = agentById(otherId);
-        const dir = i.from === id ? "→" : "←";
+    const partners = a.partners || [];
+    html += `<div class="panel-section"><h3>How they interact</h3>`;
+    if (!partners.length) {
+      html += `<p class="empty-hint">No partner links yet.</p>`;
+    } else {
+      html += `<div class="partner-list">`;
+      partners.forEach(p => {
+        const other = agentById(p.id);
         const col = other ? hexFor(other) : "#666";
-        html += `<div class="msg-chip"><span class="pip" style="background:${col}"></span>
-          <div>${dir} <strong>${escapeHtml((other && other.name) || "agent")}</strong>
-          · ${escapeHtml(i.text || i.label || i.kind || "")}
-          <div class="ts">${fmtPT(i.ts)}</div></div></div>`;
+        html += `<button type="button" class="partner-chip" data-partner-id="${escapeHtml(p.id)}">
+          <span class="pip" style="background:${col};color:${col}"></span>
+          <span>
+            <div class="p-name">${escapeHtml(p.name || (other && other.name) || "agent")}</div>
+            <div class="p-label">${escapeHtml(p.label || "works with")}</div>
+          </span>
+          <span class="p-go">→</span>
+        </button>`;
       });
+      html += `</div>`;
     }
+    html += `</div>`;
 
     if (opts.highlightPartner) {
       focusPartners.add(opts.highlightPartner);
+    } else {
+      setFocusPartnersFor(id);
     }
     body.innerHTML = html;
+    body.querySelectorAll(".partner-chip").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const pid = btn.getAttribute("data-partner-id");
+        if (!pid) return;
+        setFocusPartnersFor(pid);
+        selectAgent(pid);
+      });
+    });
     applyFocusClasses();
     if (isNarrow()) openSheet();
   }
@@ -1469,7 +1661,9 @@
     document.querySelectorAll(".desk").forEach(d => d.classList.remove("selected", "focus-on"));
     document.getElementById("floor").classList.remove("focus-mode");
     document.getElementById("panelName").textContent = "Click a desk";
-    document.getElementById("panelRole").textContent = "Select an agent on the floor to see role, timeline, and conversations.";
+    document.getElementById("panelRole").textContent = "Select an agent to see definition, mandate, live work, and how they interact.";
+    const deskMeta = document.getElementById("panelDeskMeta");
+    if (deskMeta) { deskMeta.hidden = true; deskMeta.textContent = ""; }
     document.getElementById("panelStatus").hidden = true;
     document.getElementById("panelBody").innerHTML =
       `<p class="empty-hint">${isNarrow() ? "Tap a desk for the full brief." : "Hover for preview · click for the full brief · Esc clears focus."}</p>`;
@@ -1496,11 +1690,7 @@
         </div>`;
       div.addEventListener("click", () => {
         if (f.agentId) {
-          focusPartners = new Set([f.agentId]);
-          (activity.interactions || []).forEach(it => {
-            if (it.from === f.agentId) focusPartners.add(it.to);
-            if (it.to === f.agentId) focusPartners.add(it.from);
-          });
+          setFocusPartnersFor(f.agentId);
           selectAgent(f.agentId);
         }
       });
@@ -1532,11 +1722,7 @@
     else {
       const act = activity.activeAgentId || (activity.agents.find(a => a.status === "active") || {}).id;
       if (act) {
-        focusPartners = new Set([act]);
-        (activity.interactions || []).forEach(it => {
-          if (it.from === act) focusPartners.add(it.to);
-          if (it.to === act) focusPartners.add(it.from);
-        });
+        setFocusPartnersFor(act);
         selectAgent(act);
       }
     }
@@ -1544,7 +1730,9 @@
 
   const tip = document.getElementById("tooltip");
   function showTip(ev, a) {
-    const last = (a.recentEvents && a.recentEvents[0] && a.recentEvents[0].label) || "";
+    const last = a.doingNow
+      || (a.recentEvents && a.recentEvents[0] && a.recentEvents[0].label)
+      || "";
     tip.innerHTML = `<div class="t-name">${escapeHtml(a.name)}</div>
       <div class="t-status">${escapeHtml(a.status || "idle")} · ${escapeHtml(a.desk || "")}</div>
       ${last ? `<div class="t-line">${escapeHtml(last)}</div>` : ""}`;
