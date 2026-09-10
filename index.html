@@ -692,14 +692,15 @@
     }
     .floor {
       position: absolute;
+      /* inset:auto must come BEFORE left/top — otherwise it resets centering to static top-left */
+      inset: auto;
       left: 50%;
-      top: 50%;
+      top: calc(50% - var(--floor-y-shift, 0px));
       right: auto;
       bottom: auto;
       width: 640px;
       height: 480px;
       max-width: none;
-      inset: auto;
       border-radius: 12px;
       transform: translate(-50%, -50%) scale(var(--floor-scale, 1));
       transform-origin: center center;
@@ -1586,6 +1587,7 @@
     if (h) h.setAttribute("aria-expanded", "true");
     const label = document.getElementById("sheetLabel");
     if (label) label.textContent = "Activity";
+    requestAnimationFrame(() => { fitFloorScale(); });
   }
   function peekSheet() {
     appEl.classList.remove("sheet-open");
@@ -1594,6 +1596,7 @@
     if (h) h.setAttribute("aria-expanded", "false");
     const label = document.getElementById("sheetLabel");
     if (label) label.textContent = "Activity · tap to open";
+    requestAnimationFrame(() => { fitFloorScale(); });
   }
   function closeSheet() {
     peekSheet();
@@ -1618,19 +1621,30 @@
     });
   }
 
+  function sheetCoverPx() {
+    /* Aside overlays the floor; always reserve collapsed peek so scale stays stable. */
+    return 56;
+  }
   function fitFloorScale() {
     if (!isNarrow()) {
       floor.style.removeProperty("--floor-scale");
+      floor.style.removeProperty("--floor-y-shift");
       floor.style.removeProperty("width");
       floor.style.removeProperty("height");
       return;
     }
     const pad = 12;
     const baseW = 640, baseH = 480;
+    const cover = sheetCoverPx();
     const rw = Math.max(1, floorWrap.clientWidth - pad * 2);
-    const rh = Math.max(1, floorWrap.clientHeight - pad * 2);
-    const s = Math.min(rw / baseW, rh / baseH, 1.15);
+    const rh = Math.max(1, floorWrap.clientHeight - cover - pad * 2);
+    const s = Math.min(rw / baseW, rh / baseH, 1);
     floor.style.setProperty("--floor-scale", s.toFixed(4));
+    /* Shift up by half the peek so the scaled floor centers in the usable band. */
+    floor.style.setProperty("--floor-y-shift", (cover / 2) + "px");
+    /* Keep layout box 640×480 so % desk coords stay valid; visual scale via transform. */
+    floor.style.width = baseW + "px";
+    floor.style.height = baseH + "px";
   }
   function syncMobileChrome() {
     floorWrap.classList.toggle("is-mobile-perf", isMobilePerf());
@@ -1640,6 +1654,7 @@
       appEl.classList.remove("sheet-open", "sheet-peek", "menu-open");
       if (menuBtn) menuBtn.setAttribute("aria-expanded", "false");
       floor.style.removeProperty("--floor-scale");
+      floor.style.removeProperty("--floor-y-shift");
     }
     fitFloorScale();
   }
@@ -1715,6 +1730,13 @@
     syncMobileChrome();
     resizeParticles();
     if (activity) renderConnections();
+  });
+  window.addEventListener("orientationchange", () => {
+    requestAnimationFrame(() => {
+      syncMobileChrome();
+      resizeParticles();
+      if (activity) renderConnections();
+    });
   });
 
   let _partFrame = 0;
