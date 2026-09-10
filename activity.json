@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:25:24.137955Z",
+  "generatedAt": "2026-09-10T17:27:03.903366Z",
   "timezone": "America/Los_Angeles",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -447,8 +447,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-10T17:25:24.085000Z",
+      "lastSeenAt": "2026-09-10T17:27:03.854000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T17:27:03.854Z",
+          "label": "Shell \u00b7 deploy.sh"
+        },
+        {
+          "ts": "2026-09-10T17:27:01.047Z",
+          "label": "Shell \u00b7 ls"
+        },
         {
           "ts": "2026-09-10T17:25:24.085Z",
           "label": "Shell \u00b7 deploy.sh"
@@ -471,14 +479,6 @@
         },
         {
           "ts": "2026-09-10T17:10:39.991Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T17:10:23.398Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T17:10:09.874Z",
           "label": "Shell \u00b7 python3"
         }
       ]
@@ -564,6 +564,13 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "400779c3-c62a-4654-8057-56954b605cbf",
       "label": "reference",
       "text": "Ref",
@@ -571,7 +578,14 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
@@ -592,13 +606,6 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "label": "reference",
       "text": "Ref",
@@ -613,13 +620,6 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "label": "reference",
       "text": "Ref",
@@ -627,14 +627,14 @@
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:08:11.947Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:08:11.947Z"
@@ -756,6 +756,15 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "fromName": "Visuals",
+      "toName": "File Explorer",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "400779c3-c62a-4654-8057-56954b605cbf",
       "fromName": "Visuals",
       "toName": "Off-Market Outreach",
@@ -765,9 +774,18 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "fromName": "Visuals",
-      "toName": "File Explorer",
+      "toName": "Chief of Staff",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Visuals",
+      "toName": "Under Contract DD",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
@@ -792,15 +810,6 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "Visuals",
-      "toName": "Under Contract DD",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "fromName": "Visuals",
       "toName": "Investor Inbox",
@@ -819,15 +828,6 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Visuals",
-      "toName": "Chief of Staff",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "fromName": "Visuals",
       "toName": "Underwriting",
@@ -837,18 +837,18 @@
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "fromName": "Chief of Staff",
-      "toName": "Visuals",
+      "toName": "Email Organizer",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:08:11.947Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
       "fromName": "Chief of Staff",
-      "toName": "Email Organizer",
+      "toName": "Visuals",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:08:11.947Z"
@@ -873,6 +873,18 @@
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-10T17:27:03.854Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 deploy.sh"
+    },
+    {
+      "ts": "2026-09-10T17:27:01.047Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 ls"
+    },
     {
       "ts": "2026-09-10T17:25:24.085Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -952,21 +964,9 @@
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-10T17:10:23.398Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 python3"
-    },
-    {
       "ts": "2026-09-10T17:10:13.148Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T17:10:09.874Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
       "text": "Shell \u00b7 python3"
     },
     {
