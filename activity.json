@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T21:32:29.880924Z",
+  "generatedAt": "2026-09-10T21:46:23.340168Z",
   "timezone": "America/Los_Angeles",
   "activeAgentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (41m ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (55m ago)",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 2m ago",
+      "doingNow": "Screening Outlook for broker OMs \u00b7 16m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -250,7 +250,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Shell \u00b7 for",
+      "doingNow": "SharePoint \u00b7 10Fed Critical Files - Documents - Gastonia - All Documents",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -279,8 +279,16 @@
       "x": 28,
       "y": 60,
       "status": "active",
-      "lastSeenAt": "2026-09-10T21:30:51.504000Z",
+      "lastSeenAt": "2026-09-10T21:44:35.263000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T21:44:35.263Z",
+          "label": "Shell \u00b7 set"
+        },
+        {
+          "ts": "2026-09-10T21:39:28.691Z",
+          "label": "SharePoint \u00b7 10Fed Critical Files - Documents - Gastonia - All Documents"
+        },
         {
           "ts": "2026-09-10T21:30:51.504Z",
           "label": "Shell \u00b7 for"
@@ -304,14 +312,6 @@
         {
           "ts": "2026-09-10T20:58:36.285Z",
           "label": "Shell \u00b7 #"
-        },
-        {
-          "ts": "2026-09-10T20:58:02.235Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T20:54:59.656Z",
-          "label": "SharePoint \u00b7 Investments - Investments"
         }
       ]
     },
@@ -322,7 +322,7 @@
       "definition": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap).",
       "mandate": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
       "instructions": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
-      "doingNow": "Shell \u00b7 python3 \u00b7 14m ago",
+      "doingNow": "Shell \u00b7 python3 \u00b7 28m ago",
       "partners": [
         {
           "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
@@ -394,7 +394,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (35m ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (49m ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -466,7 +466,7 @@
       "definition": "Post\u2013Under Contract internal due diligence for 10 Federal acquisitions. Triggered only after File Explorer confirms a deal under 01.",
       "mandate": "Post\u2013Under Contract internal due diligence for 10 Federal acquisitions. Triggered only after File Explorer confirms a deal under 01. Under Contract. Reviews ALTA/survey, title, PCR, Phase I, zoning. Standing: open CompanyCam (app.companycam.com/projects), match by address, download all photos into deal `CompanyCam photos` folder; capture Google Earth screenshots into `Google Earth`; use both for condition DD. Outputs abstracts under GrokBot DD. Archive-first \u2014 never delete seller DD.",
       "instructions": "Post\u2013Under Contract internal due diligence for 10 Federal acquisitions. Triggered only after File Explorer confirms a deal under 01. Under Contract. Reviews ALTA/survey, title, PCR, Phase I, zoning. Standing: open CompanyCam (app.companycam.com/projects), match by address, download all photos into deal `CompanyCam photos` folder; capture Google Earth screenshots into `Google Earth`; use both for condition DD. Outputs abstracts under GrokBot DD. Archive-first \u2014 never delete seller DD.",
-      "doingNow": "Browse \u00b7 City Storage 4th St - CompanyCam \u00b7 6m ago",
+      "doingNow": "Browse \u00b7 City Storage 4th St - CompanyCam \u00b7 7m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -501,8 +501,28 @@
       "x": 86,
       "y": 48,
       "status": "recent",
-      "lastSeenAt": "2026-09-10T21:26:09.203000Z",
+      "lastSeenAt": "2026-09-10T21:38:58.909000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T21:38:58.909Z",
+          "label": "Shell \u00b7 sleep"
+        },
+        {
+          "ts": "2026-09-10T21:37:43.151Z",
+          "label": "Shell \u00b7 sleep"
+        },
+        {
+          "ts": "2026-09-10T21:37:34.198Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T21:34:24.233Z",
+          "label": "Shell \u00b7 sleep"
+        },
+        {
+          "ts": "2026-09-10T21:33:13.959Z",
+          "label": "Shell \u00b7 sleep"
+        },
         {
           "ts": "2026-09-10T21:26:09.203Z",
           "label": "Browse \u00b7 City Storage 4th St - CompanyCam"
@@ -514,26 +534,6 @@
         {
           "ts": "2026-09-10T21:22:10.186Z",
           "label": "Shell \u00b7 sleep"
-        },
-        {
-          "ts": "2026-09-10T21:21:45.301Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T21:20:37.903Z",
-          "label": "Shell \u00b7 sleep"
-        },
-        {
-          "ts": "2026-09-10T21:20:20.612Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T21:17:39.233Z",
-          "label": "Browse \u00b7 City Storage 4th St - CompanyCam"
-        },
-        {
-          "ts": "2026-09-10T21:17:05.398Z",
-          "label": "Browse \u00b7 Projects - CompanyCam"
         }
       ]
     },
@@ -747,8 +747,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-10T21:32:29.826000Z",
+      "lastSeenAt": "2026-09-10T21:46:23.282000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T21:46:23.282Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-10T21:46:20.492Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-10T21:32:29.826Z",
           "label": "Refreshing office viz"
@@ -771,14 +779,6 @@
         },
         {
           "ts": "2026-09-10T21:13:51.471Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-10T21:13:48.850Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-10T21:00:04.287Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1308,6 +1308,60 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-10T21:46:23.282Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-10T21:46:20.492Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-10T21:44:35.263Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 set"
+    },
+    {
+      "ts": "2026-09-10T21:39:28.691Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "SharePoint \u00b7 10Fed Critical Files - Documents - Gastonia - All Documents"
+    },
+    {
+      "ts": "2026-09-10T21:38:58.909Z",
+      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "agentName": "Under Contract DD",
+      "text": "Shell \u00b7 sleep"
+    },
+    {
+      "ts": "2026-09-10T21:37:43.151Z",
+      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "agentName": "Under Contract DD",
+      "text": "Shell \u00b7 sleep"
+    },
+    {
+      "ts": "2026-09-10T21:37:34.198Z",
+      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "agentName": "Under Contract DD",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T21:34:24.233Z",
+      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "agentName": "Under Contract DD",
+      "text": "Shell \u00b7 sleep"
+    },
+    {
+      "ts": "2026-09-10T21:33:13.959Z",
+      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "agentName": "Under Contract DD",
+      "text": "Shell \u00b7 sleep"
+    },
+    {
       "ts": "2026-09-10T21:32:29.826Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1404,24 +1458,6 @@
       "text": "Shell \u00b7 sleep"
     },
     {
-      "ts": "2026-09-10T21:21:45.301Z",
-      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "agentName": "Under Contract DD",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T21:20:37.903Z",
-      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "agentName": "Under Contract DD",
-      "text": "Shell \u00b7 sleep"
-    },
-    {
-      "ts": "2026-09-10T21:20:20.612Z",
-      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "agentName": "Under Contract DD",
-      "text": "Shell \u00b7 ls"
-    },
-    {
       "ts": "2026-09-10T21:19:08.579Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1440,22 +1476,10 @@
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-10T21:17:39.233Z",
-      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "agentName": "Under Contract DD",
-      "text": "Browse \u00b7 City Storage 4th St - CompanyCam"
-    },
-    {
       "ts": "2026-09-10T21:17:33.387Z",
       "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "agentName": "Investment Memo",
       "text": "Shell \u00b7 mkdir"
-    },
-    {
-      "ts": "2026-09-10T21:17:05.398Z",
-      "agentId": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "agentName": "Under Contract DD",
-      "text": "Browse \u00b7 Projects - CompanyCam"
     },
     {
       "ts": "2026-09-10T21:16:41.370Z",
@@ -1476,34 +1500,16 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-10T21:13:48.850Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-10T21:10:57.606Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Desktop session \u00b7 45 actions"
     },
     {
-      "ts": "2026-09-10T21:00:04.287Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-10T20:58:36.285Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Shell \u00b7 #"
-    },
-    {
-      "ts": "2026-09-10T20:58:02.235Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 ls"
     },
     {
       "ts": "2026-09-10T20:57:16.215Z",
@@ -1537,12 +1543,6 @@
     },
     {
       "ts": "2026-09-10T20:56:05.051Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 printf"
-    },
-    {
-      "ts": "2026-09-10T20:55:57.144Z",
       "agentId": "26f91a22-f052-489b-8865-731646053afc",
       "agentName": "Underwriting",
       "text": "Shell \u00b7 printf"
