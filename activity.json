@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T15:30:43.750976Z",
+  "generatedAt": "2026-09-10T15:32:54.309586Z",
   "timezone": "America/Los_Angeles",
   "activeAgentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
   "agents": [
@@ -111,8 +111,28 @@
       "x": 32,
       "y": 58,
       "status": "active",
-      "lastSeenAt": "2026-09-10T15:30:11.142000Z",
+      "lastSeenAt": "2026-09-10T15:32:52.233000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T15:32:52.233Z",
+          "label": "Shell \u00b7 mv"
+        },
+        {
+          "ts": "2026-09-10T15:32:47.234Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T15:32:46.300Z",
+          "label": "Desktop session \u00b7 6 actions"
+        },
+        {
+          "ts": "2026-09-10T15:32:43.232Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T15:32:02.936Z",
+          "label": "Shell \u00b7 ls"
+        },
         {
           "ts": "2026-09-10T15:30:11.142Z",
           "label": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
@@ -124,26 +144,6 @@
         {
           "ts": "2026-09-10T15:29:50.078Z",
           "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T15:29:27.450Z",
-          "label": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
-        },
-        {
-          "ts": "2026-09-10T15:28:29.231Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T15:28:22.406Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T15:27:49.001Z",
-          "label": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
-        },
-        {
-          "ts": "2026-09-10T15:27:25.964Z",
-          "label": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
         }
       ]
     },
@@ -159,39 +159,39 @@
       "x": 68,
       "y": 28,
       "status": "active",
-      "lastSeenAt": "2026-09-10T15:30:01.628000Z",
+      "lastSeenAt": "2026-09-10T15:32:34.931000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T15:30:01.628Z",
-          "label": "Shell \u00b7 cd"
-        },
-        {
-          "ts": "2026-09-10T15:29:32.481Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T15:29:26.652Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T15:29:17.072Z",
-          "label": "Shell \u00b7 cd"
-        },
-        {
-          "ts": "2026-09-10T15:29:08.662Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T15:28:53.901Z",
+          "ts": "2026-09-10T15:32:34.931Z",
           "label": "Shell \u00b7 for"
         },
         {
-          "ts": "2026-09-10T15:28:26.868Z",
+          "ts": "2026-09-10T15:32:16.194Z",
+          "label": "Shell \u00b7 rm"
+        },
+        {
+          "ts": "2026-09-10T15:32:11.207Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-10T15:28:20.440Z",
-          "label": "Shell \u00b7 pdfinfo"
+          "ts": "2026-09-10T15:31:37.716Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T15:31:23.202Z",
+          "label": "Shell \u00b7 cd"
+        },
+        {
+          "ts": "2026-09-10T15:31:17.190Z",
+          "label": "Shell \u00b7 cd"
+        },
+        {
+          "ts": "2026-09-10T15:30:57.148Z",
+          "label": "Shell \u00b7 cd"
+        },
+        {
+          "ts": "2026-09-10T15:30:51.331Z",
+          "label": "Shell \u00b7 mkdir"
         }
       ]
     },
@@ -399,8 +399,20 @@
       "x": 82,
       "y": 78,
       "status": "active",
-      "lastSeenAt": "2026-09-10T15:30:43.700000Z",
+      "lastSeenAt": "2026-09-10T15:32:54.259000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T15:32:54.259Z",
+          "label": "Shell \u00b7 deploy.sh"
+        },
+        {
+          "ts": "2026-09-10T15:32:28.152Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T15:30:52.180Z",
+          "label": "Shell \u00b7 curl"
+        },
         {
           "ts": "2026-09-10T15:30:43.700Z",
           "label": "Shell \u00b7 deploy.sh"
@@ -420,18 +432,6 @@
         {
           "ts": "2026-09-10T15:19:48.929Z",
           "label": "Shell \u00b7 kill"
-        },
-        {
-          "ts": "2026-09-10T15:19:45.527Z",
-          "label": "Shell \u00b7 diff"
-        },
-        {
-          "ts": "2026-09-10T15:19:39.042Z",
-          "label": "Shell \u00b7 diff"
-        },
-        {
-          "ts": "2026-09-10T15:19:33.444Z",
-          "label": "Shell \u00b7 bash"
         }
       ]
     }
@@ -456,7 +456,7 @@
       "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T15:05:43.898Z"
+      "ts": "2026-09-10T15:06:05.086Z"
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
@@ -477,21 +477,7 @@
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T14:56:34.800Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:56:34.800Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:56:34.800Z"
+      "ts": "2026-09-10T14:57:23.951Z"
     },
     {
       "from": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
@@ -604,6 +590,20 @@
       "label": "mention",
       "text": "Ping",
       "ts": "2026-09-10T00:02:18.634Z"
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T00:02:18.634Z"
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T00:01:38.071Z"
     }
   ],
   "conversations": [
@@ -632,7 +632,7 @@
       "toName": "Email Outreach",
       "kind": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T15:05:43.898Z"
+      "ts": "2026-09-10T15:06:05.086Z"
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
@@ -659,25 +659,7 @@
       "toName": "Investment Analyst",
       "kind": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T14:56:34.800Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "File Explorer",
-      "toName": "Property Research",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:56:34.800Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "File Explorer",
-      "toName": "Internal Due Diligence",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:56:34.800Z"
+      "ts": "2026-09-10T14:57:23.951Z"
     },
     {
       "from": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
@@ -822,9 +804,123 @@
       "kind": "mention",
       "text": "Ping",
       "ts": "2026-09-10T00:02:18.634Z"
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "fromName": "Bot Evaluator",
+      "toName": "Visual",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T00:02:18.634Z"
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "fromName": "Bot Evaluator",
+      "toName": "Investment Analyst",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T00:01:38.071Z"
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-10T15:32:54.259Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 deploy.sh"
+    },
+    {
+      "ts": "2026-09-10T15:32:52.233Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 mv"
+    },
+    {
+      "ts": "2026-09-10T15:32:47.234Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T15:32:46.300Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Desktop session \u00b7 6 actions"
+    },
+    {
+      "ts": "2026-09-10T15:32:43.232Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T15:32:34.931Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 for"
+    },
+    {
+      "ts": "2026-09-10T15:32:28.152Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T15:32:16.194Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 rm"
+    },
+    {
+      "ts": "2026-09-10T15:32:11.207Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T15:32:02.936Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T15:31:37.716Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T15:31:23.202Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 cd"
+    },
+    {
+      "ts": "2026-09-10T15:31:17.190Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 cd"
+    },
+    {
+      "ts": "2026-09-10T15:30:57.148Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 cd"
+    },
+    {
+      "ts": "2026-09-10T15:30:52.180Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 curl"
+    },
+    {
+      "ts": "2026-09-10T15:30:51.331Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Investment Analyst",
+      "text": "Shell \u00b7 mkdir"
+    },
     {
       "ts": "2026-09-10T15:30:43.700Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -850,12 +946,6 @@
       "text": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
     },
     {
-      "ts": "2026-09-10T15:30:01.628Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 cd"
-    },
-    {
       "ts": "2026-09-10T15:29:54.748Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
@@ -868,78 +958,6 @@
       "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-10T15:29:32.481Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T15:29:27.450Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
-    },
-    {
-      "ts": "2026-09-10T15:29:26.652Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T15:29:17.072Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 cd"
-    },
-    {
-      "ts": "2026-09-10T15:29:08.662Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T15:28:53.901Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 for"
-    },
-    {
-      "ts": "2026-09-10T15:28:29.231Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T15:28:26.868Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T15:28:22.406Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T15:28:20.440Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 pdfinfo"
-    },
-    {
-      "ts": "2026-09-10T15:27:49.001Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
-    },
-    {
-      "ts": "2026-09-10T15:27:25.964Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Browse \u00b7 10F_Initial_Screen_Triple T Collinsville.xlsx"
-    },
-    {
       "ts": "2026-09-10T15:20:02.978Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visual",
@@ -950,24 +968,6 @@
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visual",
       "text": "Shell \u00b7 kill"
-    },
-    {
-      "ts": "2026-09-10T15:19:45.527Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 diff"
-    },
-    {
-      "ts": "2026-09-10T15:19:39.042Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 diff"
-    },
-    {
-      "ts": "2026-09-10T15:19:33.444Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 bash"
     },
     {
       "ts": "2026-09-10T14:32:15.660Z",
