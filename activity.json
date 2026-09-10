@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-10T17:50:24.677908Z",
+  "generatedAt": "2026-09-10T18:31:08.584680Z",
   "timezone": "America/Los_Angeles",
-  "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+  "activeAgentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -14,7 +14,7 @@
       "desk": "Central glass office",
       "x": 50,
       "y": 34,
-      "status": "active",
+      "status": "idle",
       "lastSeenAt": "2026-09-10T17:48:42.032000Z",
       "recentEvents": [
         {
@@ -62,40 +62,40 @@
       "desk": "Mail pod (near CoS)",
       "x": 36,
       "y": 46,
-      "status": "recent",
-      "lastSeenAt": "2026-09-10T17:44:18.698000Z",
+      "status": "active",
+      "lastSeenAt": "2026-09-10T18:30:59.611000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T17:44:18.698Z",
-          "label": "Browse \u00b7 Outlook"
+          "ts": "2026-09-10T18:30:59.611Z",
+          "label": "MCP \u00b7 Outlook: get_next_page"
         },
         {
-          "ts": "2026-09-10T17:42:28.581Z",
-          "label": "Browse \u00b7 Outlook"
-        },
-        {
-          "ts": "2026-09-10T17:41:52.151Z",
-          "label": "Browse \u00b7 Outlook"
-        },
-        {
-          "ts": "2026-09-10T17:19:53.784Z",
-          "label": "Browse \u00b7 Outlook"
-        },
-        {
-          "ts": "2026-09-10T17:12:53.369Z",
-          "label": "Browse \u00b7 Outlook"
-        },
-        {
-          "ts": "2026-09-10T17:12:08.755Z",
-          "label": "Browse \u00b7 Outlook"
-        },
-        {
-          "ts": "2026-09-10T17:10:46.019Z",
+          "ts": "2026-09-10T18:30:53.422Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-10T17:10:39.186Z",
+          "ts": "2026-09-10T18:29:22.123Z",
           "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T18:29:16.489Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        },
+        {
+          "ts": "2026-09-10T18:28:31.708Z",
+          "label": "Desktop session \u00b7 32 actions"
+        },
+        {
+          "ts": "2026-09-10T18:24:11.840Z",
+          "label": "Browse \u00b7 Outlook"
+        },
+        {
+          "ts": "2026-09-10T18:23:53.476Z",
+          "label": "Desktop session \u00b7 85 actions"
+        },
+        {
+          "ts": "2026-09-10T18:05:07.402Z",
+          "label": "Browse \u00b7 Outlook"
         }
       ]
     },
@@ -158,40 +158,40 @@
       "desk": "Filing station",
       "x": 28,
       "y": 60,
-      "status": "idle",
-      "lastSeenAt": "2026-09-10T17:10:53.348000Z",
+      "status": "recent",
+      "lastSeenAt": "2026-09-10T18:19:24.990000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T17:10:53.348Z",
-          "label": "Desktop session \u00b7 18 actions"
+          "ts": "2026-09-10T18:19:24.990Z",
+          "label": "Desktop session \u00b7 5 actions"
         },
         {
-          "ts": "2026-09-10T17:01:54.898Z",
-          "label": "Browse \u00b7 Investments - Investments - Willowstone Self Storage Colorado Springs \u2026"
+          "ts": "2026-09-10T18:18:32.799Z",
+          "label": "Browse \u00b7 Investments - Investments - Store It All - McMullen - San Antonio TX (\u2026"
         },
         {
-          "ts": "2026-09-10T17:01:40.541Z",
+          "ts": "2026-09-10T18:18:12.823Z",
           "label": "Shell \u00b7 ls"
         },
         {
-          "ts": "2026-09-10T17:01:27.088Z",
-          "label": "Desktop session \u00b7 49 actions"
+          "ts": "2026-09-10T18:18:02.581Z",
+          "label": "Desktop session \u00b7 20 actions"
         },
         {
-          "ts": "2026-09-10T16:50:32.112Z",
-          "label": "Browse \u00b7 Store It All - McMullen Information Request | Real Capital Markets"
-        },
-        {
-          "ts": "2026-09-10T16:50:16.607Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T16:50:07.294Z",
+          "ts": "2026-09-10T18:14:36.650Z",
           "label": "Shell \u00b7 ls"
         },
         {
-          "ts": "2026-09-10T16:49:42.489Z",
-          "label": "Browse \u00b7 Store It All - McMullen, San Antonio, TX | Colliers | Powered by Light\u2026"
+          "ts": "2026-09-10T18:09:52.843Z",
+          "label": "Desktop session \u00b7 76 actions"
+        },
+        {
+          "ts": "2026-09-10T17:59:29.149Z",
+          "label": "Shell \u00b7 mkdir"
+        },
+        {
+          "ts": "2026-09-10T17:59:21.693Z",
+          "label": "Shell \u00b7 find"
         }
       ]
     },
@@ -207,11 +207,39 @@
       "x": 72,
       "y": 18,
       "status": "active",
-      "lastSeenAt": "2026-09-10T17:50:05.135000Z",
+      "lastSeenAt": "2026-09-10T18:30:32.287000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T17:50:05.135Z",
+          "ts": "2026-09-10T18:30:32.287Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T18:30:20.163Z",
+          "label": "Shell \u00b7 find"
+        },
+        {
+          "ts": "2026-09-10T18:30:20.032Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T18:29:52.595Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T18:29:47.320Z",
+          "label": "Shell \u00b7 find"
+        },
+        {
+          "ts": "2026-09-10T18:29:46.758Z",
           "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T18:17:49.992Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T18:17:36.704Z",
+          "label": "Shell \u00b7 cat"
         }
       ]
     },
@@ -227,39 +255,39 @@
       "x": 86,
       "y": 32,
       "status": "active",
-      "lastSeenAt": "2026-09-10T17:50:19.541000Z",
+      "lastSeenAt": "2026-09-10T18:30:45.071000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T17:50:19.541Z",
-          "label": "Shell \u00b7 #"
+          "ts": "2026-09-10T18:30:45.071Z",
+          "label": "Shell \u00b7 mkdir"
         },
         {
-          "ts": "2026-09-10T16:27:16.100Z",
+          "ts": "2026-09-10T18:30:33.784Z",
+          "label": "Shell \u00b7 rg"
+        },
+        {
+          "ts": "2026-09-10T18:30:30.959Z",
           "label": "Shell \u00b7 wc"
         },
         {
-          "ts": "2026-09-10T16:27:09.040Z",
-          "label": "Shell \u00b7 python3"
+          "ts": "2026-09-10T18:29:55.586Z",
+          "label": "Shell \u00b7 ls"
         },
         {
-          "ts": "2026-09-10T16:27:04.697Z",
+          "ts": "2026-09-10T18:29:42.839Z",
+          "label": "Shell \u00b7 find"
+        },
+        {
+          "ts": "2026-09-10T18:29:42.628Z",
           "label": "Shell \u00b7 cd"
         },
         {
-          "ts": "2026-09-10T16:26:59.546Z",
+          "ts": "2026-09-10T18:29:36.652Z",
+          "label": "Shell \u00b7 rg"
+        },
+        {
+          "ts": "2026-09-10T18:29:35.814Z",
           "label": "Shell \u00b7 cd"
-        },
-        {
-          "ts": "2026-09-10T16:26:52.101Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T16:26:41.931Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-10T16:26:39.397Z",
-          "label": "Shell \u00b7 rg"
         }
       ]
     },
@@ -467,45 +495,101 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-10T17:50:24.550000Z",
+      "lastSeenAt": "2026-09-10T18:31:08.531000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T17:50:24.550Z",
+          "ts": "2026-09-10T18:31:08.531Z",
+          "label": "Shell \u00b7 deploy.sh"
+        },
+        {
+          "ts": "2026-09-10T18:31:05.549Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-10T18:31:04.704Z",
+          "label": "Shell \u00b7 rg"
+        },
+        {
+          "ts": "2026-09-10T18:31:04.460Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-10T17:45:43.806Z",
-          "label": "Shell \u00b7 deploy.sh"
-        },
-        {
-          "ts": "2026-09-10T17:45:40.478Z",
+          "ts": "2026-09-10T18:31:00.891Z",
           "label": "Shell \u00b7 ls"
         },
         {
-          "ts": "2026-09-10T17:27:03.854Z",
-          "label": "Shell \u00b7 deploy.sh"
+          "ts": "2026-09-10T18:30:57.713Z",
+          "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-10T17:27:01.047Z",
+          "ts": "2026-09-10T18:30:53.271Z",
           "label": "Shell \u00b7 ls"
         },
         {
-          "ts": "2026-09-10T17:25:24.085Z",
-          "label": "Shell \u00b7 deploy.sh"
-        },
-        {
-          "ts": "2026-09-10T17:25:15.541Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T17:20:06.538Z",
-          "label": "Shell \u00b7 deploy.sh"
+          "ts": "2026-09-10T17:50:24.550Z",
+          "label": "Shell \u00b7 python3"
         }
       ]
     }
   ],
   "interactions": [
     {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T18:16:34.383Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T18:13:21.551Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:59:39.364Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:58:51.975Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:58:35.622Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:52:15.310Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:51:52.682Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:51:52.682Z"
+    },
+    {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "label": "reference",
@@ -521,6 +605,34 @@
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "label": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
       "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "label": "handoff",
       "text": "Handoff",
@@ -562,6 +674,13 @@
       "ts": "2026-09-10T17:10:13.148Z"
     },
     {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:13.148Z"
+    },
+    {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "label": "mention",
@@ -581,101 +700,82 @@
       "label": "mention",
       "text": "Ping",
       "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:09:27.459Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:09:27.459Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:09:27.459Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
     }
   ],
   "conversations": [
     {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Investment Memo",
+      "toName": "Under Contract DD",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T18:16:34.383Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "fromName": "Underwriting",
+      "toName": "Email Organizer",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T18:13:21.551Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Investment Memo",
+      "toName": "Chief of Staff",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:59:39.364Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "fromName": "Investment Memo",
+      "toName": "Underwriting",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:58:51.975Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "Investment Memo",
+      "toName": "Inbound Deals",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:58:35.622Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "fromName": "File Explorer",
+      "toName": "Visuals",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:52:15.310Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "fromName": "File Explorer",
+      "toName": "Visuals",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:51:52.682Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "fromName": "File Explorer",
+      "toName": "Investment Memo",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:51:52.682Z"
+    },
+    {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "fromName": "Visuals",
@@ -695,6 +795,42 @@
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "Underwriting",
+      "toName": "Inbound Deals",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "fromName": "Underwriting",
+      "toName": "Investment Memo",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Underwriting",
+      "toName": "Under Contract DD",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "fromName": "Underwriting",
+      "toName": "Investment Memo",
+      "kind": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-10T17:50:19.541Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
       "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "fromName": "Underwriting",
       "toName": "Under Contract DD",
@@ -748,6 +884,15 @@
       "ts": "2026-09-10T17:10:13.148Z"
     },
     {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Email Organizer",
+      "toName": "Investor Inbox",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:13.148Z"
+    },
+    {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "fromName": "Visuals",
@@ -773,364 +918,247 @@
       "kind": "mention",
       "text": "Ping",
       "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
-      "fromName": "Visuals",
-      "toName": "Investment Memo",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Visuals",
-      "toName": "Chief of Staff",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Visuals",
-      "toName": "File Explorer",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "fromName": "Visuals",
-      "toName": "Process Auditor",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:10:09.874Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "fromName": "Visuals",
-      "toName": "Investor Inbox",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:09:27.459Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "fromName": "Visuals",
-      "toName": "Off-Market Outreach",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:09:27.459Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "fromName": "Visuals",
-      "toName": "Email Organizer",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:09:27.459Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Visuals",
-      "toName": "File Explorer",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "fromName": "Visuals",
-      "toName": "Underwriting",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "fromName": "Visuals",
-      "toName": "Investor Inbox",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "Visuals",
-      "toName": "Under Contract DD",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Visuals",
-      "toName": "Chief of Staff",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "fromName": "Visuals",
-      "toName": "Email Organizer",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
     }
   ],
   "feed": [
     {
-      "ts": "2026-09-10T17:50:24.550Z",
+      "ts": "2026-09-10T18:31:08.531Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 deploy.sh"
+    },
+    {
+      "ts": "2026-09-10T18:31:05.549Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T18:31:04.704Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 rg"
+    },
+    {
+      "ts": "2026-09-10T18:31:04.460Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-10T17:50:19.541Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 #"
+      "ts": "2026-09-10T18:31:00.891Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-10T17:50:05.135Z",
+      "ts": "2026-09-10T18:30:59.611Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: get_next_page"
+    },
+    {
+      "ts": "2026-09-10T18:30:57.713Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T18:30:53.422Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T18:30:53.271Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T18:30:45.071Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 mkdir"
+    },
+    {
+      "ts": "2026-09-10T18:30:33.784Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 rg"
+    },
+    {
+      "ts": "2026-09-10T18:30:32.287Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T18:30:30.959Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 wc"
+    },
+    {
+      "ts": "2026-09-10T18:30:20.163Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 find"
+    },
+    {
+      "ts": "2026-09-10T18:30:20.032Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T18:29:55.586Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T18:29:52.595Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T18:29:47.320Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 find"
+    },
+    {
+      "ts": "2026-09-10T18:29:46.758Z",
       "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "agentName": "Investment Memo",
       "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-10T17:48:42.032Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 mkdir"
+      "ts": "2026-09-10T18:29:42.839Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 find"
     },
     {
-      "ts": "2026-09-10T17:45:43.806Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 deploy.sh"
+      "ts": "2026-09-10T18:29:42.628Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 cd"
     },
     {
-      "ts": "2026-09-10T17:45:40.478Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 ls"
+      "ts": "2026-09-10T18:29:36.652Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 rg"
     },
     {
-      "ts": "2026-09-10T17:44:18.698Z",
+      "ts": "2026-09-10T18:29:35.814Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 cd"
+    },
+    {
+      "ts": "2026-09-10T18:29:22.123Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T18:29:16.489Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T18:28:31.708Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Desktop session \u00b7 32 actions"
+    },
+    {
+      "ts": "2026-09-10T18:24:11.840Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
       "text": "Browse \u00b7 Outlook"
     },
     {
-      "ts": "2026-09-10T17:42:28.581Z",
+      "ts": "2026-09-10T18:23:53.476Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
-      "text": "Browse \u00b7 Outlook"
+      "text": "Desktop session \u00b7 85 actions"
     },
     {
-      "ts": "2026-09-10T17:41:52.151Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browse \u00b7 Outlook"
-    },
-    {
-      "ts": "2026-09-10T17:27:03.854Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 deploy.sh"
-    },
-    {
-      "ts": "2026-09-10T17:27:01.047Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T17:25:24.085Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 deploy.sh"
-    },
-    {
-      "ts": "2026-09-10T17:25:15.541Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T17:20:06.538Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 deploy.sh"
-    },
-    {
-      "ts": "2026-09-10T17:19:53.784Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browse \u00b7 Outlook"
-    },
-    {
-      "ts": "2026-09-10T17:12:53.369Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browse \u00b7 Outlook"
-    },
-    {
-      "ts": "2026-09-10T17:12:08.755Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Browse \u00b7 Outlook"
-    },
-    {
-      "ts": "2026-09-10T17:11:22.817Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Desktop session \u00b7 16 actions"
-    },
-    {
-      "ts": "2026-09-10T17:10:53.348Z",
+      "ts": "2026-09-10T18:19:24.990Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "Desktop session \u00b7 18 actions"
+      "text": "Desktop session \u00b7 5 actions"
     },
     {
-      "ts": "2026-09-10T17:10:46.019Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Shell \u00b7 python3"
+      "ts": "2026-09-10T18:18:32.799Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Browse \u00b7 Investments - Investments - Store It All - McMullen - San Antonio TX (\u2026"
     },
     {
-      "ts": "2026-09-10T17:10:39.186Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Shell \u00b7 python3"
+      "ts": "2026-09-10T18:18:12.823Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-10T17:09:09.790Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Browse \u00b7 Drafts - Investor Relations - Outlook"
+      "ts": "2026-09-10T18:18:02.581Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Desktop session \u00b7 20 actions"
     },
     {
-      "ts": "2026-09-10T17:08:17.592Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 for"
+      "ts": "2026-09-10T18:17:49.992Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-10T17:08:11.947Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T17:08:04.412Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T17:05:47.491Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Browse \u00b7 Outlook"
-    },
-    {
-      "ts": "2026-09-10T17:05:39.690Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Browse \u00b7 Home"
-    },
-    {
-      "ts": "2026-09-10T17:02:55.562Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
+      "ts": "2026-09-10T18:17:36.704Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
       "text": "Shell \u00b7 cat"
     },
     {
-      "ts": "2026-09-10T17:01:54.898Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Browse \u00b7 Investments - Investments - Willowstone Self Storage Colorado Springs \u2026"
-    },
-    {
-      "ts": "2026-09-10T17:01:40.541Z",
+      "ts": "2026-09-10T18:14:36.650Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-10T17:01:27.088Z",
+      "ts": "2026-09-10T18:09:52.843Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "Desktop session \u00b7 49 actions"
+      "text": "Desktop session \u00b7 76 actions"
     },
     {
-      "ts": "2026-09-10T17:00:49.910Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
+      "ts": "2026-09-10T18:05:07.402Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browse \u00b7 Outlook"
     },
     {
-      "ts": "2026-09-10T17:00:28.688Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
-    },
-    {
-      "ts": "2026-09-10T17:00:23.352Z",
-      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "agentName": "Investor Inbox",
-      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
-    },
-    {
-      "ts": "2026-09-10T16:50:32.112Z",
+      "ts": "2026-09-10T17:59:29.149Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "Browse \u00b7 Store It All - McMullen Information Request | Real Capital Markets"
+      "text": "Shell \u00b7 mkdir"
     },
     {
-      "ts": "2026-09-10T16:50:16.607Z",
+      "ts": "2026-09-10T17:59:21.693Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "Shell \u00b7 python3"
+      "text": "Shell \u00b7 find"
     },
     {
-      "ts": "2026-09-10T16:50:07.294Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T16:49:42.489Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Browse \u00b7 Store It All - McMullen, San Antonio, TX | Colliers | Powered by Light\u2026"
-    },
-    {
-      "ts": "2026-09-10T16:49:41.195Z",
-      "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Inbound Deals",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T16:49:24.370Z",
-      "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Inbound Deals",
+      "ts": "2026-09-10T17:50:24.550Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
       "text": "Shell \u00b7 python3"
     }
   ],
