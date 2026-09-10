@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:27:03.903366Z",
+  "generatedAt": "2026-09-10T17:45:43.857902Z",
   "timezone": "America/Los_Angeles",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -62,9 +62,21 @@
       "desk": "Mail pod (near CoS)",
       "x": 36,
       "y": 46,
-      "status": "recent",
-      "lastSeenAt": "2026-09-10T17:19:53.784000Z",
+      "status": "active",
+      "lastSeenAt": "2026-09-10T17:44:18.698000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T17:44:18.698Z",
+          "label": "Browse \u00b7 Outlook"
+        },
+        {
+          "ts": "2026-09-10T17:42:28.581Z",
+          "label": "Browse \u00b7 Outlook"
+        },
+        {
+          "ts": "2026-09-10T17:41:52.151Z",
+          "label": "Browse \u00b7 Outlook"
+        },
         {
           "ts": "2026-09-10T17:19:53.784Z",
           "label": "Browse \u00b7 Outlook"
@@ -84,18 +96,6 @@
         {
           "ts": "2026-09-10T17:10:39.186Z",
           "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T17:10:13.148Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-10T17:09:44.941Z",
-          "label": "MCP \u00b7 Outlook: list_mail_messages"
-        },
-        {
-          "ts": "2026-09-10T17:09:44.939Z",
-          "label": "MCP \u00b7 Outlook: list_mail_messages"
         }
       ]
     },
@@ -158,7 +158,7 @@
       "desk": "Filing station",
       "x": 28,
       "y": 60,
-      "status": "recent",
+      "status": "idle",
       "lastSeenAt": "2026-09-10T17:10:53.348000Z",
       "recentEvents": [
         {
@@ -350,7 +350,7 @@
       "desk": "Investor inbox",
       "x": 50,
       "y": 78,
-      "status": "recent",
+      "status": "idle",
       "lastSeenAt": "2026-09-10T17:11:22.817000Z",
       "recentEvents": [
         {
@@ -447,8 +447,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-10T17:27:03.854000Z",
+      "lastSeenAt": "2026-09-10T17:45:43.806000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T17:45:43.806Z",
+          "label": "Shell \u00b7 deploy.sh"
+        },
+        {
+          "ts": "2026-09-10T17:45:40.478Z",
+          "label": "Shell \u00b7 ls"
+        },
         {
           "ts": "2026-09-10T17:27:03.854Z",
           "label": "Shell \u00b7 deploy.sh"
@@ -472,14 +480,6 @@
         {
           "ts": "2026-09-10T17:20:00.692Z",
           "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T17:10:44.163Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-10T17:10:39.991Z",
-          "label": "Shell \u00b7 python3"
         }
       ]
     }
@@ -564,28 +564,7 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
@@ -606,14 +585,28 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
@@ -624,6 +617,27 @@
       "label": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:08:32.502Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:08:11.947Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -637,20 +651,6 @@
       "to": "ce012f92-2588-4894-8547-5e318c41054a",
       "label": "reference",
       "text": "Ref",
-      "ts": "2026-09-10T17:08:11.947Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:08:11.947Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "label": "mention",
-      "text": "Ping",
       "ts": "2026-09-10T17:08:11.947Z"
     }
   ],
@@ -756,36 +756,9 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "fromName": "Visuals",
-      "toName": "File Explorer",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "fromName": "Visuals",
-      "toName": "Off-Market Outreach",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Visuals",
-      "toName": "Chief of Staff",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:09:24.332Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "Visuals",
-      "toName": "Under Contract DD",
+      "toName": "Investor Inbox",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
@@ -810,18 +783,36 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
       "fromName": "Visuals",
-      "toName": "Investor Inbox",
+      "toName": "Process Auditor",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "fromName": "Visuals",
-      "toName": "Process Auditor",
+      "toName": "File Explorer",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Visuals",
+      "toName": "Under Contract DD",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "fromName": "Visuals",
+      "toName": "Off-Market Outreach",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
@@ -834,6 +825,33 @@
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Visuals",
+      "toName": "Chief of Staff",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Email Organizer",
+      "toName": "Investor Inbox",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:08:32.502Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Chief of Staff",
+      "toName": "Investor Inbox",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:08:11.947Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -852,27 +870,39 @@
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:08:11.947Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "fromName": "Chief of Staff",
-      "toName": "Investor Inbox",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T17:08:11.947Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "fromName": "Chief of Staff",
-      "toName": "Email Organizer",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T17:08:11.947Z"
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-10T17:45:43.806Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 deploy.sh"
+    },
+    {
+      "ts": "2026-09-10T17:45:40.478Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T17:44:18.698Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browse \u00b7 Outlook"
+    },
+    {
+      "ts": "2026-09-10T17:42:28.581Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browse \u00b7 Outlook"
+    },
+    {
+      "ts": "2026-09-10T17:41:52.151Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Browse \u00b7 Outlook"
+    },
     {
       "ts": "2026-09-10T17:27:03.854Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -946,40 +976,10 @@
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-10T17:10:44.163Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-10T17:10:39.991Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 python3"
-    },
-    {
       "ts": "2026-09-10T17:10:39.186Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
       "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T17:10:13.148Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T17:09:44.941Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "MCP \u00b7 Outlook: list_mail_messages"
-    },
-    {
-      "ts": "2026-09-10T17:09:44.939Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "MCP \u00b7 Outlook: list_mail_messages"
     },
     {
       "ts": "2026-09-10T17:09:09.790Z",
