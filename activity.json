@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:08:18.540259Z",
+  "generatedAt": "2026-09-10T17:10:44.222077Z",
   "timezone": "America/Los_Angeles",
   "activeAgentId": "ce012f92-2588-4894-8547-5e318c41054a",
   "agents": [
@@ -13,8 +13,8 @@
       "zone": "glass-office",
       "desk": "Central glass office",
       "x": 50,
-      "y": 38,
-      "status": "active",
+      "y": 34,
+      "status": "recent",
       "lastSeenAt": "2026-09-10T17:08:17.592000Z",
       "recentEvents": [
         {
@@ -52,16 +52,64 @@
       ]
     },
     {
+      "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "name": "Email Organizer",
+      "role": "Triage/monitor Outlook; flag action items to CoS",
+      "color": "green",
+      "colorHex": "#3d9e6f",
+      "shape": "blob",
+      "zone": "mail",
+      "desk": "Mail pod (near CoS)",
+      "x": 36,
+      "y": 46,
+      "status": "active",
+      "lastSeenAt": "2026-09-10T17:10:39.186000Z",
+      "recentEvents": [
+        {
+          "ts": "2026-09-10T17:10:39.186Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T17:10:13.148Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T17:09:44.941Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        },
+        {
+          "ts": "2026-09-10T17:09:44.939Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        },
+        {
+          "ts": "2026-09-10T17:09:44.940Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        },
+        {
+          "ts": "2026-09-10T17:09:44.238Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        },
+        {
+          "ts": "2026-09-10T17:09:43.730Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        },
+        {
+          "ts": "2026-09-10T17:09:42.942Z",
+          "label": "MCP \u00b7 Outlook: list_mail_messages"
+        }
+      ]
+    },
+    {
       "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "name": "Property Research",
+      "name": "Inbound Deals",
       "role": "Inbound OM intake, TractIQ screens, LOI recommendations",
       "color": "violet",
       "colorHex": "#8b6cf0",
       "shape": "cloud",
       "zone": "intake",
       "desk": "Intake pod",
-      "x": 18,
-      "y": 28,
+      "x": 14,
+      "y": 24,
       "status": "recent",
       "lastSeenAt": "2026-09-10T16:49:41.195000Z",
       "recentEvents": [
@@ -108,8 +156,8 @@
       "shape": "squircle",
       "zone": "filing",
       "desk": "Filing station",
-      "x": 32,
-      "y": 58,
+      "x": 28,
+      "y": 60,
       "status": "recent",
       "lastSeenAt": "2026-09-10T17:01:54.898000Z",
       "recentEvents": [
@@ -149,15 +197,15 @@
     },
     {
       "id": "26f91a22-f052-489b-8865-731646053afc",
-      "name": "Investment Analyst",
+      "name": "Underwriting",
       "role": "First-pass Excel models & investment memos",
       "color": "violet",
       "colorHex": "#8b6cf0",
       "shape": "cloud",
       "zone": "modeling",
-      "desk": "Modeling desk",
-      "x": 68,
-      "y": 28,
+      "desk": "Underwriting desk",
+      "x": 86,
+      "y": 24,
       "status": "idle",
       "lastSeenAt": "2026-09-10T16:27:16.100000Z",
       "recentEvents": [
@@ -197,15 +245,15 @@
     },
     {
       "id": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "name": "Internal Due Diligence",
-      "role": "Post-UC diligence packages & source review",
+      "name": "Under Contract DD",
+      "role": "Post\u2013Under Contract internal due diligence",
       "color": "cyan",
       "colorHex": "#3ecfcf",
       "shape": "wedge",
       "zone": "diligence",
       "desk": "Diligence room",
-      "x": 82,
-      "y": 52,
+      "x": 86,
+      "y": 48,
       "status": "idle",
       "lastSeenAt": "2026-09-09T23:07:14.362000Z",
       "recentEvents": [
@@ -245,14 +293,14 @@
     },
     {
       "id": "400779c3-c62a-4654-8057-56954b605cbf",
-      "name": "Off-Market",
-      "role": "Indie / small multi-site NC prospecting & owner emails",
+      "name": "Off-Market Outreach",
+      "role": "NC indie research + TractIQ + Template 3 outreach",
       "color": "teal",
       "colorHex": "#2a9d8f",
       "shape": "hex",
       "zone": "prospecting",
-      "desk": "Prospecting desk",
-      "x": 18,
+      "desk": "Off-market desk",
+      "x": 14,
       "y": 72,
       "status": "idle",
       "lastSeenAt": "2026-09-10T16:27:28.160000Z",
@@ -292,64 +340,64 @@
       ]
     },
     {
-      "id": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "name": "Email Outreach (deprecated)",
-      "role": "Owner outreach sends, tracking, inbox watch",
-      "color": "yellow",
-      "colorHex": "#e8c84a",
+      "id": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "name": "Investor Inbox",
+      "role": "investors@10federal.com coverage",
+      "color": "green",
+      "colorHex": "#3d9e6f",
       "shape": "blob",
-      "zone": "outreach",
-      "desk": "Outreach desk",
-      "x": 48,
+      "zone": "ir",
+      "desk": "Investor inbox",
+      "x": 50,
       "y": 78,
-      "status": "idle",
-      "lastSeenAt": "2026-09-10T16:26:34.960000Z",
+      "status": "active",
+      "lastSeenAt": "2026-09-10T17:09:09.790000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T16:26:34.960Z",
-          "label": "Shell \u00b7 ls"
+          "ts": "2026-09-10T17:09:09.790Z",
+          "label": "Browse \u00b7 Drafts - Investor Relations - Outlook"
         },
         {
-          "ts": "2026-09-10T14:32:15.660Z",
-          "label": "Shell \u00b7 rm"
+          "ts": "2026-09-10T17:05:47.491Z",
+          "label": "Browse \u00b7 Outlook"
         },
         {
-          "ts": "2026-09-10T14:32:00.530Z",
-          "label": "Shell \u00b7 python3"
+          "ts": "2026-09-10T17:05:39.690Z",
+          "label": "Browse \u00b7 Home"
         },
         {
-          "ts": "2026-09-10T14:31:25.196Z",
-          "label": "MCP \u00b7 Outlook: list_mail_messages"
+          "ts": "2026-09-10T17:02:55.562Z",
+          "label": "Shell \u00b7 cat"
         },
         {
-          "ts": "2026-09-10T14:31:25.262Z",
-          "label": "MCP \u00b7 Outlook: send_mail"
+          "ts": "2026-09-10T17:00:49.910Z",
+          "label": "Browse \u00b7 Mail - Investor Relations - Outlook"
         },
         {
-          "ts": "2026-09-10T14:31:15.636Z",
-          "label": "MCP \u00b7 Outlook: send_mail"
+          "ts": "2026-09-10T17:00:28.688Z",
+          "label": "Browse \u00b7 Mail - Investor Relations - Outlook"
         },
         {
-          "ts": "2026-09-10T14:31:14.505Z",
-          "label": "MCP \u00b7 Outlook: send_mail"
+          "ts": "2026-09-10T17:00:23.352Z",
+          "label": "Browse \u00b7 Mail - Investor Relations - Outlook"
         },
         {
-          "ts": "2026-09-10T14:31:10.390Z",
-          "label": "MCP \u00b7 Outlook: send_mail"
+          "ts": "2026-09-10T17:00:12.008Z",
+          "label": "Browse \u00b7 Mail - Investor Relations - Outlook"
         }
       ]
     },
     {
       "id": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "name": "Bot Evaluator",
-      "role": "Watches bots & workflows; improves ops with CoS",
+      "name": "Process Auditor",
+      "role": "SLA/hygiene/efficiency audits across deal bots",
       "color": "black",
       "colorHex": "#2a2a2e",
       "shape": "hex",
       "zone": "balcony",
-      "desk": "Observer balcony",
+      "desk": "Auditor balcony",
       "x": 50,
-      "y": 12,
+      "y": 10,
       "status": "idle",
       "lastSeenAt": "2026-09-10T16:26:17.780000Z",
       "recentEvents": [
@@ -389,55 +437,209 @@
     },
     {
       "id": "ce012f92-2588-4894-8547-5e318c41054a",
-      "name": "Visual",
-      "role": "Visualizations & live office floor for the ops team",
+      "name": "Visuals",
+      "role": "Visualizations & live interactive office floor",
       "color": "magenta",
       "colorHex": "#d946a6",
       "shape": "hex",
       "zone": "studio",
       "desk": "Design studio",
-      "x": 82,
-      "y": 78,
+      "x": 86,
+      "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-10T17:08:18.486000Z",
+      "lastSeenAt": "2026-09-10T17:10:44.163000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-10T17:08:18.486Z",
-          "label": "Shell \u00b7 deploy.sh"
+          "ts": "2026-09-10T17:10:44.163Z",
+          "label": "Shell \u00b7 rg"
         },
         {
-          "ts": "2026-09-10T17:08:12.225Z",
+          "ts": "2026-09-10T17:10:39.991Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T17:10:23.398Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T17:10:09.874Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T17:09:31.475Z",
+          "label": "Shell \u00b7 rg"
+        },
+        {
+          "ts": "2026-09-10T17:09:27.459Z",
+          "label": "Shell \u00b7 rg"
+        },
+        {
+          "ts": "2026-09-10T17:09:24.332Z",
+          "label": "Shell \u00b7 for"
+        },
+        {
+          "ts": "2026-09-10T17:09:19.088Z",
           "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T16:35:44.661Z",
-          "label": "Shell \u00b7 deploy.sh"
-        },
-        {
-          "ts": "2026-09-10T16:35:31.299Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T16:35:27.230Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T16:31:21.514Z",
-          "label": "Shell \u00b7 deploy.sh"
-        },
-        {
-          "ts": "2026-09-10T16:31:12.520Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-10T16:03:08.169Z",
-          "label": "Shell \u00b7 deploy.sh"
         }
       ]
     }
   ],
   "interactions": [
     {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:13.148Z"
+    },
+    {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:13.148Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:09:27.459Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:09:27.459Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:09:27.459Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:08:11.947Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:08:11.947Z"
+    },
+    {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "ce012f92-2588-4894-8547-5e318c41054a",
       "label": "reference",
@@ -445,403 +647,339 @@
       "ts": "2026-09-10T17:08:11.947Z"
     },
     {
-      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "to": "ce012f92-2588-4894-8547-5e318c41054a",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:44:44.283Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:43:26.414Z"
-    },
-    {
-      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:43:18.675Z"
-    },
-    {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T16:37:05.158Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:37:05.158Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T16:26:34.960Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T16:26:25.769Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:22:23.533Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:22:23.533Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:17:34.898Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:16:20.981Z"
+      "ts": "2026-09-10T17:08:11.947Z"
     }
   ],
   "conversations": [
     {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Email Organizer",
+      "toName": "Under Contract DD",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:13.148Z"
+    },
+    {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Email Organizer",
+      "toName": "Chief of Staff",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:13.148Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Visuals",
+      "toName": "Under Contract DD",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "fromName": "Visuals",
+      "toName": "Underwriting",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "Visuals",
+      "toName": "Inbound Deals",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Visuals",
+      "toName": "Chief of Staff",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "fromName": "Visuals",
+      "toName": "File Explorer",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "fromName": "Visuals",
+      "toName": "Process Auditor",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:10:09.874Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Visuals",
+      "toName": "Investor Inbox",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:09:27.459Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "fromName": "Visuals",
+      "toName": "Off-Market Outreach",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:09:27.459Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "fromName": "Visuals",
+      "toName": "Email Organizer",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T17:09:27.459Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "fromName": "Visuals",
+      "toName": "Email Organizer",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "fromName": "Visuals",
+      "toName": "File Explorer",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Visuals",
+      "toName": "Chief of Staff",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "fromName": "Visuals",
+      "toName": "Process Auditor",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "fromName": "Visuals",
+      "toName": "Off-Market Outreach",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Visuals",
+      "toName": "Investor Inbox",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "Visuals",
+      "toName": "Inbound Deals",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Visuals",
+      "toName": "Under Contract DD",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "fromName": "Visuals",
+      "toName": "Underwriting",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:09:24.332Z"
+    },
+    {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "fromName": "Chief of Staff",
-      "toName": "Visual",
+      "toName": "Email Organizer",
       "kind": "reference",
       "text": "Ref",
       "ts": "2026-09-10T17:08:11.947Z"
     },
     {
-      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Chief of Staff",
+      "toName": "Investor Inbox",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:08:11.947Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "ce012f92-2588-4894-8547-5e318c41054a",
-      "fromName": "Property Research",
-      "toName": "Visual",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:44:44.283Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "fromName": "File Explorer",
-      "toName": "Email Outreach (deprecated)",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:43:26.414Z"
-    },
-    {
-      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "fromName": "Property Research",
-      "toName": "Email Outreach (deprecated)",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:43:18.675Z"
+      "fromName": "Chief of Staff",
+      "toName": "Visuals",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T17:08:11.947Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "fromName": "Chief of Staff",
-      "toName": "Property Research",
+      "toName": "Email Organizer",
       "kind": "mention",
       "text": "Ping",
-      "ts": "2026-09-10T16:37:05.158Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "fromName": "Chief of Staff",
-      "toName": "Off-Market",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:37:05.158Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "fromName": "Off-Market",
-      "toName": "Investment Analyst",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Off-Market",
-      "toName": "Chief of Staff",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Off-Market",
-      "toName": "Chief of Staff",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "fromName": "Off-Market",
-      "toName": "Investment Analyst",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:27:13.274Z"
-    },
-    {
-      "from": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "fromName": "Email Outreach (deprecated)",
-      "toName": "Off-Market",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T16:26:34.960Z"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "fromName": "Off-Market",
-      "toName": "Email Outreach (deprecated)",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-10T16:26:25.769Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Bot Evaluator",
-      "toName": "Chief of Staff",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Bot Evaluator",
-      "toName": "File Explorer",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "Bot Evaluator",
-      "toName": "Property Research",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Bot Evaluator",
-      "toName": "File Explorer",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "fromName": "Bot Evaluator",
-      "toName": "Investment Analyst",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "Bot Evaluator",
-      "toName": "Internal Due Diligence",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "fromName": "Bot Evaluator",
-      "toName": "Off-Market",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "fromName": "Bot Evaluator",
-      "toName": "Email Outreach (deprecated)",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:26:17.780Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Investment Analyst",
-      "toName": "File Explorer",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:22:23.533Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Investment Analyst",
-      "toName": "File Explorer",
-      "kind": "handoff",
-      "text": "Handoff",
-      "ts": "2026-09-10T16:22:23.533Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Investment Analyst",
-      "toName": "Chief of Staff",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:17:34.898Z"
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "Investment Analyst",
-      "toName": "Internal Due Diligence",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T16:16:20.981Z"
+      "ts": "2026-09-10T17:08:11.947Z"
     }
   ],
   "feed": [
     {
-      "ts": "2026-09-10T17:08:18.486Z",
+      "ts": "2026-09-10T17:10:44.163Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 deploy.sh"
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 rg"
+    },
+    {
+      "ts": "2026-09-10T17:10:39.991Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T17:10:39.186Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T17:10:23.398Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T17:10:13.148Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T17:10:09.874Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T17:09:44.941Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T17:09:44.940Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T17:09:44.939Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T17:09:44.238Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T17:09:43.730Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T17:09:42.942Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "MCP \u00b7 Outlook: list_mail_messages"
+    },
+    {
+      "ts": "2026-09-10T17:09:31.475Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 rg"
+    },
+    {
+      "ts": "2026-09-10T17:09:27.459Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 rg"
+    },
+    {
+      "ts": "2026-09-10T17:09:24.332Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 for"
+    },
+    {
+      "ts": "2026-09-10T17:09:19.088Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-10T17:09:09.790Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Drafts - Investor Relations - Outlook"
     },
     {
       "ts": "2026-09-10T17:08:17.592Z",
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Shell \u00b7 for"
-    },
-    {
-      "ts": "2026-09-10T17:08:12.225Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 ls"
     },
     {
       "ts": "2026-09-10T17:08:11.947Z",
@@ -854,6 +992,24 @@
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T17:05:47.491Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Outlook"
+    },
+    {
+      "ts": "2026-09-10T17:05:39.690Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Home"
+    },
+    {
+      "ts": "2026-09-10T17:02:55.562Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Shell \u00b7 cat"
     },
     {
       "ts": "2026-09-10T17:01:54.898Z",
@@ -872,6 +1028,30 @@
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Desktop session \u00b7 49 actions"
+    },
+    {
+      "ts": "2026-09-10T17:00:49.910Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
+    },
+    {
+      "ts": "2026-09-10T17:00:28.688Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
+    },
+    {
+      "ts": "2026-09-10T17:00:23.352Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
+    },
+    {
+      "ts": "2026-09-10T17:00:12.008Z",
+      "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "agentName": "Investor Inbox",
+      "text": "Browse \u00b7 Mail - Investor Relations - Outlook"
     },
     {
       "ts": "2026-09-10T16:50:32.112Z",
@@ -900,170 +1080,38 @@
     {
       "ts": "2026-09-10T16:49:41.195Z",
       "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
+      "agentName": "Inbound Deals",
       "text": "Shell \u00b7 python3"
     },
     {
       "ts": "2026-09-10T16:49:24.370Z",
       "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
+      "agentName": "Inbound Deals",
       "text": "Shell \u00b7 python3"
     },
     {
       "ts": "2026-09-10T16:48:58.781Z",
       "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
+      "agentName": "Inbound Deals",
       "text": "Shell \u00b7 python3"
     },
     {
       "ts": "2026-09-10T16:48:50.284Z",
       "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
+      "agentName": "Inbound Deals",
       "text": "Shell \u00b7 python3"
     },
     {
       "ts": "2026-09-10T16:47:59.394Z",
       "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
+      "agentName": "Inbound Deals",
       "text": "Shell \u00b7 #"
     },
     {
       "ts": "2026-09-10T16:47:31.780Z",
       "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
+      "agentName": "Inbound Deals",
       "text": "Shell \u00b7 #"
-    },
-    {
-      "ts": "2026-09-10T16:47:23.400Z",
-      "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
-      "text": "Shell \u00b7 find"
-    },
-    {
-      "ts": "2026-09-10T16:46:44.435Z",
-      "agentId": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "agentName": "Property Research",
-      "text": "Shell \u00b7 #"
-    },
-    {
-      "ts": "2026-09-10T16:44:13.498Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Browse \u00b7 Investments - Investments - New OMs - All Documents"
-    },
-    {
-      "ts": "2026-09-10T16:37:30.271Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T16:37:22.938Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T16:37:14.233Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Outlook: list_mail_messages"
-    },
-    {
-      "ts": "2026-09-10T16:37:06.256Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Desktop session \u00b7 0 actions"
-    },
-    {
-      "ts": "2026-09-10T16:37:05.319Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Outlook: list_mail_messages"
-    },
-    {
-      "ts": "2026-09-10T16:35:44.661Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 deploy.sh"
-    },
-    {
-      "ts": "2026-09-10T16:35:31.299Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T16:35:27.230Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T16:31:21.514Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 deploy.sh"
-    },
-    {
-      "ts": "2026-09-10T16:31:12.520Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-10T16:27:28.160Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market",
-      "text": "MCP \u00b7 Outlook: list_mail_messages"
-    },
-    {
-      "ts": "2026-09-10T16:27:22.401Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T16:27:16.100Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 wc"
-    },
-    {
-      "ts": "2026-09-10T16:27:14.179Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market",
-      "text": "MCP \u00b7 Outlook: list_mail_messages"
-    },
-    {
-      "ts": "2026-09-10T16:27:13.274Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market",
-      "text": "Shell \u00b7 cat"
-    },
-    {
-      "ts": "2026-09-10T16:27:09.040Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-10T16:27:04.697Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 cd"
-    },
-    {
-      "ts": "2026-09-10T16:26:59.546Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Investment Analyst",
-      "text": "Shell \u00b7 cd"
-    },
-    {
-      "ts": "2026-09-10T16:26:57.413Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market",
-      "text": "Shell \u00b7 cp"
     }
   ],
   "landmarks": [
