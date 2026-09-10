@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>10 Federal · Agent Office</title>
 <style>
   :root {
@@ -576,6 +576,306 @@
     border: 1px solid var(--stroke2); color: var(--muted);
   }
 
+
+  /* —— Mobile chrome (hidden on desktop) —— */
+  .menu-btn,
+  .mobile-menu,
+  .sheet-handle,
+  .sheet-close,
+  .sheet-backdrop {
+    display: none;
+  }
+
+  /* —— Phone / narrow —— */
+  @media (max-width: 768px) {
+    html, body {
+      overflow: hidden;
+      width: 100%;
+      max-width: 100vw;
+      height: 100%;
+      height: 100dvh;
+      overscroll-behavior: none;
+      -webkit-text-size-adjust: 100%;
+      touch-action: manipulation;
+    }
+    .app {
+      min-height: 0;
+      height: 100%;
+      height: 100dvh;
+      height: 100svh;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-left: env(safe-area-inset-left, 0px);
+      padding-right: env(safe-area-inset-right, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      width: 100%;
+      max-width: 100vw;
+      overflow: hidden;
+    }
+    header {
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      padding: 0.55rem 0.75rem;
+      row-gap: 0.45rem;
+    }
+    .brand h1 { font-size: 0.88rem; }
+    .brand .sub { font-size: 0.62rem; letter-spacing: 0.1em; }
+    .brand-mark { width: 22px; height: 22px; }
+    .meta {
+      width: 100%;
+      justify-content: space-between;
+      gap: 0.45rem;
+      align-items: center;
+    }
+    .legend { display: none; }
+    .clock {
+      font-size: 0.66rem;
+      padding: 0.28rem 0.5rem;
+      flex-shrink: 0;
+    }
+    .toggles {
+      display: none;
+      flex-wrap: wrap;
+      border-radius: 12px;
+      width: 100%;
+      gap: 0.3rem;
+      padding: 0.3rem;
+    }
+    .app.menu-open .toggles {
+      display: flex;
+      order: 3;
+      flex-basis: 100%;
+    }
+    .tog {
+      font-size: 0.72rem;
+      padding: 0.5rem 0.7rem;
+      min-height: 44px;
+      flex: 1 1 auto;
+      text-align: center;
+    }
+    .menu-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      appearance: none;
+      border: 1px solid var(--stroke2);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      border-radius: 10px;
+      width: 44px;
+      height: 44px;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+    .menu-btn[aria-expanded="true"] {
+      border-color: rgba(201,166,107,0.4);
+      background: rgba(201,166,107,0.12);
+      color: var(--warm);
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: none;
+      min-height: 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .floor-wrap {
+      flex: 1 1 auto;
+      min-height: 0;
+      width: 100%;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x pan-y;
+    }
+    .floor {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      right: auto;
+      bottom: auto;
+      width: 640px;
+      height: 480px;
+      max-width: none;
+      inset: auto;
+      border-radius: 12px;
+      transform: translate(-50%, -50%) scale(var(--floor-scale, 1));
+      transform-origin: center center;
+      transition: none;
+      will-change: auto;
+      --px: 0px;
+      --py: 0px;
+    }
+    .floor-wrap {
+      /* scroll fallback if scale math fails */
+      overflow: hidden;
+    }
+    .desk {
+      width: 96px;
+      min-width: 44px;
+      min-height: 44px;
+      padding: 6px 0;
+      animation: none;
+    }
+    .desk .pad {
+      width: 68px; height: 46px;
+    }
+    .desk.glass-office .pad {
+      width: 86px; height: 54px;
+    }
+    .avatar-ring { width: 40px; height: 40px; }
+    .avatar { width: 30px; height: 30px; }
+    .desk .name { font-size: 0.7rem; max-width: 110px; }
+    .desk .desk-label { font-size: 0.58rem; }
+    .desk .preview { display: none; } /* tooltips replace hover preview on touch */
+    .fly-bubble {
+      max-width: 160px;
+      padding: 0.42rem 0.7rem;
+      font-size: 0.72rem;
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .fly-bubble .fb-dot {
+      width: 7px; height: 7px;
+    }
+    .zone-label { font-size: 0.52rem; }
+    .tooltip { font-size: 0.78rem; max-width: 200px; }
+
+    /* Bottom sheet panel */
+    .sheet-backdrop {
+      display: block;
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.28s var(--ease);
+      z-index: 24;
+    }
+    .app.sheet-open .sheet-backdrop {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    aside {
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      z-index: 25;
+      border-left: 0;
+      border-top: 1px solid var(--stroke2);
+      border-radius: 18px 18px 0 0;
+      max-height: min(78dvh, 78%);
+      height: auto;
+      box-shadow: 0 -16px 48px rgba(0,0,0,0.45);
+      transform: translate3d(0, calc(100% - 56px), 0);
+      transition: transform 0.32s var(--ease);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      background: rgba(10, 12, 18, 0.94);
+    }
+    .app.sheet-open aside {
+      transform: translate3d(0, 0, 0);
+    }
+    .app.sheet-peek aside {
+      transform: translate3d(0, calc(100% - 56px), 0);
+    }
+    .sheet-handle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      padding: 0.45rem 1rem 0.35rem;
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      flex-shrink: 0;
+      min-height: 52px;
+      background: transparent;
+      border: 0;
+      color: inherit;
+      width: 100%;
+      font: inherit;
+    }
+    .sheet-handle::before {
+      content: "";
+      width: 40px; height: 4px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.22);
+    }
+    .sheet-handle .sheet-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .sheet-close {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      appearance: none;
+      border: 1px solid var(--stroke2);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      border-radius: 10px;
+      width: 40px; height: 40px;
+      min-width: 40px; min-height: 40px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      line-height: 1;
+      position: absolute;
+      top: 0.55rem;
+      right: 0.75rem;
+      z-index: 2;
+    }
+    .panel-head {
+      padding: 0.35rem 1rem 0.75rem;
+      padding-right: 3.2rem;
+      position: relative;
+    }
+    .panel-head h2 { font-size: 1.05rem; }
+    .panel-head .role { font-size: 0.8rem; }
+    .panel-body {
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+    }
+    .panel-body h3 { font-size: 0.68rem; }
+    .event-list li, .msg-chip, .feed-item { font-size: 0.8rem; }
+    .feed-item {
+      padding: 0.55rem 0;
+      min-height: 44px;
+    }
+    .feed-section {
+      max-height: none;
+      min-height: 120px;
+      flex: 0 0 auto;
+    }
+    .feed-section.compact { max-height: none; min-height: 90px; }
+    footer {
+      display: none; /* reclaim space on phone */
+    }
+  }
+
+  /* Tablet: soften side column before full stack */
+  @media (min-width: 769px) and (max-width: 899px) {
+    main { grid-template-columns: 1fr minmax(260px, 300px); }
+    .tog { min-height: 36px; padding: 0.4rem 0.6rem; }
+    header { flex-wrap: wrap; }
+    .meta { gap: 0.5rem; }
+  }
+
+  @media (min-width: 900px) {
+    .app { min-height: 640px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .desk, .landmark .table { animation: none !important; }
+    .conn-line { animation: none !important; }
+    .floor { transition: none; }
+    aside { transition: none !important; }
+  }
+
   .shape-svg { overflow: visible; }
 </style>
 </head>
@@ -590,7 +890,8 @@
       </div>
     </div>
     <div class="meta">
-      <div class="toggles" role="group" aria-label="Display toggles">
+      <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="togGroup" title="Display options" aria-label="Display options">☰</button>
+      <div class="toggles" role="group" aria-label="Display toggles" id="togGroup">
         <button type="button" class="tog" id="togConv" aria-pressed="true" title="Flying conversation bubbles">Conversations</button>
         <button type="button" class="tog" id="togArcs" aria-pressed="true" title="Connection arcs">Arcs</button>
         <button type="button" class="tog" id="togFeed" aria-pressed="false" title="Compact activity feed">Compact feed</button>
@@ -637,7 +938,12 @@
       <div class="tooltip" id="tooltip" role="tooltip"></div>
     </div>
 
-    <aside aria-label="Agent detail and activity feed">
+    <div class="sheet-backdrop" id="sheetBackdrop" aria-hidden="true"></div>
+    <aside aria-label="Agent detail and activity feed" id="sidePanel">
+      <button type="button" class="sheet-handle" id="sheetHandle" aria-expanded="false" aria-controls="sidePanel">
+        <span class="sheet-label" id="sheetLabel">Activity · swipe up</span>
+      </button>
+      <button type="button" class="sheet-close" id="sheetClose" aria-label="Close panel" title="Close">×</button>
       <div class="panel-head" id="panelHead">
         <div class="eyebrow">Selected desk</div>
         <h2 id="panelName">Click a desk</h2>
@@ -669,9 +975,23 @@
   "use strict";
 
   const POLL_MS = 20000;
-  const MAX_FLYING = 10;
   const FLY_MS = 3200;
   const SPAWN_GAP_MS = 900;
+
+  function isNarrow() {
+    return window.matchMedia("(max-width: 768px)").matches;
+  }
+  function isCoarsePointer() {
+    return window.matchMedia("(pointer: coarse)").matches
+      || ("ontouchstart" in window && navigator.maxTouchPoints > 0);
+  }
+  function isMobilePerf() {
+    return isNarrow() || isCoarsePointer()
+      || window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
+  function maxFlying() {
+    return isMobilePerf() ? 5 : 10;
+  }
 
   let activity = window.OFFICE_ACTIVITY || null;
   let selectedId = null;
@@ -710,14 +1030,17 @@
     canvas.style.width = r.width + "px";
     canvas.style.height = r.height + "px";
     ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
-    const n = Math.min(55, Math.floor((r.width * r.height) / 18000));
+    const mobile = isMobilePerf();
+    const dens = mobile ? 42000 : 18000;
+    const cap = mobile ? 18 : 55;
+    const n = Math.min(cap, Math.floor((r.width * r.height) / dens));
     particles = Array.from({ length: n }, () => ({
       x: Math.random() * r.width,
       y: Math.random() * r.height,
-      r: 0.4 + Math.random() * 1.2,
-      vx: (Math.random() - 0.5) * 0.15,
-      vy: -0.05 - Math.random() * 0.18,
-      a: 0.08 + Math.random() * 0.22,
+      r: 0.4 + Math.random() * (mobile ? 0.9 : 1.2),
+      vx: (Math.random() - 0.5) * (mobile ? 0.08 : 0.15),
+      vy: -0.03 - Math.random() * (mobile ? 0.1 : 0.18),
+      a: 0.06 + Math.random() * (mobile ? 0.14 : 0.22),
     }));
   }
   function tickParticles() {
@@ -859,7 +1182,7 @@
 
   function spawnBubble(msg) {
     if (!prefs.conversations) return;
-    if (flying.length >= MAX_FLYING) return;
+    if (flying.length >= maxFlying()) return;
     const fromP = deskPosPct(msg.from);
     const toP = deskPosPct(msg.to);
     if (!fromP || !toP) return;
@@ -920,7 +1243,7 @@
       }
     }
     // spawn from queue
-    if (now - lastSpawn > SPAWN_GAP_MS && flying.length < MAX_FLYING) {
+    if (now - lastSpawn > (isMobilePerf() ? SPAWN_GAP_MS * 1.4 : SPAWN_GAP_MS) && flying.length < maxFlying()) {
       if (!spawnQueue.length) rebuildSpawnQueue();
       if (spawnQueue.length) {
         const msg = spawnQueue[convCursor % spawnQueue.length];
@@ -1133,6 +1456,7 @@
     }
     body.innerHTML = html;
     applyFocusClasses();
+    if (isNarrow()) openSheet();
   }
 
   function clearSelection() {
@@ -1144,7 +1468,8 @@
     document.getElementById("panelRole").textContent = "Select an agent on the floor to see role, timeline, and conversations.";
     document.getElementById("panelStatus").hidden = true;
     document.getElementById("panelBody").innerHTML =
-      `<p class="empty-hint">Hover for preview · click for the full brief · Esc clears focus.</p>`;
+      `<p class="empty-hint">${isNarrow() ? "Tap a desk for the full brief." : "Hover for preview · click for the full brief · Esc clears focus."}</p>`;
+    if (isNarrow()) peekSheet();
   }
 
   function renderFeed() {
@@ -1232,10 +1557,16 @@
   }
   function hideTip() { tip.classList.remove("show"); }
 
-  /* Parallax */
+  /* Parallax — desktop fine pointer only */
   const floorWrap = document.getElementById("floorWrap");
   const floor = document.getElementById("floor");
+  const appEl = document.querySelector(".app");
+  function parallaxEnabled() {
+    return !isCoarsePointer() && !isNarrow()
+      && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
   floorWrap.addEventListener("mousemove", (e) => {
+    if (!parallaxEnabled()) return;
     const r = floorWrap.getBoundingClientRect();
     const nx = ((e.clientX - r.left) / r.width - 0.5) * 2;
     const ny = ((e.clientY - r.top) / r.height - 0.5) * 2;
@@ -1246,6 +1577,73 @@
     floor.style.setProperty("--px", "0px");
     floor.style.setProperty("--py", "0px");
   });
+
+  /* Mobile sheet + menu */
+  function openSheet() {
+    appEl.classList.add("sheet-open");
+    appEl.classList.remove("sheet-peek");
+    const h = document.getElementById("sheetHandle");
+    if (h) h.setAttribute("aria-expanded", "true");
+    const label = document.getElementById("sheetLabel");
+    if (label) label.textContent = "Activity";
+  }
+  function peekSheet() {
+    appEl.classList.remove("sheet-open");
+    appEl.classList.add("sheet-peek");
+    const h = document.getElementById("sheetHandle");
+    if (h) h.setAttribute("aria-expanded", "false");
+    const label = document.getElementById("sheetLabel");
+    if (label) label.textContent = "Activity · tap to open";
+  }
+  function closeSheet() {
+    peekSheet();
+  }
+  function toggleSheet() {
+    if (appEl.classList.contains("sheet-open")) closeSheet();
+    else openSheet();
+  }
+  const sheetHandle = document.getElementById("sheetHandle");
+  const sheetClose = document.getElementById("sheetClose");
+  const sheetBackdrop = document.getElementById("sheetBackdrop");
+  if (sheetHandle) sheetHandle.addEventListener("click", toggleSheet);
+  if (sheetClose) sheetClose.addEventListener("click", () => { closeSheet(); });
+  if (sheetBackdrop) sheetBackdrop.addEventListener("click", closeSheet);
+
+  const menuBtn = document.getElementById("menuBtn");
+  if (menuBtn) {
+    menuBtn.addEventListener("click", () => {
+      const open = !appEl.classList.contains("menu-open");
+      appEl.classList.toggle("menu-open", open);
+      menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
+
+  function fitFloorScale() {
+    if (!isNarrow()) {
+      floor.style.removeProperty("--floor-scale");
+      floor.style.removeProperty("width");
+      floor.style.removeProperty("height");
+      return;
+    }
+    const pad = 12;
+    const baseW = 640, baseH = 480;
+    const rw = Math.max(1, floorWrap.clientWidth - pad * 2);
+    const rh = Math.max(1, floorWrap.clientHeight - pad * 2);
+    const s = Math.min(rw / baseW, rh / baseH, 1.15);
+    floor.style.setProperty("--floor-scale", s.toFixed(4));
+  }
+  function syncMobileChrome() {
+    floorWrap.classList.toggle("is-mobile-perf", isMobilePerf());
+    if (isNarrow()) {
+      if (!appEl.classList.contains("sheet-open")) peekSheet();
+    } else {
+      appEl.classList.remove("sheet-open", "sheet-peek", "menu-open");
+      if (menuBtn) menuBtn.setAttribute("aria-expanded", "false");
+      floor.style.removeProperty("--floor-scale");
+    }
+    fitFloorScale();
+  }
+  syncMobileChrome();
 
   /* Toggles */
   function wireToggle(id, key, onChange) {
@@ -1268,7 +1666,18 @@
   wireToggle("togFocus", "focus", () => applyFocusClasses());
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") clearSelection();
+    if (e.key === "Escape") {
+      if (isNarrow() && appEl.classList.contains("sheet-open")) {
+        closeSheet();
+        return;
+      }
+      if (appEl.classList.contains("menu-open")) {
+        appEl.classList.remove("menu-open");
+        if (menuBtn) menuBtn.setAttribute("aria-expanded", "false");
+        return;
+      }
+      clearSelection();
+    }
   });
 
   async function tryFetch() {
@@ -1303,13 +1712,19 @@
   }
 
   window.addEventListener("resize", () => {
+    syncMobileChrome();
     resizeParticles();
     if (activity) renderConnections();
   });
 
+  let _partFrame = 0;
   function loop(now) {
-    tickParticles();
-    tickFlying(now);
+    if (!document.hidden) {
+      _partFrame++;
+      // On mobile, update particles every other frame for battery
+      if (!isMobilePerf() || (_partFrame % 2) === 0) tickParticles();
+      tickFlying(now);
+    }
     requestAnimationFrame(loop);
   }
 

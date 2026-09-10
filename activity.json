@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-10T15:07:38.719113Z",
+  "generatedAt": "2026-09-10T15:10:45.489507Z",
   "timezone": "America/Los_Angeles",
-  "activeAgentId": "ce012f92-2588-4894-8547-5e318c41054a",
+  "activeAgentId": "400779c3-c62a-4654-8057-56954b605cbf",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -254,7 +254,7 @@
       "desk": "Prospecting desk",
       "x": 18,
       "y": 72,
-      "status": "idle",
+      "status": "active",
       "lastSeenAt": "2026-09-10T12:17:33.097000Z",
       "recentEvents": [
         {
@@ -399,8 +399,24 @@
       "x": 82,
       "y": 78,
       "status": "active",
-      "lastSeenAt": "2026-09-10T15:07:38.660000Z",
+      "lastSeenAt": "2026-09-10T15:10:45.440000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-10T15:10:45.440Z",
+          "label": "Shell \u00b7 bash"
+        },
+        {
+          "ts": "2026-09-10T15:10:35.515Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T15:10:19.899Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-10T15:09:24.246Z",
+          "label": "Shell \u00b7 ls"
+        },
         {
           "ts": "2026-09-10T15:07:38.660Z",
           "label": "Shell \u00b7 deploy.sh"
@@ -416,22 +432,6 @@
         {
           "ts": "2026-09-10T15:06:05.086Z",
           "label": "Shell \u00b7 cd"
-        },
-        {
-          "ts": "2026-09-10T15:05:50.434Z",
-          "label": "Shell \u00b7 curl"
-        },
-        {
-          "ts": "2026-09-10T15:05:43.898Z",
-          "label": "Shell \u00b7 mkdir"
-        },
-        {
-          "ts": "2026-09-10T15:05:22.269Z",
-          "label": "Shell \u00b7 gh"
-        },
-        {
-          "ts": "2026-09-10T15:04:49.658Z",
-          "label": "Shell \u00b7 for"
         }
       ]
     }
@@ -450,6 +450,34 @@
       "label": "mention",
       "text": "Ping",
       "ts": "2026-09-10T14:56:34.800Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -489,6 +517,13 @@
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:45:02.663Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "handoff",
       "text": "Handoff",
       "ts": "2026-09-10T14:45:02.663Z"
@@ -506,62 +541,6 @@
       "label": "mention",
       "text": "Ping",
       "ts": "2026-09-10T14:39:44.470Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -604,6 +583,27 @@
       "label": "handoff",
       "text": "Handoff",
       "ts": "2026-09-10T14:29:55.987Z"
+    },
+    {
+      "from": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "label": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-10T14:29:55.987Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T13:25:18.344Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "label": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T13:25:18.344Z"
     }
   ],
   "conversations": [
@@ -624,6 +624,42 @@
       "kind": "mention",
       "text": "Ping",
       "ts": "2026-09-10T14:56:34.800Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "fromName": "Visual",
+      "toName": "Off-Market Prospecting",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Visual",
+      "toName": "Internal Due Diligence",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "Visual",
+      "toName": "Property Research",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
+      "fromName": "Visual",
+      "toName": "Email Outreach",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:46:46.652Z"
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -675,6 +711,15 @@
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "fromName": "Visual",
       "toName": "Chief of Staff",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-10T14:45:02.663Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Visual",
+      "toName": "Chief of Staff",
       "kind": "handoff",
       "text": "Handoff",
       "ts": "2026-09-10T14:45:02.663Z"
@@ -696,78 +741,6 @@
       "kind": "mention",
       "text": "Ping",
       "ts": "2026-09-10T14:39:44.470Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "Visual",
-      "toName": "Internal Due Diligence",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "400779c3-c62a-4654-8057-56954b605cbf",
-      "fromName": "Visual",
-      "toName": "Off-Market Prospecting",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "26f91a22-f052-489b-8865-731646053afc",
-      "fromName": "Visual",
-      "toName": "Investment Analyst",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "Visual",
-      "toName": "Property Research",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Visual",
-      "toName": "Chief of Staff",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
-      "fromName": "Visual",
-      "toName": "Email Outreach",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Visual",
-      "toName": "File Explorer",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "fromName": "Visual",
-      "toName": "Bot Evaluator",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-10T14:39:13.531Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -822,9 +795,60 @@
       "kind": "handoff",
       "text": "Handoff",
       "ts": "2026-09-10T14:29:55.987Z"
+    },
+    {
+      "from": "dd1e9fe4-c0f0-4559-a52c-ee54423128d5",
+      "to": "400779c3-c62a-4654-8057-56954b605cbf",
+      "fromName": "Email Outreach",
+      "toName": "Off-Market Prospecting",
+      "kind": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-10T14:29:55.987Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Chief of Staff",
+      "toName": "Internal Due Diligence",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T13:25:18.344Z"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "fromName": "Chief of Staff",
+      "toName": "Bot Evaluator",
+      "kind": "reference",
+      "text": "Ref",
+      "ts": "2026-09-10T13:25:18.344Z"
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-10T15:10:45.440Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 bash"
+    },
+    {
+      "ts": "2026-09-10T15:10:35.515Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T15:10:19.899Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-10T15:09:24.246Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visual",
+      "text": "Shell \u00b7 ls"
+    },
     {
       "ts": "2026-09-10T15:07:38.660Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -848,30 +872,6 @@
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visual",
       "text": "Shell \u00b7 cd"
-    },
-    {
-      "ts": "2026-09-10T15:05:50.434Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 curl"
-    },
-    {
-      "ts": "2026-09-10T15:05:43.898Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 mkdir"
-    },
-    {
-      "ts": "2026-09-10T15:05:22.269Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 gh"
-    },
-    {
-      "ts": "2026-09-10T15:04:49.658Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visual",
-      "text": "Shell \u00b7 for"
     },
     {
       "ts": "2026-09-10T15:02:11.812Z",
