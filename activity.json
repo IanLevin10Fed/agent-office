@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:28:35.090657Z",
+  "generatedAt": "2026-09-11T22:35:18.638321Z",
   "timezone": "America/New_York",
   "activeAgentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 15m ago",
+      "doingNow": "Screening Outlook for broker OMs \u00b7 21m ago",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Working in Outlook \u00b7 5m ago",
+      "doingNow": "Working in Outlook \u00b7 12m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -178,7 +178,7 @@
       "definition": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs.",
       "mandate": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
       "instructions": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
-      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (9h ago)",
+      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (10h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -735,8 +735,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T22:28:35.041000Z",
+      "lastSeenAt": "2026-09-11T22:35:18.584000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T22:35:18.584Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T22:35:12.289Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T22:28:35.041Z",
           "label": "Refreshing office viz"
@@ -759,14 +767,6 @@
         },
         {
           "ts": "2026-09-11T22:13:26.187Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T22:12:01.384Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T22:11:56.532Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1296,6 +1296,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T22:35:18.584Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T22:35:12.289Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T22:28:35.041Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1381,18 +1393,6 @@
     },
     {
       "ts": "2026-09-11T22:13:26.187Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T22:12:01.384Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T22:11:56.532Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
