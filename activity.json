@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T15:55:47.884477Z",
+  "generatedAt": "2026-09-11T16:01:34.887073Z",
   "timezone": "America/New_York",
   "activeAgentId": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
   "agents": [
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (58m ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -250,7 +250,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "SharePoint \u00b7 GrokBot DD - All Documents",
+      "doingNow": "SharePoint \u00b7 GrokBot DD - All Documents \u00b7 7m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -290,7 +290,7 @@
       "desk": "Filing station",
       "x": 28,
       "y": 60,
-      "status": "active",
+      "status": "recent",
       "lastSeenAt": "2026-09-11T15:54:04.964000Z",
       "recentEvents": [
         {
@@ -406,7 +406,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (18h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (19h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -747,8 +747,20 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T15:55:47.834000Z",
+      "lastSeenAt": "2026-09-11T16:01:34.833000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T16:01:34.833Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T16:01:28.313Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T16:01:24.992Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T15:55:47.834Z",
           "label": "Refreshing office viz"
@@ -767,18 +779,6 @@
         },
         {
           "ts": "2026-09-11T13:55:49.756Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T13:55:47.097Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T13:55:42.282Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T13:52:20.045Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1308,6 +1308,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T16:01:34.833Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T16:01:28.313Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T16:01:24.992Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T15:55:47.834Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1477,24 +1495,6 @@
     },
     {
       "ts": "2026-09-11T13:55:49.756Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T13:55:47.097Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T13:55:42.282Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T13:52:20.045Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
