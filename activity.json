@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:31:00.700270Z",
+  "generatedAt": "2026-09-11T23:37:29.627795Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Working in Outlook (44m ago)",
+      "doingNow": "Idle \u2014 last: Working in Outlook (50m ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -735,8 +735,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T23:31:00.650000Z",
+      "lastSeenAt": "2026-09-11T23:37:29.575000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T23:37:29.575Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T23:37:26.503Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T23:31:00.650Z",
           "label": "Refreshing office viz"
@@ -759,14 +767,6 @@
         },
         {
           "ts": "2026-09-11T23:16:33.290Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T23:16:28.381Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T23:14:49.933Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1296,6 +1296,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T23:37:29.575Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T23:37:26.503Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T23:31:00.650Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1327,18 +1339,6 @@
     },
     {
       "ts": "2026-09-11T23:16:33.290Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T23:16:28.381Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T23:14:49.933Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
