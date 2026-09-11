@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T16:01:34.887073Z",
+  "generatedAt": "2026-09-11T16:18:03.771673Z",
   "timezone": "America/New_York",
   "activeAgentId": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
   "agents": [
@@ -250,7 +250,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "SharePoint \u00b7 GrokBot DD - All Documents \u00b7 7m ago",
+      "doingNow": "SharePoint \u00b7 GrokBot DD - All Documents \u00b7 23m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -610,7 +610,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (2h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (3h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -747,8 +747,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T16:01:34.833000Z",
+      "lastSeenAt": "2026-09-11T16:18:03.718000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T16:18:03.718Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T16:18:00.254Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T16:01:34.833Z",
           "label": "Refreshing office viz"
@@ -771,14 +779,6 @@
         },
         {
           "ts": "2026-09-11T15:27:03.474Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T15:26:56.123Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T13:55:49.756Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1308,6 +1308,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T16:18:03.718Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T16:18:00.254Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T16:01:34.833Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1387,12 +1399,6 @@
     },
     {
       "ts": "2026-09-11T15:27:03.474Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T15:26:56.123Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
@@ -1492,12 +1498,6 @@
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
       "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-11T13:55:49.756Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-11T13:50:19.498Z",
