@@ -1031,7 +1031,7 @@
         <span><i class="dot recent"></i> Recent</span>
         <span><i class="dot idle"></i> Idle</span>
       </div>
-      <div class="clock" id="asOfClock" title="Snapshot time (America/Los_Angeles)">
+      <div class="clock" id="asOfClock" title="Snapshot time (America/New_York · ET)">
         As of <strong>—</strong>
       </div>
     </div>
@@ -1230,16 +1230,16 @@
         points="16,3 28,10 28,22 16,29 4,22 4,10"/></svg>`;
   }
 
-  function fmtPT(iso) {
+  function fmtET(iso) {
     if (!iso) return "—";
     try {
       const d = new Date(iso);
       return d.toLocaleString("en-US", {
-        timeZone: "America/Los_Angeles",
+        timeZone: "America/New_York",
         month: "short", day: "numeric",
         hour: "numeric", minute: "2-digit",
         hour12: true,
-      }) + " PT";
+      }) + " ET";
     } catch (e) { return iso; }
   }
 
@@ -1247,7 +1247,7 @@
     if (!iso) return "";
     try {
       return new Date(iso).toLocaleString("en-US", {
-        timeZone: "America/Los_Angeles",
+        timeZone: "America/New_York",
         hour: "numeric", minute: "2-digit", hour12: true,
       });
     } catch (e) { return ""; }
@@ -1579,7 +1579,7 @@
     const body = document.getElementById("panelBody");
     const events = a.recentEvents || [];
     const st = a.status || "idle";
-    let html = `<div class="meta-row">Last seen · ${fmtPT(a.lastSeenAt)}</div>`;
+    let html = `<div class="meta-row">Last seen · ${fmtET(a.lastSeenAt)}</div>`;
 
     if (opts.conv) {
       const other = agentById(opts.highlightPartner);
@@ -1587,7 +1587,7 @@
       html += `<div class="msg-chip"><span class="pip" style="background:${hexFor(a)}"></span>
         <div><strong>${escapeHtml(a.name)}</strong> → ${escapeHtml((other && other.name) || "agent")}
         <div style="color:var(--muted);margin-top:2px">${escapeHtml(opts.conv.text || opts.conv.label || opts.conv.kind || "")}</div>
-        <span class="ts">${fmtPT(opts.conv.ts)}</span></div></div></div>`;
+        <span class="ts">${fmtET(opts.conv.ts)}</span></div></div></div>`;
     }
 
     html += `<div class="panel-section"><h3>Definition</h3>
@@ -1609,7 +1609,7 @@
     } else {
       html += `<ul class="event-list tight">`;
       events.slice(0, 6).forEach(e => {
-        html += `<li><span class="ts">${fmtPT(e.ts)}</span>${escapeHtml(e.label)}</li>`;
+        html += `<li><span class="ts">${fmtET(e.ts)}</span>${escapeHtml(e.label)}</li>`;
       });
       html += `</ul>`;
     }
@@ -1701,9 +1701,9 @@
   function updateClock() {
     const el = document.getElementById("asOfClock");
     const t = activity && activity.generatedAt;
-    el.innerHTML = `As of <strong>${fmtPT(t)}</strong>`;
+    el.innerHTML = `As of <strong>${fmtET(t)}</strong>`;
     const note = document.getElementById("footerNote");
-    note.innerHTML = `Updated ${fmtPT(t)} · refresh with <code>python3 update_activity.py</code>`;
+    note.innerHTML = `Updated ${fmtET(t)} · refresh with <code>python3 update_activity.py</code>`;
   }
 
   function renderAll() {
