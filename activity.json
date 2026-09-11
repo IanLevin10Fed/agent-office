@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-11T17:29:26.842392Z",
+  "generatedAt": "2026-09-11T18:00:45.899167Z",
   "timezone": "America/New_York",
-  "activeAgentId": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+  "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Idle \u2014 last: Browse \u00b7 (6) Calendar | Microsoft Teams (3h ago)",
+      "doingNow": "Browse \u00b7 (6) Calendar | Microsoft Teams",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -68,7 +68,7 @@
       "desk": "Central glass office",
       "x": 50,
       "y": 34,
-      "status": "idle",
+      "status": "active",
       "lastSeenAt": "2026-09-11T13:50:19.498000Z",
       "recentEvents": [
         {
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (2h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (3h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -172,7 +172,7 @@
       "definition": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs.",
       "mandate": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
       "instructions": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
-      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (4h ago)",
+      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (5h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -250,7 +250,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: SharePoint \u00b7 GrokBot DD - All Documents (1h ago)",
+      "doingNow": "Idle \u2014 last: SharePoint \u00b7 GrokBot DD - All Documents (2h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -406,7 +406,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (20h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (21h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -550,7 +550,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Screening Outlook mail (2h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (3h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -670,7 +670,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Screening Outlook mail",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -686,7 +686,7 @@
       "desk": "Auditor balcony",
       "x": 50,
       "y": 10,
-      "status": "active",
+      "status": "idle",
       "lastSeenAt": "2026-09-11T16:59:02.877000Z",
       "recentEvents": [
         {
@@ -747,8 +747,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T17:29:26.791000Z",
+      "lastSeenAt": "2026-09-11T18:00:45.846000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T18:00:45.846Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T18:00:41.659Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T17:29:26.791Z",
           "label": "Refreshing office viz"
@@ -771,14 +779,6 @@
         },
         {
           "ts": "2026-09-11T16:32:57.035Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T16:29:00.692Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T16:28:55.237Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1308,6 +1308,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T18:00:45.846Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T18:00:41.659Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T17:29:26.791Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1381,18 +1393,6 @@
     },
     {
       "ts": "2026-09-11T16:32:57.035Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T16:29:00.692Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T16:28:55.237Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
