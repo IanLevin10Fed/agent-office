@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:39:27.238092Z",
+  "generatedAt": "2026-09-11T22:43:34.186314Z",
   "timezone": "America/New_York",
   "activeAgentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 25m ago",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (30m ago)",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -68,7 +68,7 @@
       "desk": "Central glass office",
       "x": 50,
       "y": 34,
-      "status": "recent",
+      "status": "idle",
       "lastSeenAt": "2026-09-11T22:13:33.331000Z",
       "recentEvents": [
         {
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Working in Outlook \u00b7 16m ago",
+      "doingNow": "Working in Outlook \u00b7 20m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -735,8 +735,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T22:39:27.133000Z",
+      "lastSeenAt": "2026-09-11T22:43:34.135000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T22:43:34.135Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T22:43:28.161Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T22:39:27.133Z",
           "label": "Refreshing office viz"
@@ -759,14 +767,6 @@
         },
         {
           "ts": "2026-09-11T22:25:32.394Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T22:25:28.054Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T22:13:28.789Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1296,6 +1296,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T22:43:34.135Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T22:43:28.161Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T22:39:27.133Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1327,12 +1339,6 @@
     },
     {
       "ts": "2026-09-11T22:25:32.394Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T22:25:28.054Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
@@ -1390,12 +1396,6 @@
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-11T22:13:28.789Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-11T21:49:12.671Z",
