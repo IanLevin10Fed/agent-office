@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T22:12:01.435672Z",
+  "generatedAt": "2026-09-11T22:13:28.843309Z",
   "timezone": "America/New_York",
   "activeAgentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 22m ago",
+      "doingNow": "Screening Outlook for broker OMs \u00b7 24m ago",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Screening Outlook for broker OMs",
+      "doingNow": "Working in Outlook",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -135,39 +135,39 @@
       "x": 36,
       "y": 46,
       "status": "active",
-      "lastSeenAt": "2026-09-11T22:11:51.666000Z",
+      "lastSeenAt": "2026-09-11T22:13:04.989000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-11T22:11:51.666Z",
+          "ts": "2026-09-11T22:13:04.989Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-11T22:11:34.707Z",
-          "label": "Shell \u00b7 find"
+          "ts": "2026-09-11T22:12:59.981Z",
+          "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-11T22:11:25.870Z",
+          "ts": "2026-09-11T22:12:42.111Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-11T22:12:41.267Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-11T22:12:41.178Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-11T22:12:38.925Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-11T22:12:09.304Z",
           "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-11T21:42:50.401Z",
+          "ts": "2026-09-11T22:12:08.969Z",
           "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-11T21:42:36.479Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-11T21:42:36.546Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-11T21:42:36.361Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-11T21:42:36.529Z",
-          "label": "Working in Outlook"
         }
       ]
     },
@@ -658,7 +658,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Filing deal docs (2h ago)",
+      "doingNow": "Idle \u2014 last: Filing deal docs (3h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -735,8 +735,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T22:12:01.384000Z",
+      "lastSeenAt": "2026-09-11T22:13:28.789000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T22:13:28.789Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T22:13:26.187Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T22:12:01.384Z",
           "label": "Refreshing office viz"
@@ -759,14 +767,6 @@
         },
         {
           "ts": "2026-09-11T21:30:03.415Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T20:51:05.104Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T20:51:00.237Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1296,6 +1296,66 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T22:13:28.789Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T22:13:26.187Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T22:13:04.989Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-11T22:12:59.981Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-11T22:12:42.111Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-11T22:12:41.267Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-11T22:12:41.178Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-11T22:12:38.925Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-11T22:12:09.304Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-11T22:12:08.969Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
       "ts": "2026-09-11T22:12:01.384Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1306,24 +1366,6 @@
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T22:11:51.666Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-11T22:11:34.707Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Shell \u00b7 find"
-    },
-    {
-      "ts": "2026-09-11T22:11:25.870Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
     },
     {
       "ts": "2026-09-11T21:55:41.842Z",
@@ -1390,36 +1432,6 @@
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "SharePoint \u00b7 10 Federal - Live Storage Pipeline - PRE-SUMFIX 9.11.26.xlsx"
-    },
-    {
-      "ts": "2026-09-11T21:42:50.401Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T21:42:36.546Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-11T21:42:36.529Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-11T21:42:36.479Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-11T21:42:36.361Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
     },
     {
       "ts": "2026-09-11T21:33:05.597Z",
@@ -1504,18 +1516,6 @@
       "agentId": "26f91a22-f052-489b-8865-731646053afc",
       "agentName": "Underwriting",
       "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-11T20:51:05.104Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T20:51:00.237Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-11T19:12:29.502Z",
