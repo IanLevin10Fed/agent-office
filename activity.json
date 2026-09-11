@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:51:18.992743Z",
+  "generatedAt": "2026-09-11T23:56:51.517068Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -735,8 +735,20 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T23:51:18.940000Z",
+      "lastSeenAt": "2026-09-11T23:56:51.461000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T23:56:51.461Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T23:56:46.111Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T23:56:43.180Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T23:51:18.940Z",
           "label": "Refreshing office viz"
@@ -755,18 +767,6 @@
         },
         {
           "ts": "2026-09-11T23:41:45.030Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T23:41:41.658Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T23:37:29.575Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T23:37:26.503Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1296,6 +1296,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T23:56:51.461Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T23:56:46.111Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T23:56:43.180Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T23:51:18.940Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1321,24 +1339,6 @@
     },
     {
       "ts": "2026-09-11T23:41:45.030Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T23:41:41.658Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T23:37:29.575Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T23:37:26.503Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
