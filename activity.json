@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:44:13.248185Z",
+  "generatedAt": "2026-09-11T11:49:38.215877Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -250,7 +250,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: SharePoint \u00b7 10Fed Critical Files - Documents - Store #&#39;s TBD - City Storag\u2026 (12h ago)",
+      "doingNow": "Idle \u2014 last: SharePoint \u00b7 10Fed Critical Files - Documents - Store #&#39;s TBD - City Storag\u2026 (13h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -729,8 +729,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T11:44:13.195000Z",
+      "lastSeenAt": "2026-09-11T11:49:38.165000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T11:49:38.165Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T11:49:33.271Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T11:44:13.195Z",
           "label": "Refreshing office viz"
@@ -753,14 +761,6 @@
         },
         {
           "ts": "2026-09-11T11:28:21.079Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T11:26:38.955Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T11:26:31.786Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1290,6 +1290,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T11:49:38.165Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T11:49:33.271Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T11:44:13.195Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1321,18 +1333,6 @@
     },
     {
       "ts": "2026-09-11T11:28:21.079Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T11:26:38.955Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T11:26:31.786Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
