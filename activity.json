@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:54:53.736319Z",
+  "generatedAt": "2026-09-11T12:00:24.182786Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -394,7 +394,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (14h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (15h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -729,8 +729,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T11:54:53.684000Z",
+      "lastSeenAt": "2026-09-11T12:00:24.131000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T12:00:24.131Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T12:00:19.923Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T11:54:53.684Z",
           "label": "Refreshing office viz"
@@ -753,14 +761,6 @@
         },
         {
           "ts": "2026-09-11T11:44:03.023Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T11:41:08.734Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T11:41:01.927Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1290,6 +1290,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T12:00:24.131Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T12:00:19.923Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T11:54:53.684Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1321,18 +1333,6 @@
     },
     {
       "ts": "2026-09-11T11:44:03.023Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T11:41:08.734Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T11:41:01.927Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
