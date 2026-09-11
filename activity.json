@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:00:51.808686Z",
+  "generatedAt": "2026-09-11T11:11:06.787653Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -652,7 +652,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Filing deal docs (15h ago)",
+      "doingNow": "Idle \u2014 last: Filing deal docs (16h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -729,8 +729,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T11:00:51.740000Z",
+      "lastSeenAt": "2026-09-11T11:11:06.735000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T11:11:06.735Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T11:11:02.157Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T11:00:51.740Z",
           "label": "Refreshing office viz"
@@ -753,14 +761,6 @@
         },
         {
           "ts": "2026-09-10T23:57:52.527Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-10T23:57:48.811Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-10T23:54:08.596Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1290,6 +1290,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T11:11:06.735Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T11:11:02.157Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T11:00:51.740Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1417,18 +1429,6 @@
     },
     {
       "ts": "2026-09-10T23:57:52.527Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-10T23:57:48.811Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-10T23:54:08.596Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
