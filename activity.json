@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T20:43:32.502712Z",
+  "generatedAt": "2026-09-11T20:51:05.157520Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -25,15 +25,9 @@
           "direction": "out"
         },
         {
-          "id": "acd901b5-c261-4587-b3f1-86a1157bad67",
-          "name": "Investment Memo",
-          "label": "mentions",
-          "direction": "out"
-        },
-        {
           "id": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
           "name": "Investor Inbox",
-          "label": "mentions",
+          "label": "hands off to",
           "direction": "out"
         },
         {
@@ -59,6 +53,12 @@
           "name": "Off-Market Outreach",
           "label": "routes work for",
           "direction": "in"
+        },
+        {
+          "id": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+          "name": "Process Auditor",
+          "label": "receives audits from",
+          "direction": "in"
         }
       ],
       "color": "orange",
@@ -69,39 +69,39 @@
       "x": 50,
       "y": 34,
       "status": "active",
-      "lastSeenAt": "2026-09-11T20:43:15.284000Z",
+      "lastSeenAt": "2026-09-11T20:50:38.351000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-11T20:43:15.284Z",
+          "ts": "2026-09-11T20:50:38.351Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-11T20:42:17.400Z",
+          "ts": "2026-09-11T20:48:24.060Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-11T20:41:58.234Z",
-          "label": "Screening Outlook for broker OMs"
+          "ts": "2026-09-11T20:48:09.208Z",
+          "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-11T20:41:58.214Z",
-          "label": "Screening Outlook for broker OMs"
+          "ts": "2026-09-11T20:48:08.386Z",
+          "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-11T20:41:57.791Z",
-          "label": "Screening Outlook for broker OMs"
+          "ts": "2026-09-11T20:48:01.336Z",
+          "label": "Shell \u00b7 SLUG='p951m7xn5VwF3_ZI-hxj85xKWF8OvJ37L2qnxofzwXE'"
         },
         {
-          "ts": "2026-09-11T20:41:51.387Z",
-          "label": "Screening Outlook for broker OMs"
+          "ts": "2026-09-11T20:47:54.448Z",
+          "label": "Shell \u00b7 SLUG='p951m7xn5VwF3_ZI-hxj85xKWF8OvJ37L2qnxofzwXE'"
         },
         {
-          "ts": "2026-09-11T20:41:51.343Z",
-          "label": "Screening Outlook for broker OMs"
+          "ts": "2026-09-11T20:47:47.488Z",
+          "label": "Shell \u00b7 curl"
         },
         {
-          "ts": "2026-09-11T20:41:36.679Z",
-          "label": "Screening Outlook for broker OMs"
+          "ts": "2026-09-11T20:47:36.553Z",
+          "label": "Checking Juniper Square"
         }
       ]
     },
@@ -112,12 +112,18 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Screening Outlook for broker OMs",
+      "doingNow": "Screening Outlook mail \u00b7 7m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
           "name": "Chief of Staff",
           "label": "flags items to",
+          "direction": "out"
+        },
+        {
+          "id": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+          "name": "Investor Inbox",
+          "label": "mentions",
           "direction": "out"
         }
       ],
@@ -128,9 +134,29 @@
       "desk": "Mail pod (near CoS)",
       "x": 36,
       "y": 46,
-      "status": "active",
-      "lastSeenAt": "2026-09-11T20:43:18.899000Z",
+      "status": "recent",
+      "lastSeenAt": "2026-09-11T20:44:01.816000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T20:44:01.816Z",
+          "label": "Screening Outlook mail"
+        },
+        {
+          "ts": "2026-09-11T20:43:35.522Z",
+          "label": "Screening Outlook for broker OMs"
+        },
+        {
+          "ts": "2026-09-11T20:43:35.713Z",
+          "label": "Shell \u00b7 NL=$(cat"
+        },
+        {
+          "ts": "2026-09-11T20:43:35.075Z",
+          "label": "Screening Outlook for broker OMs"
+        },
+        {
+          "ts": "2026-09-11T20:43:34.698Z",
+          "label": "Screening Outlook for broker OMs"
+        },
         {
           "ts": "2026-09-11T20:43:18.826Z",
           "label": "Screening Outlook for broker OMs"
@@ -141,26 +167,6 @@
         },
         {
           "ts": "2026-09-11T20:43:17.114Z",
-          "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-11T20:43:16.255Z",
-          "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-11T20:43:15.283Z",
-          "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-11T20:43:14.345Z",
-          "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-11T20:43:00.508Z",
-          "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-11T20:42:56.702Z",
           "label": "Screening Outlook for broker OMs"
         }
       ]
@@ -335,12 +341,6 @@
           "name": "Underwriting",
           "label": "pairs with",
           "direction": "out"
-        },
-        {
-          "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-          "name": "Chief of Staff",
-          "label": "mentions",
-          "direction": "in"
         }
       ],
       "color": "blue",
@@ -599,6 +599,12 @@
           "name": "Chief of Staff",
           "label": "routes via CoS",
           "direction": "out"
+        },
+        {
+          "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+          "name": "Email Organizer",
+          "label": "mentions",
+          "direction": "in"
         }
       ],
       "color": "green",
@@ -729,8 +735,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T20:43:32.448000Z",
+      "lastSeenAt": "2026-09-11T20:51:05.104000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T20:51:05.104Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T20:51:00.237Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T20:43:32.448Z",
           "label": "Refreshing office viz"
@@ -754,14 +768,6 @@
         {
           "ts": "2026-09-11T20:30:29.460Z",
           "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T20:16:06.456Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T20:15:59.637Z",
-          "label": "Refreshing office viz"
         }
       ]
     }
@@ -772,7 +778,7 @@
       "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "label": "routes via CoS",
       "text": "routes via CoS",
-      "ts": "2026-09-11T20:28:47.032Z"
+      "ts": "2026-09-11T20:47:36.553Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -923,17 +929,17 @@
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
-      "label": "mention",
-      "text": "Ping",
-      "ts": "2026-09-11T20:39:56.756Z"
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "label": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-11T20:47:36.553Z"
     },
     {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-11T20:34:34.113Z"
+      "ts": "2026-09-11T20:41:51.339Z"
     }
   ],
   "playbook": [
@@ -1073,30 +1079,30 @@
   "conversations": [
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "fromName": "Chief of Staff",
-      "toName": "Investment Memo",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-11T20:39:56.756Z"
+      "toName": "Email Organizer",
+      "kind": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": "2026-09-11T20:47:36.553Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "fromName": "Chief of Staff",
       "toName": "Investor Inbox",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-11T20:34:34.113Z"
+      "kind": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-11T20:47:36.553Z"
     },
     {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "fromName": "Chief of Staff",
-      "toName": "Email Organizer",
-      "kind": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": "2026-09-11T20:28:47.032Z"
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "fromName": "Email Organizer",
+      "toName": "Investor Inbox",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-11T20:41:51.339Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -1290,6 +1296,96 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T20:51:05.104Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T20:51:00.237Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T20:50:38.351Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-11T20:48:24.060Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-11T20:48:09.208Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-11T20:48:08.386Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-11T20:48:01.336Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Shell \u00b7 SLUG='p951m7xn5VwF3_ZI-hxj85xKWF8OvJ37L2qnxofzwXE'"
+    },
+    {
+      "ts": "2026-09-11T20:47:54.448Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Shell \u00b7 SLUG='p951m7xn5VwF3_ZI-hxj85xKWF8OvJ37L2qnxofzwXE'"
+    },
+    {
+      "ts": "2026-09-11T20:47:47.488Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Shell \u00b7 curl"
+    },
+    {
+      "ts": "2026-09-11T20:47:36.553Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Checking Juniper Square"
+    },
+    {
+      "ts": "2026-09-11T20:44:01.816Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Screening Outlook mail"
+    },
+    {
+      "ts": "2026-09-11T20:43:35.713Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 NL=$(cat"
+    },
+    {
+      "ts": "2026-09-11T20:43:35.522Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-11T20:43:35.075Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-11T20:43:34.698Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
       "ts": "2026-09-11T20:43:32.448Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1320,84 +1416,6 @@
       "text": "Screening Outlook for broker OMs"
     },
     {
-      "ts": "2026-09-11T20:43:16.255Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:43:15.284Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-11T20:43:15.283Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:43:14.345Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:43:00.508Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:42:56.702Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:42:17.400Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-11T20:41:58.234Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:41:58.214Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:41:57.791Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:41:51.387Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:41:51.343Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-11T20:41:36.679Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
       "ts": "2026-09-11T20:38:19.899Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1417,18 +1435,6 @@
     },
     {
       "ts": "2026-09-11T20:30:29.460Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T20:16:06.456Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T20:15:59.637Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
