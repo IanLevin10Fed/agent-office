@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T18:11:02.072330Z",
+  "generatedAt": "2026-09-11T18:17:49.866403Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -610,7 +610,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (4h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (5h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -747,8 +747,16 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-11T18:11:02.019000Z",
+      "lastSeenAt": "2026-09-11T18:17:49.814000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-11T18:17:49.814Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-11T18:17:46.054Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-11T18:11:02.019Z",
           "label": "Refreshing office viz"
@@ -771,14 +779,6 @@
         },
         {
           "ts": "2026-09-11T17:29:23.434Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T16:37:18.748Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T16:37:13.364Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1308,6 +1308,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-11T18:17:49.814Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-11T18:17:46.054Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-11T18:11:02.019Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1384,18 +1396,6 @@
       "agentId": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
       "agentName": "Process Auditor",
       "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-11T16:37:18.748Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-11T16:37:13.364Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-11T15:54:04.964Z",
