@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T21:12:24.469799Z",
+  "generatedAt": "2026-09-12T21:13:52.406801Z",
   "timezone": "America/New_York",
-  "activeAgentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+  "activeAgentId": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Filing deal docs \u00b7 2m ago",
+      "doingNow": "Filing deal docs \u00b7 4m ago",
       "partners": [
         {
           "id": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
@@ -37,6 +37,12 @@
           "direction": "out"
         },
         {
+          "id": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+          "name": "Due Diligence",
+          "label": "routes work for",
+          "direction": "in"
+        },
+        {
           "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
           "name": "File Explorer",
           "label": "routes work for",
@@ -52,12 +58,6 @@
           "id": "400779c3-c62a-4654-8057-56954b605cbf",
           "name": "Off-Market Outreach",
           "label": "routes work for",
-          "direction": "in"
-        },
-        {
-          "id": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-          "name": "Process Auditor",
-          "label": "receives audits from",
           "direction": "in"
         }
       ],
@@ -259,15 +259,15 @@
           "direction": "out"
         },
         {
-          "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-          "name": "Inbound Deals",
-          "label": "files for",
+          "id": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+          "name": "Due Diligence",
+          "label": "triggers UC for",
           "direction": "out"
         },
         {
-          "id": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-          "name": "Under Contract DD",
-          "label": "triggers UC for",
+          "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+          "name": "Inbound Deals",
+          "label": "files for",
           "direction": "out"
         }
       ],
@@ -279,8 +279,12 @@
       "x": 28,
       "y": 60,
       "status": "active",
-      "lastSeenAt": "2026-09-12T21:10:26.910000Z",
+      "lastSeenAt": "2026-09-12T21:13:24.388000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-12T21:13:24.388Z",
+          "label": "Shell \u00b7 python3"
+        },
         {
           "ts": "2026-09-12T21:10:26.910Z",
           "label": "Filing deal docs"
@@ -308,10 +312,6 @@
         {
           "ts": "2026-09-11T21:49:07.323Z",
           "label": "Shell \u00b7 cat"
-        },
-        {
-          "ts": "2026-09-11T21:48:58.338Z",
-          "label": "Shell \u00b7 python3"
         }
       ]
     },
@@ -455,7 +455,7 @@
     },
     {
       "id": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "name": "Under Contract DD",
+      "name": "Due Diligence",
       "role": "Post\u2013Under Contract internal due diligence",
       "definition": "Post\u2013Under Contract internal due diligence for 10 Federal acquisitions. Triggered only after File Explorer confirms a deal under 01.",
       "mandate": "Post\u2013Under Contract internal due diligence for 10 Federal acquisitions. Triggered only after File Explorer confirms a deal under 01. Under Contract. Reviews ALTA/survey, title, PCR, Phase I, zoning. Standing: open CompanyCam (app.companycam.com/projects), match by address, download all photos into deal `CompanyCam photos` folder; capture Google Earth screenshots into `Google Earth`; use both for condition DD. Outputs abstracts under GrokBot DD. Archive-first \u2014 never delete seller DD.",
@@ -473,13 +473,19 @@
           "name": "File Explorer",
           "label": "reads UC filing from",
           "direction": "out"
+        },
+        {
+          "id": "ce012f92-2588-4894-8547-5e318c41054a",
+          "name": "Visuals",
+          "label": "mentions",
+          "direction": "in"
         }
       ],
       "color": "cyan",
       "colorHex": "#3ecfcf",
       "shape": "wedge",
       "zone": "diligence",
-      "desk": "Diligence room",
+      "desk": "Due Diligence room",
       "x": 86,
       "y": 48,
       "status": "idle",
@@ -653,12 +659,6 @@
           "name": "Chief of Staff",
           "label": "surfaces issues to",
           "direction": "out"
-        },
-        {
-          "id": "ce012f92-2588-4894-8547-5e318c41054a",
-          "name": "Visuals",
-          "label": "mentions",
-          "direction": "in"
         }
       ],
       "color": "black",
@@ -709,9 +709,9 @@
       "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
       "name": "Bot Creator",
       "role": "Designs and creates new Grok Bots; aligns roles with CoS/fleet",
-      "definition": "Designs high-quality Grok Bots. Asks a few preference questions, then creates them with CreateAgent.",
-      "mandate": "Designs high-quality Grok Bots. Asks a few preference questions, then creates them with CreateAgent. Coding bots get the poteto-mode bar (one job, unslopped, verified). Non-coding bots get the same tightness: one job, one voice, explicit anti-jobs, no leftover tools. Casual, a little mad-scientist, short lowercase. Bias to act once the job is clear. Does not default to shareable templates.",
-      "instructions": "Designs high-quality Grok Bots. Asks a few preference questions, then creates them with CreateAgent. Coding bots get the poteto-mode bar (one job, unslopped, verified). Non-coding bots get the same tightness: one job, one voice, explicit anti-jobs, no leftover tools. Casual, a little mad-scientist, short lowercase. Bias to act once the job is clear. Does not default to shareable templates.",
+      "definition": "Designs high-quality Grok Bots. Asks a few preference questions, then CreateAgent.",
+      "mandate": "Designs high-quality Grok Bots. Asks a few preference questions, then CreateAgent. Coding bots get the poteto-mode bar (one job, unslopped, verified). Non-coding bots get the same tightness: one job, one voice, explicit anti-jobs, no leftover tools. Partners with Chief of Staff and Process Auditor on every proposed bot before create (outcome, one job, anti-jobs, handoffs, why not existing); after create, one-line to CoS with id + schedule, and ping Visuals so the office floor roster stays accurate.\u2026",
+      "instructions": "Designs high-quality Grok Bots. Asks a few preference questions, then CreateAgent. Coding bots get the poteto-mode bar (one job, unslopped, verified). Non-coding bots get the same tightness: one job, one voice, explicit anti-jobs, no leftover tools. Partners with Chief of Staff and Process Auditor on every proposed bot before create (outcome, one job, anti-jobs, handoffs, why not existing); after create, one-line to CoS with id + schedule, and ping Visuals so the office floor roster stays accurate.\u2026",
       "doingNow": "Idle \u2014 no recent activity",
       "partners": [
         {
@@ -754,8 +754,8 @@
           "direction": "out"
         },
         {
-          "id": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-          "name": "Process Auditor",
+          "id": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+          "name": "Due Diligence",
           "label": "mentions",
           "direction": "out"
         }
@@ -768,8 +768,12 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-12T21:12:24.116000Z",
+      "lastSeenAt": "2026-09-12T21:13:52.278000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-12T21:13:52.278Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-12T21:12:24.116Z",
           "label": "Refreshing office viz"
@@ -797,10 +801,6 @@
         {
           "ts": "2026-09-11T23:48:16.904Z",
           "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-11T23:48:12.715Z",
-          "label": "Refreshing office viz"
         }
       ]
     }
@@ -826,13 +826,6 @@
       "label": "files for",
       "text": "files for",
       "ts": "2026-09-11T21:05:46.946Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "label": "triggers UC for",
-      "text": "triggers UC for",
-      "ts": "2026-09-11T21:05:10.951Z"
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
@@ -888,6 +881,13 @@
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "label": "pairs with",
       "text": "pairs with",
+      "ts": null
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "triggers UC for",
+      "text": "triggers UC for",
       "ts": null
     },
     {
@@ -962,16 +962,16 @@
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-12T21:12:24.116Z"
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "label": "mention",
+      "text": "Ping",
+      "ts": "2026-09-12T21:13:52.278Z"
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "label": "mention",
-      "text": "Ping",
+      "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "label": "reference",
+      "text": "Ref",
       "ts": "2026-09-12T21:12:24.116Z"
     }
   ],
@@ -1112,20 +1112,20 @@
   "conversations": [
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "Visuals",
+      "toName": "Due Diligence",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-12T21:13:52.278Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
       "fromName": "Visuals",
       "toName": "Bot Creator",
       "kind": "reference",
       "text": "Ref",
-      "ts": "2026-09-12T21:12:24.116Z"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "fromName": "Visuals",
-      "toName": "Process Auditor",
-      "kind": "mention",
-      "text": "Ping",
       "ts": "2026-09-12T21:12:24.116Z"
     },
     {
@@ -1154,15 +1154,6 @@
       "kind": "files for",
       "text": "files for",
       "ts": "2026-09-11T21:05:46.946Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "fromName": "File Explorer",
-      "toName": "Under Contract DD",
-      "kind": "triggers UC for",
-      "text": "triggers UC for",
-      "ts": "2026-09-11T21:05:10.951Z"
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
@@ -1237,9 +1228,18 @@
       "ts": null
     },
     {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "fromName": "File Explorer",
+      "toName": "Due Diligence",
+      "kind": "triggers UC for",
+      "text": "triggers UC for",
+      "ts": null
+    },
+    {
       "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Under Contract DD",
+      "fromName": "Due Diligence",
       "toName": "File Explorer",
       "kind": "reads UC filing from",
       "text": "reads UC filing from",
@@ -1293,7 +1293,7 @@
     {
       "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Under Contract DD",
+      "fromName": "Due Diligence",
       "toName": "Chief of Staff",
       "kind": "routes via CoS",
       "text": "routes via CoS",
@@ -1328,6 +1328,18 @@
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-12T21:13:52.278Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-12T21:13:24.388Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 python3"
+    },
     {
       "ts": "2026-09-12T21:12:24.116Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -1551,22 +1563,10 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-11T23:48:12.715Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-11T21:49:07.323Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Shell \u00b7 cat"
-    },
-    {
-      "ts": "2026-09-11T21:48:58.338Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 python3"
     }
   ],
   "landmarks": [
