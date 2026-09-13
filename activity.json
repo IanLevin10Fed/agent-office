@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T15:00:23.343572Z",
+  "generatedAt": "2026-09-13T15:00:58.608393Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -720,7 +720,7 @@
     {
       "id": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "name": "Market Tracker",
-      "role": "On-market self-storage discovery (All US) \u2014 weekly Mon 8am ET \u2192 Tracker.xlsx; promote via CoS\u2192FE",
+      "role": "On-market self-storage discovery (All US) \u2014 weekly Mon 8am ET \u2192 Tracker.xlsx (Promote Status kept)",
       "definition": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly upserts into Investments\u2026",
       "mandate": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly upserts into Investments / Shared Documents / Self Storage / Investment Tracker.xlsx on columns Name/Investment Name, Address (+City/State), Asking Price / Purchase Price, Source, Listing URL, Last Seen, Promote Status (`listed` on NEW only; never overwrite promoted). Match: Address primary; Name/Investment Name as aliases (don\u2019t require exact header string).\u2026",
       "instructions": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly upserts into Investments / Shared Documents / Self Storage / Investment Tracker.xlsx on columns Name/Investment Name, Address (+City/State), Asking Price / Purchase Price, Source, Listing URL, Last Seen, Promote Status (`listed` on NEW only; never overwrite promoted). Match: Address primary; Name/Investment Name as aliases (don\u2019t require exact header string).\u2026",
@@ -813,8 +813,12 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-13T15:00:23.213000Z",
+      "lastSeenAt": "2026-09-13T15:00:58.492000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T15:00:58.492Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-13T15:00:23.213Z",
           "label": "Refreshing office viz"
@@ -841,10 +845,6 @@
         },
         {
           "ts": "2026-09-12T21:37:14.856Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-12T21:36:42.122Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1471,6 +1471,12 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-13T15:00:58.492Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-13T15:00:23.213Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1568,12 +1574,6 @@
     },
     {
       "ts": "2026-09-12T21:37:14.856Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-12T21:36:42.122Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
