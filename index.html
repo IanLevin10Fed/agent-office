@@ -36,7 +36,7 @@
 
   .app {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
     height: 100%;
     min-height: 640px;
   }
@@ -107,7 +107,63 @@
   .dot { width: 7px; height: 7px; border-radius: 50%; }
   .dot.active { background: #3ecf8e; box-shadow: 0 0 10px #3ecf8e; }
   .dot.recent { background: var(--warm); box-shadow: 0 0 8px var(--warm-glow); }
+
   .dot.idle { background: #4a4d56; }
+
+  /* —— Mode + pipeline —— */
+  .mode-tog {
+    display: flex; gap: 0.2rem; align-items: center;
+    padding: 0.18rem;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--stroke);
+    border-radius: 999px;
+  }
+  .mode-tog .tog { min-width: 3.2rem; text-align: center; font-weight: 600; letter-spacing: 0.04em; }
+  .pipeline-strip {
+    display: flex; align-items: center; justify-content: center; flex-wrap: wrap;
+    gap: 0.25rem 0.15rem;
+    padding: 0.35rem 1rem 0.45rem;
+    border-bottom: 1px solid var(--stroke);
+    background: rgba(8,9,12,0.92);
+    z-index: 19;
+  }
+  .pipe-stage {
+    font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--muted);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+  }
+  .pipe-stage.active {
+    color: var(--warm);
+    background: rgba(201,166,107,0.1);
+    border-color: rgba(201,166,107,0.28);
+  }
+  .pipe-arrow {
+    color: rgba(201,166,107,0.35);
+    font-size: 0.55rem;
+    padding: 0 0.1rem;
+    user-select: none;
+  }
+  .room.ops-bridges {
+    background: linear-gradient(135deg, rgba(62,207,207,0.06), rgba(61,158,111,0.05));
+    border-color: rgba(62,207,207,0.18);
+    box-shadow: inset 0 0 28px rgba(62,207,207,0.04);
+  }
+  .conn-line.structure {
+    stroke-width: 2.1;
+    opacity: 0.78;
+    stroke-dasharray: none;
+  }
+  .conn-line.adjacent {
+    stroke-width: 2.4;
+    opacity: 0.85;
+    stroke-dasharray: 1 0;
+    filter: drop-shadow(0 0 3px rgba(62,207,207,0.35));
+  }
+  .conn-line.generic-cos { opacity: 0.35; stroke-dasharray: 2 8; }
+  .floor.mode-org .conn-packet { opacity: 0.35; }
+  .floor.mode-org .fly-bubble { opacity: 0.55; }
 
   /* —— Main —— */
   main {
@@ -1006,6 +1062,12 @@
   }
 
   .shape-svg { overflow: visible; }
+
+  @media (max-width: 768px) {
+    .pipeline-strip { padding: 0.28rem 0.6rem 0.35rem; gap: 0.1rem; }
+    .pipe-stage { font-size: 0.52rem; padding: 0.15rem 0.4rem; letter-spacing: 0.06em; }
+    .pipe-arrow { font-size: 0.45rem; }
+  }
 </style>
 </head>
 <body>
@@ -1015,11 +1077,15 @@
       <div class="brand-mark" aria-hidden="true"></div>
       <div>
         <h1>10 Federal <span>· Agent Office</span></h1>
-        <div class="sub">Ops floor · live conversations</div>
+        <div class="sub">Ops floor · Org / Live · swimlanes</div>
       </div>
     </div>
     <div class="meta">
       <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="togGroup" title="Display options" aria-label="Display options">☰</button>
+      <div class="mode-tog" role="group" aria-label="Floor mode" id="modeGroup">
+        <button type="button" class="tog" id="modeOrg" aria-pressed="true" title="Playbook structure · quieter chatter">Org</button>
+        <button type="button" class="tog" id="modeLive" aria-pressed="false" title="Live packets + recent feed">Live</button>
+      </div>
       <div class="toggles" role="group" aria-label="Display toggles" id="togGroup">
         <button type="button" class="tog" id="togConv" aria-pressed="true" title="Flying conversation bubbles">Conversations</button>
         <button type="button" class="tog" id="togArcs" aria-pressed="true" title="Connection arcs">Arcs</button>
@@ -1037,30 +1103,51 @@
     </div>
   </header>
 
+  <div class="pipeline-strip" id="pipelineStrip" aria-label="Deal pipeline stages">
+    <span class="pipe-stage active" data-stage="discover">Discover</span>
+    <span class="pipe-arrow" aria-hidden="true">→</span>
+    <span class="pipe-stage" data-stage="intake">Intake</span>
+    <span class="pipe-arrow" aria-hidden="true">→</span>
+    <span class="pipe-stage" data-stage="screen">Screen</span>
+    <span class="pipe-arrow" aria-hidden="true">→</span>
+    <span class="pipe-stage" data-stage="loi">LOI/UW</span>
+    <span class="pipe-arrow" aria-hidden="true">→</span>
+    <span class="pipe-stage" data-stage="uc">UC</span>
+    <span class="pipe-arrow" aria-hidden="true">→</span>
+    <span class="pipe-stage" data-stage="dd">DD</span>
+  </div>
+
   <main>
     <div class="floor-wrap" id="floorWrap">
       <canvas id="particles" aria-hidden="true"></canvas>
       <div class="floor" id="floor" role="img" aria-label="Agent office floor plan">
-        <div class="room glass" style="left:38%; top:20%; width:24%; height:30%;"></div>
-        <div class="room balcony" style="left:35%; top:2%; width:30%; height:12%;"></div>
-        <div class="room" style="left:4%; top:14%; width:22%; height:26%;"></div>
-        <div class="room" style="left:74%; top:14%; width:22%; height:26%;"></div>
-        <div class="room" style="left:72%; top:42%; width:24%; height:20%;"></div>
-        <div class="room" style="left:4%; top:58%; width:22%; height:22%;"></div>
-        <div class="room" style="left:70%; top:66%; width:26%; height:24%;"></div>
-        <div class="room" style="left:30%; top:42%; width:16%; height:16%;"></div>
-        <div class="room" style="left:40%; top:70%; width:20%; height:16%;"></div>
+        <div class="room balcony" style="left:28%; top:1%; width:54%; height:14%;"></div>
+        <div class="room glass" style="left:40%; top:16%; width:20%; height:22%;"></div>
+        <div class="room ops-bridges" style="left:6%; top:34%; width:28%; height:18%;"></div>
+        <div class="room" style="left:2%; top:12%; width:14%; height:16%;"></div>
+        <div class="room" style="left:14%; top:20%; width:14%; height:16%;"></div>
+        <div class="room" style="left:28%; top:16%; width:12%; height:16%;"></div>
+        <div class="room" style="left:64%; top:12%; width:14%; height:16%;"></div>
+        <div class="room" style="left:78%; top:20%; width:18%; height:18%;"></div>
+        <div class="room" style="left:78%; top:42%; width:18%; height:18%;"></div>
+        <div class="room" style="left:4%; top:60%; width:18%; height:18%;"></div>
+        <div class="room" style="left:26%; top:72%; width:36%; height:18%;"></div>
 
-        <span class="zone-label" style="left:42%; top:22%;">Glass office</span>
-        <span class="zone-label" style="left:42%; top:3%;">Observer balcony</span>
-        <span class="zone-label" style="left:6%; top:15%;">Intake</span>
-        <span class="zone-label" style="left:76%; top:15%;">Modeling</span>
-        <span class="zone-label" style="left:74%; top:43%;">Diligence</span>
-        <span class="zone-label" style="left:6%; top:59%;">Off-market</span>
-        <span class="zone-label" style="left:72%; top:68%;">Design studio</span>
-        <span class="zone-label" style="left:26%; top:54%;">Filing</span>
-        <span class="zone-label" style="left:31%; top:43%;">Mail pod</span>
-        <span class="zone-label" style="left:44%; top:72%;">IR inbox</span>
+        <span class="zone-label" style="left:40%; top:2%;">Command</span>
+        <span class="zone-label" style="left:30%; top:3%;">Auditor</span>
+        <span class="zone-label" style="left:56%; top:3%;">Creator</span>
+        <span class="zone-label" style="left:70%; top:3%;">Studio</span>
+        <span class="zone-label" style="left:42%; top:17%;">Glass office</span>
+        <span class="zone-label" style="left:8%; top:35%;">Ops bridges</span>
+        <span class="zone-label" style="left:3%; top:13%;">Markets</span>
+        <span class="zone-label" style="left:15%; top:21%;">Filing</span>
+        <span class="zone-label" style="left:29%; top:17%;">Intake</span>
+        <span class="zone-label" style="left:65%; top:13%;">Memo</span>
+        <span class="zone-label" style="left:80%; top:21%;">Underwrite</span>
+        <span class="zone-label" style="left:80%; top:43%;">UC · DD</span>
+        <span class="zone-label" style="left:5%; top:61%;">Outreach</span>
+        <span class="zone-label" style="left:30%; top:73%;">Mail</span>
+        <span class="zone-label" style="left:48%; top:73%;">IR inbox</span>
 
         <svg id="connections" aria-hidden="true"></svg>
         <div id="landmarks"></div>
@@ -1130,12 +1217,99 @@
   let selectedId = null;
   let focusPartners = new Set();
 
+  const COS_ID = "047a4f56-2d22-49bd-a9df-5323d46cb0ab";
+  const LS_MODE = "officeFloorMode";
+  const LS_PREFS = "officeFloorPrefs";
+
   const prefs = {
     conversations: true,
     arcs: true,
     compactFeed: false,
     focus: false,
+    mode: "org", // "org" | "live"
   };
+
+  try {
+    const savedMode = localStorage.getItem(LS_MODE);
+    if (savedMode === "org" || savedMode === "live") prefs.mode = savedMode;
+    const savedPrefs = JSON.parse(localStorage.getItem(LS_PREFS) || "null");
+    if (savedPrefs && typeof savedPrefs === "object") {
+      if (typeof savedPrefs.conversations === "boolean") prefs.conversations = savedPrefs.conversations;
+      if (typeof savedPrefs.arcs === "boolean") prefs.arcs = savedPrefs.arcs;
+      if (typeof savedPrefs.compactFeed === "boolean") prefs.compactFeed = savedPrefs.compactFeed;
+      if (typeof savedPrefs.focus === "boolean") prefs.focus = savedPrefs.focus;
+    }
+  } catch (e) { /* ignore */ }
+
+  function persistPrefs() {
+    try {
+      localStorage.setItem(LS_MODE, prefs.mode);
+      localStorage.setItem(LS_PREFS, JSON.stringify({
+        conversations: prefs.conversations,
+        arcs: prefs.arcs,
+        compactFeed: prefs.compactFeed,
+        focus: prefs.focus,
+      }));
+    } catch (e) { /* ignore */ }
+  }
+
+  function isGenericCosEdge(it) {
+    if (!it) return false;
+    if (it.genericCos) return true;
+    const lbl = String(it.label || it.text || it.kind || "").trim();
+    return lbl === "routes via CoS";
+  }
+
+  function isAdjacentEdge(it) {
+    const lbl = String(it.label || it.text || it.kind || "").toLowerCase();
+    return lbl.includes("adjacent ops") || lbl.includes("pairs on rm");
+  }
+
+  function isPlaybookEdge(it) {
+    if (!it) return false;
+    if (it._playbook) return true;
+    const pb = (activity && activity.playbook) || [];
+    return pb.some(e => e.from === it.from && e.to === it.to && e.label === (it.label || it.text));
+  }
+
+  function shouldShowGenericCos(it) {
+    // Show when Focus is on, or selected desk is CoS or an endpoint of this edge
+    if (prefs.focus && selectedId) return true;
+    if (!selectedId) return false;
+    if (selectedId === COS_ID) return true;
+    if (it.from === selectedId || it.to === selectedId) return true;
+    return false;
+  }
+
+  function syncModeUI() {
+    const orgBtn = document.getElementById("modeOrg");
+    const liveBtn = document.getElementById("modeLive");
+    if (orgBtn) orgBtn.setAttribute("aria-pressed", prefs.mode === "org" ? "true" : "false");
+    if (liveBtn) liveBtn.setAttribute("aria-pressed", prefs.mode === "live" ? "true" : "false");
+    const floor = document.getElementById("floor");
+    if (floor) {
+      floor.classList.toggle("mode-org", prefs.mode === "org");
+      floor.classList.toggle("mode-live", prefs.mode === "live");
+    }
+  }
+
+  function setMode(mode) {
+    if (mode !== "org" && mode !== "live") return;
+    prefs.mode = mode;
+    persistPrefs();
+    syncModeUI();
+    if (activity) {
+      renderConnections();
+      rebuildSpawnQueue();
+      // Clear flying when switching to Org for quieter floor
+      if (prefs.mode === "org") {
+        while (flying.length) {
+          const f = flying.pop();
+          f.el.remove();
+        }
+      }
+    }
+  }
 
   const COLOR = {
     orange: "#e8943a",
@@ -1286,16 +1460,30 @@
   }
 
   function conversationSource() {
+    if (prefs.mode === "org") {
+      // Playbook-only bubbles; skip generic CoS hub spam
+      const pb = ((activity && activity.playbook) || []).filter(e => !isGenericCosEdge(e) || shouldShowGenericCos(e));
+      return pb.slice(0, 14).map(e => ({
+        from: e.from,
+        to: e.to,
+        kind: e.label || "link",
+        text: e.label || e.text || "link",
+        ts: null,
+      }));
+    }
     const conv = (activity && activity.conversations) || [];
-    if (conv.length) return conv;
+    const filtered = conv.filter(c => !isGenericCosEdge(c) || shouldShowGenericCos(c));
+    if (filtered.length) return filtered;
     // fallback: interactions + short text
-    return ((activity && activity.interactions) || []).map(it => ({
-      from: it.from,
-      to: it.to,
-      kind: it.label || "link",
-      text: it.text || (it.label === "handoff" ? "Handoff" : it.label === "mention" ? "Ping" : "Msg"),
-      ts: it.ts,
-    }));
+    return ((activity && activity.interactions) || [])
+      .filter(it => !isGenericCosEdge(it) || shouldShowGenericCos(it))
+      .map(it => ({
+        from: it.from,
+        to: it.to,
+        kind: it.label || "link",
+        text: it.text || (it.label === "handoff" ? "Handoff" : it.label === "mention" ? "Ping" : "Msg"),
+        ts: it.ts,
+      }));
   }
 
   function rebuildSpawnQueue() {
@@ -1404,7 +1592,7 @@
       d.classList.toggle("focus-on", on);
       d.classList.toggle("selected", d.dataset.id === selectedId);
     });
-    document.querySelectorAll(".conn-line").forEach(p => {
+    document.querySelectorAll(".conn-line, .conn-packet").forEach(p => {
       const linked = !!selectedId && (
         p.dataset.from === selectedId || p.dataset.to === selectedId
       );
@@ -1416,6 +1604,10 @@
     });
     floor.classList.toggle("focus-mode", prefs.focus && !!selectedId);
     floor.classList.toggle("has-selection", !!selectedId);
+  }
+
+  function refreshArcsForSelection() {
+    if (activity && prefs.arcs) renderConnections();
   }
 
   function renderLandmarks() {
@@ -1462,6 +1654,7 @@
         setFocusPartnersFor(a.id);
         selectAgent(a.id);
         applyFocusClasses();
+        refreshArcsForSelection();
       });
       el.addEventListener("mouseenter", (ev) => showTip(ev, a));
       el.addEventListener("mousemove", (ev) => moveTip(ev));
@@ -1473,7 +1666,11 @@
     applyFocusClasses();
   }
 
+  let _renderingConns = false;
   function renderConnections() {
+    if (_renderingConns) return;
+    _renderingConns = true;
+    try {
     const svg = document.getElementById("connections");
     const floor = document.getElementById("floor");
     const w = floor.clientWidth || 800;
@@ -1492,13 +1689,25 @@
     svg.appendChild(defs);
 
     const edgeMap = new Map();
-    function addEdge(it) {
+    function addEdge(it, asPlaybook) {
       if (!it || !it.from || !it.to) return;
+      if (isGenericCosEdge(it) && !shouldShowGenericCos(it)) return;
       const key = it.from + ">" + it.to;
-      if (!edgeMap.has(key)) edgeMap.set(key, it);
+      const enriched = Object.assign({}, it, { _playbook: asPlaybook || !!it._playbook || isPlaybookEdge(it) });
+      const prev = edgeMap.get(key);
+      if (!prev) {
+        edgeMap.set(key, enriched);
+        return;
+      }
+      // Prefer playbook blurbs
+      if (enriched._playbook && !prev._playbook) edgeMap.set(key, enriched);
     }
-    (activity.playbook || []).forEach(addEdge);
-    (activity.interactions || []).forEach(addEdge);
+
+    (activity.playbook || []).forEach(e => addEdge(e, true));
+    if (prefs.mode === "live") {
+      (activity.interactions || []).forEach(e => addEdge(e, false));
+    }
+
     Array.from(edgeMap.values()).forEach((it, i) => {
       const a = pos[it.from], b = pos[it.to];
       if (!a || !b) return;
@@ -1507,13 +1716,23 @@
       const d = `M ${a.x} ${a.y} Q ${midX} ${midY} ${b.x} ${b.y}`;
       const fromA = agentById(it.from);
       const stroke = fromA ? hexFor(fromA) : "rgba(201,166,107,0.5)";
+      const generic = isGenericCosEdge(it);
+      const adjacent = isAdjacentEdge(it);
+      const structure = !!it._playbook && prefs.mode === "org";
+
+      let cls = "conn-line";
+      if (it.label === "handoff") cls += " handoff";
+      if (structure) cls += " structure";
+      if (adjacent) cls += " adjacent";
+      if (generic) cls += " generic-cos";
 
       const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
       path.setAttribute("d", d);
-      path.setAttribute("class", "conn-line" + (it.label === "handoff" ? " handoff" : ""));
+      path.setAttribute("class", cls);
       path.setAttribute("stroke", stroke);
       path.dataset.from = it.from;
       path.dataset.to = it.to;
+      if (generic) path.dataset.genericCos = "1";
       path.style.pointerEvents = "stroke";
       path.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -1521,21 +1740,29 @@
       });
       svg.appendChild(path);
 
-      // glowing packet traveling along path
-      const packet = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-      packet.setAttribute("r", it.label === "handoff" ? "3.2" : "2.4");
-      packet.setAttribute("fill", stroke);
-      packet.setAttribute("class", "conn-packet");
-      packet.setAttribute("opacity", "0.85");
-      packet.style.filter = `drop-shadow(0 0 4px ${stroke})`;
-      const anim = document.createElementNS("http://www.w3.org/2000/svg", "animateMotion");
-      anim.setAttribute("dur", (6 + (i % 5)) + "s");
-      anim.setAttribute("repeatCount", "indefinite");
-      anim.setAttribute("path", d);
-      packet.appendChild(anim);
-      svg.appendChild(packet);
+      // Packets: Org = quiet/sparse; Live = full traveling packets
+      const showPacket = prefs.mode === "live" || adjacent || (structure && (i % 3 === 0));
+      if (showPacket) {
+        const packet = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        packet.setAttribute("r", it.label === "handoff" || adjacent ? "3.2" : "2.4");
+        packet.setAttribute("fill", stroke);
+        packet.setAttribute("class", "conn-packet");
+        packet.setAttribute("opacity", prefs.mode === "org" ? "0.45" : "0.85");
+        packet.dataset.from = it.from;
+        packet.dataset.to = it.to;
+        packet.style.filter = `drop-shadow(0 0 4px ${stroke})`;
+        const anim = document.createElementNS("http://www.w3.org/2000/svg", "animateMotion");
+        anim.setAttribute("dur", (6 + (i % 5)) + "s");
+        anim.setAttribute("repeatCount", "indefinite");
+        anim.setAttribute("path", d);
+        packet.appendChild(anim);
+        svg.appendChild(packet);
+      }
     });
     applyFocusClasses();
+    } finally {
+      _renderingConns = false;
+    }
   }
 
   function setFocusPartnersFor(agentId) {
@@ -1652,6 +1879,7 @@
       });
     });
     applyFocusClasses();
+    refreshArcsForSelection();
     if (isNarrow()) openSheet();
   }
 
@@ -1667,6 +1895,7 @@
     document.getElementById("panelStatus").hidden = true;
     document.getElementById("panelBody").innerHTML =
       `<p class="empty-hint">${isNarrow() ? "Tap a desk for the full brief." : "Hover for preview · click for the full brief · Esc clears focus."}</p>`;
+    refreshArcsForSelection();
     if (isNarrow()) peekSheet();
   }
 
@@ -1854,9 +2083,12 @@
   /* Toggles */
   function wireToggle(id, key, onChange) {
     const btn = document.getElementById(id);
+    if (!btn) return;
+    btn.setAttribute("aria-pressed", prefs[key] ? "true" : "false");
     btn.addEventListener("click", () => {
       prefs[key] = !prefs[key];
       btn.setAttribute("aria-pressed", prefs[key] ? "true" : "false");
+      persistPrefs();
       onChange && onChange();
     });
   }
@@ -1869,7 +2101,16 @@
   wireToggle("togFeed", "compactFeed", () => {
     document.getElementById("feedSection").classList.toggle("compact", prefs.compactFeed);
   });
-  wireToggle("togFocus", "focus", () => applyFocusClasses());
+  wireToggle("togFocus", "focus", () => {
+    applyFocusClasses();
+    refreshArcsForSelection();
+  });
+
+  const modeOrgBtn = document.getElementById("modeOrg");
+  const modeLiveBtn = document.getElementById("modeLive");
+  if (modeOrgBtn) modeOrgBtn.addEventListener("click", () => setMode("org"));
+  if (modeLiveBtn) modeLiveBtn.addEventListener("click", () => setMode("live"));
+  syncModeUI();
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T23:00:36.264554Z",
+  "generatedAt": "2026-09-13T23:14:15.043435Z",
   "timezone": "America/New_York",
-  "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+  "activeAgentId": "ce012f92-2588-4894-8547-5e318c41054a",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -65,12 +65,16 @@
       "colorHex": "#e8943a",
       "shape": "hex",
       "zone": "glass-office",
-      "desk": "Central glass office",
+      "desk": "Central glass office (command)",
       "x": 50,
-      "y": 34,
+      "y": 26,
       "status": "active",
-      "lastSeenAt": "2026-09-13T22:58:48.788000Z",
+      "lastSeenAt": "2026-09-13T23:12:59.581000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T23:12:59.581Z",
+          "label": "Shell \u00b7 cat"
+        },
         {
           "ts": "2026-09-13T22:58:48.788Z",
           "label": "Filing deal docs"
@@ -98,10 +102,6 @@
         {
           "ts": "2026-09-13T21:04:03.277Z",
           "label": "Running TractIQ / market screen"
-        },
-        {
-          "ts": "2026-09-13T21:03:46.505Z",
-          "label": "Running TractIQ / market screen"
         }
       ]
     },
@@ -125,9 +125,9 @@
       "colorHex": "#3d9e6f",
       "shape": "blob",
       "zone": "mail",
-      "desk": "Mail pod (near CoS)",
-      "x": 36,
-      "y": 46,
+      "desk": "Mail pod (south)",
+      "x": 34,
+      "y": 80,
       "status": "idle",
       "lastSeenAt": "2026-09-12T14:50:34.123000Z",
       "recentEvents": [
@@ -209,8 +209,8 @@
       "colorHex": "#8b6cf0",
       "shape": "cloud",
       "zone": "intake",
-      "desk": "Intake pod",
-      "x": 14,
+      "desk": "Intake pod (W\u2192C)",
+      "x": 34,
       "y": 24,
       "status": "idle",
       "lastSeenAt": "2026-09-11T12:29:52.626000Z",
@@ -256,7 +256,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Filing deal docs",
+      "doingNow": "SharePoint \u00b7 Store #&#39;s TBD - City Storage Portfolio (7 locations) - All Doc\u2026 \u00b7 12m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -293,18 +293,42 @@
           "name": "Revenue Manager",
           "label": "files rev-man packs",
           "direction": "out"
+        },
+        {
+          "id": "26f91a22-f052-489b-8865-731646053afc",
+          "name": "Underwriting",
+          "label": "archives for",
+          "direction": "out"
+        },
+        {
+          "id": "acd901b5-c261-4587-b3f1-86a1157bad67",
+          "name": "Investment Memo",
+          "label": "receives memos from",
+          "direction": "in"
         }
       ],
       "color": "yellow",
       "colorHex": "#e8c84a",
       "shape": "squircle",
       "zone": "filing",
-      "desk": "Filing station",
-      "x": 28,
-      "y": 60,
-      "status": "active",
-      "lastSeenAt": "2026-09-13T22:59:39.986000Z",
+      "desk": "Filing station (inbound flow)",
+      "x": 20,
+      "y": 30,
+      "status": "recent",
+      "lastSeenAt": "2026-09-13T23:02:08.842000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T23:02:08.842Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-13T23:02:00.758Z",
+          "label": "SharePoint \u00b7 Store #&#39;s TBD - City Storage Portfolio (7 locations) - All Doc\u2026"
+        },
+        {
+          "ts": "2026-09-13T23:00:51.197Z",
+          "label": "Shell \u00b7 rg"
+        },
         {
           "ts": "2026-09-13T22:59:39.986Z",
           "label": "Filing deal docs"
@@ -324,18 +348,6 @@
         {
           "ts": "2026-09-13T22:36:15.148Z",
           "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-13T15:43:16.554Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-13T15:43:08.181Z",
-          "label": "Desktop session \u00b7 3 actions"
-        },
-        {
-          "ts": "2026-09-13T15:42:32.136Z",
-          "label": "Shell \u00b7 python3"
         }
       ]
     },
@@ -346,8 +358,14 @@
       "definition": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap).",
       "mandate": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
       "instructions": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 ls (25h ago)",
+      "doingNow": "Shell \u00b7 ls \u00b7 8m ago",
       "partners": [
+        {
+          "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+          "name": "File Explorer",
+          "label": "files memos via",
+          "direction": "out"
+        },
         {
           "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
           "name": "Inbound Deals",
@@ -365,12 +383,16 @@
       "colorHex": "#4a8fe8",
       "shape": "hex",
       "zone": "memo",
-      "desk": "Memo desk",
-      "x": 72,
+      "desk": "Memo desk (underwrite)",
+      "x": 70,
       "y": 18,
-      "status": "idle",
-      "lastSeenAt": "2026-09-12T21:25:01.974000Z",
+      "status": "recent",
+      "lastSeenAt": "2026-09-13T23:05:27.756000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T23:05:27.756Z",
+          "label": "Shell \u00b7 ls"
+        },
         {
           "ts": "2026-09-12T21:25:01.974Z",
           "label": "Shell \u00b7 ls"
@@ -398,10 +420,6 @@
         {
           "ts": "2026-09-10T20:25:56.864Z",
           "label": "Running TractIQ / market screen"
-        },
-        {
-          "ts": "2026-09-10T20:23:51.736Z",
-          "label": "Running TractIQ / market screen"
         }
       ]
     },
@@ -421,6 +439,12 @@
           "direction": "out"
         },
         {
+          "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+          "name": "File Explorer",
+          "label": "files models with",
+          "direction": "out"
+        },
+        {
           "id": "acd901b5-c261-4587-b3f1-86a1157bad67",
           "name": "Investment Memo",
           "label": "pairs with",
@@ -437,9 +461,9 @@
       "colorHex": "#8b6cf0",
       "shape": "cloud",
       "zone": "modeling",
-      "desk": "Underwriting desk",
+      "desk": "Underwriting desk (NE)",
       "x": 86,
-      "y": 32,
+      "y": 28,
       "status": "idle",
       "lastSeenAt": "2026-09-11T21:03:10.599000Z",
       "recentEvents": [
@@ -503,9 +527,9 @@
       "colorHex": "#3ecfcf",
       "shape": "wedge",
       "zone": "diligence",
-      "desk": "Due Diligence room",
-      "x": 86,
-      "y": 48,
+      "desk": "Due Diligence room (E)",
+      "x": 88,
+      "y": 50,
       "status": "idle",
       "lastSeenAt": "2026-09-10T22:26:11.582000Z",
       "recentEvents": [
@@ -563,9 +587,9 @@
       "colorHex": "#e8943a",
       "shape": "hex",
       "zone": "prospecting",
-      "desk": "Off-market desk",
-      "x": 14,
-      "y": 72,
+      "desk": "Off-market desk (SW)",
+      "x": 12,
+      "y": 70,
       "status": "idle",
       "lastSeenAt": "2026-09-12T21:18:51.429000Z",
       "recentEvents": [
@@ -623,9 +647,9 @@
       "colorHex": "#3d9e6f",
       "shape": "blob",
       "zone": "ir",
-      "desk": "Investor inbox",
-      "x": 50,
-      "y": 78,
+      "desk": "Investor inbox (S)",
+      "x": 52,
+      "y": 82,
       "status": "idle",
       "lastSeenAt": "2026-09-11T13:16:49.166000Z",
       "recentEvents": [
@@ -670,8 +694,14 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Shell \u00b7 python3",
+      "doingNow": "Shell \u00b7 python3 \u00b7 13m ago",
       "partners": [
+        {
+          "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
+          "name": "Bot Creator",
+          "label": "partners on charters",
+          "direction": "out"
+        },
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
           "name": "Chief of Staff",
@@ -683,10 +713,10 @@
       "colorHex": "#2a2a2e",
       "shape": "hex",
       "zone": "balcony",
-      "desk": "Auditor balcony",
-      "x": 50,
-      "y": 10,
-      "status": "active",
+      "desk": "Auditor balcony (command N)",
+      "x": 36,
+      "y": 8,
+      "status": "recent",
       "lastSeenAt": "2026-09-13T23:00:16.882000Z",
       "recentEvents": [
         {
@@ -755,9 +785,9 @@
       "colorHex": "#3ecfcf",
       "shape": "cloud",
       "zone": "markets",
-      "desk": "Market desk",
-      "x": 78,
-      "y": 10,
+      "desk": "Market desk (far W)",
+      "x": 6,
+      "y": 18,
       "status": "idle",
       "lastSeenAt": null,
       "recentEvents": []
@@ -778,25 +808,25 @@
           "direction": "out"
         },
         {
+          "id": "092a1b68-f02c-44b2-b74c-c00501761512",
+          "name": "Claude Bot",
+          "label": "adjacent ops lane",
+          "direction": "out"
+        },
+        {
           "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
           "name": "File Explorer",
           "label": "hands analysis to",
           "direction": "out"
-        },
-        {
-          "id": "ce012f92-2588-4894-8547-5e318c41054a",
-          "name": "Visuals",
-          "label": "references",
-          "direction": "in"
         }
       ],
       "color": "green",
       "colorHex": "#3d9e6f",
       "shape": "hex",
       "zone": "revman",
-      "desk": "Revenue desk",
-      "x": 86,
-      "y": 68,
+      "desk": "Ops bridge \u00b7 RM (\u2225 Claude)",
+      "x": 26,
+      "y": 42,
       "status": "idle",
       "lastSeenAt": null,
       "recentEvents": []
@@ -821,15 +851,21 @@
           "name": "File Explorer",
           "label": "hands files to",
           "direction": "out"
+        },
+        {
+          "id": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+          "name": "Revenue Manager",
+          "label": "pairs on RM deep-dives",
+          "direction": "out"
         }
       ],
       "color": "orange",
       "colorHex": "#e8943a",
       "shape": "cloud",
       "zone": "claude",
-      "desk": "Claude bridge",
-      "x": 22,
-      "y": 10,
+      "desk": "Ops bridge \u00b7 Claude (\u2225 RM)",
+      "x": 14,
+      "y": 42,
       "status": "idle",
       "lastSeenAt": null,
       "recentEvents": []
@@ -848,15 +884,27 @@
           "name": "Chief of Staff",
           "label": "aligns roles with",
           "direction": "out"
+        },
+        {
+          "id": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+          "name": "Process Auditor",
+          "label": "partners on charters",
+          "direction": "out"
+        },
+        {
+          "id": "ce012f92-2588-4894-8547-5e318c41054a",
+          "name": "Visuals",
+          "label": "pings roster to",
+          "direction": "out"
         }
       ],
       "color": "red",
       "colorHex": "#e85a5a",
       "shape": "teardrop",
       "zone": "creator",
-      "desk": "Bot lab",
-      "x": 64,
-      "y": 10,
+      "desk": "Bot lab (command N)",
+      "x": 62,
+      "y": 8,
       "status": "idle",
       "lastSeenAt": null,
       "recentEvents": []
@@ -871,15 +919,15 @@
       "doingNow": "Refreshing office viz",
       "partners": [
         {
-          "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-          "name": "Chief of Staff",
-          "label": "builds viz for",
+          "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
+          "name": "Bot Creator",
+          "label": "hands off to",
           "direction": "out"
         },
         {
-          "id": "b7db98c5-34ba-456f-a5c7-2085bf543910",
-          "name": "Revenue Manager",
-          "label": "references",
+          "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+          "name": "Chief of Staff",
+          "label": "builds viz for",
           "direction": "out"
         }
       ],
@@ -887,42 +935,42 @@
       "colorHex": "#d946a6",
       "shape": "hex",
       "zone": "studio",
-      "desk": "Design studio",
-      "x": 86,
-      "y": 76,
+      "desk": "Design studio (near command)",
+      "x": 76,
+      "y": 10,
       "status": "active",
-      "lastSeenAt": "2026-09-13T23:00:36.166000Z",
+      "lastSeenAt": "2026-09-13T23:14:14.978000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-13T23:00:36.166Z",
+          "ts": "2026-09-13T23:14:14.978Z",
           "label": "Refreshing office viz"
         },
         {
-          "ts": "2026-09-13T23:00:22.934Z",
+          "ts": "2026-09-13T23:14:09.174Z",
           "label": "Refreshing office viz"
         },
         {
-          "ts": "2026-09-13T16:35:19.113Z",
-          "label": "Filing deal docs"
+          "ts": "2026-09-13T23:13:58.355Z",
+          "label": "Working on investment memo"
         },
         {
-          "ts": "2026-09-13T16:18:10.762Z",
+          "ts": "2026-09-13T23:13:42.454Z",
           "label": "Refreshing office viz"
         },
         {
-          "ts": "2026-09-13T15:43:59.626Z",
+          "ts": "2026-09-13T23:13:05.277Z",
           "label": "Refreshing office viz"
         },
         {
-          "ts": "2026-09-13T15:35:55.535Z",
+          "ts": "2026-09-13T23:12:42.048Z",
+          "label": "Screening Outlook mail"
+        },
+        {
+          "ts": "2026-09-13T23:12:08.367Z",
           "label": "Refreshing office viz"
         },
         {
-          "ts": "2026-09-13T15:35:31.749Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-13T15:01:09.276Z",
+          "ts": "2026-09-13T23:11:46.393Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -930,277 +978,380 @@
   ],
   "interactions": [
     {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "builds viz for",
+      "text": "builds viz for",
+      "ts": "2026-09-13T23:07:57.765Z",
+      "genericCos": false
+    },
+    {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "label": "routes via CoS",
       "text": "routes via CoS",
-      "ts": "2026-09-13T22:58:48.788Z"
+      "ts": "2026-09-13T22:58:48.788Z",
+      "genericCos": true
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "label": "files rev-man packs",
       "text": "files rev-man packs",
-      "ts": "2026-09-13T22:58:47.075Z"
+      "ts": "2026-09-13T22:58:47.075Z",
+      "genericCos": false
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "to": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "label": "triggers UC for",
       "text": "triggers UC for",
-      "ts": "2026-09-13T22:36:33.817Z"
+      "ts": "2026-09-13T22:36:33.817Z",
+      "genericCos": false
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "label": "files for",
       "text": "files for",
-      "ts": "2026-09-13T22:36:15.148Z"
+      "ts": "2026-09-13T22:36:15.148Z",
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "label": "assigns / routes",
       "text": "assigns / routes",
-      "ts": "2026-09-13T21:01:02.305Z"
+      "ts": "2026-09-13T21:01:02.305Z",
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "label": "assigns / routes",
       "text": "assigns / routes",
-      "ts": "2026-09-13T21:01:02.305Z"
+      "ts": "2026-09-13T21:01:02.305Z",
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "ce012f92-2588-4894-8547-5e318c41054a",
       "label": "asks for viz",
       "text": "asks for viz",
-      "ts": "2026-09-13T21:01:02.305Z"
+      "ts": "2026-09-13T21:01:02.305Z",
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "assigns / promotes",
       "text": "assigns / promotes",
-      "ts": "2026-09-13T21:01:02.305Z"
+      "ts": "2026-09-13T21:01:02.305Z",
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "092a1b68-f02c-44b2-b74c-c00501761512",
       "label": "assigns Claude work",
       "text": "assigns Claude work",
-      "ts": "2026-09-13T21:01:02.305Z"
+      "ts": "2026-09-13T21:01:02.305Z",
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "label": "assigns / routes",
       "text": "assigns / routes",
-      "ts": "2026-09-13T21:01:02.305Z"
+      "ts": "2026-09-13T21:01:02.305Z",
+      "genericCos": false
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "files web OMs from",
       "text": "files web OMs from",
-      "ts": "2026-09-13T15:12:36.048Z"
+      "ts": "2026-09-13T15:30:48.466Z",
+      "genericCos": false
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "files models with",
+      "text": "files models with",
+      "ts": "2026-09-11T21:03:03.142Z",
+      "genericCos": false
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
       "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "label": "pairs with",
       "text": "pairs with",
-      "ts": "2026-09-11T21:02:43.139Z"
+      "ts": "2026-09-11T21:02:43.139Z",
+      "genericCos": false
     },
     {
       "from": "400779c3-c62a-4654-8057-56954b605cbf",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "routes via CoS",
       "text": "routes via CoS",
-      "ts": "2026-09-11T14:38:07.946Z"
+      "ts": "2026-09-11T14:38:07.946Z",
+      "genericCos": true
     },
     {
       "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "label": "hands deals to",
       "text": "hands deals to",
-      "ts": "2026-09-11T12:25:42.388Z"
+      "ts": "2026-09-11T12:25:42.388Z",
+      "genericCos": false
     },
     {
       "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "to": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "label": "feeds screens to",
       "text": "feeds screens to",
-      "ts": "2026-09-11T12:25:42.388Z"
+      "ts": "2026-09-11T12:25:42.388Z",
+      "genericCos": false
     },
     {
       "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "label": "routes LOI yes to",
       "text": "routes LOI yes to",
-      "ts": "2026-09-11T12:25:42.388Z"
+      "ts": "2026-09-11T12:25:42.388Z",
+      "genericCos": false
     },
     {
       "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "screens web deals from",
       "text": "screens web deals from",
-      "ts": "2026-09-11T12:25:42.388Z"
+      "ts": "2026-09-11T12:25:42.388Z",
+      "genericCos": false
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "files memos via",
+      "text": "files memos via",
+      "ts": "2026-09-10T19:11:59.535Z",
+      "genericCos": false
     },
     {
       "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "label": "pulls market from",
       "text": "pulls market from",
-      "ts": "2026-09-10T19:10:49.855Z"
+      "ts": "2026-09-10T19:10:49.855Z",
+      "genericCos": false
     },
     {
       "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "surfaces issues to",
       "text": "surfaces issues to",
-      "ts": "2026-09-10T19:09:40.280Z"
+      "ts": "2026-09-10T19:09:40.280Z",
+      "genericCos": false
     },
     {
       "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "label": "pairs with",
       "text": "pairs with",
-      "ts": null
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
       "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "label": "reads UC filing from",
       "text": "reads UC filing from",
-      "ts": null
-    },
-    {
-      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "flags items to",
-      "text": "flags items to",
-      "ts": null
-    },
-    {
-      "from": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "builds viz for",
-      "text": "builds viz for",
-      "ts": null
-    },
-    {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
-    },
-    {
-      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
-    },
-    {
-      "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "label": "archives for",
+      "text": "archives for",
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "label": "promotes packs to",
       "text": "promotes packs to",
-      "ts": null
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "label": "feeds promoted to",
       "text": "feeds promoted to",
-      "ts": null
+      "ts": null,
+      "genericCos": false
     },
     {
-      "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
+      "label": "flags items to",
+      "text": "flags items to",
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "ad46438f-79a3-4066-8977-7dbdd40641de",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "aligns roles with",
       "text": "aligns roles with",
-      "ts": null
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
       "label": "charters via",
       "text": "charters via",
-      "ts": null
-    },
-    {
-      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
-    },
-    {
-      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "label": "hands files to",
-      "text": "hands files to",
-      "ts": null
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "092a1b68-f02c-44b2-b74c-c00501761512",
-      "label": "files Claude outputs",
-      "text": "files Claude outputs",
-      "ts": null
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "surfaces pricing to",
       "text": "surfaces pricing to",
-      "ts": null
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "label": "pings roster to",
+      "text": "pings roster to",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "label": "partners on charters",
+      "text": "partners on charters",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "label": "partners on charters",
+      "text": "partners on charters",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "hands files to",
+      "text": "hands files to",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "label": "files Claude outputs",
+      "text": "files Claude outputs",
+      "ts": null,
+      "genericCos": false
     },
     {
       "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "label": "hands analysis to",
       "text": "hands analysis to",
-      "ts": null
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "to": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "label": "adjacent ops lane",
+      "text": "adjacent ops lane",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "label": "pairs on RM deep-dives",
+      "text": "pairs on RM deep-dives",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
+    },
+    {
+      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
+    },
+    {
+      "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
+    },
+    {
+      "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
+    },
+    {
+      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": null,
+      "genericCos": true
     },
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
-      "label": "reference",
-      "text": "Ref",
-      "ts": "2026-09-13T23:00:22.934Z"
+      "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "label": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-13T23:07:57.765Z",
+      "genericCos": false
     }
   ],
   "playbook": [
@@ -1259,82 +1410,22 @@
       "text": "reads UC filing from"
     },
     {
-      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "flags items to",
-      "text": "flags items to"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
-      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "surfaces issues to",
-      "text": "surfaces issues to"
-    },
-    {
-      "from": "400779c3-c62a-4654-8057-56954b605cbf",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
-      "from": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "builds viz for",
-      "text": "builds viz for"
-    },
-    {
       "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
-      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "files models with",
+      "text": "files models with"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
-      "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "assigns / routes",
-      "text": "assigns / routes"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "26f91a22-f052-489b-8865-731646053afc",
-      "label": "assigns / routes",
-      "text": "assigns / routes"
+      "label": "archives for",
+      "text": "archives for"
     },
     {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ce012f92-2588-4894-8547-5e318c41054a",
-      "label": "asks for viz",
-      "text": "asks for viz"
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "files memos via",
+      "text": "files memos via"
     },
     {
       "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
@@ -1361,10 +1452,40 @@
       "text": "screens web deals from"
     },
     {
-      "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
+      "label": "flags items to",
+      "text": "flags items to"
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "surfaces issues to",
+      "text": "surfaces issues to"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "builds viz for",
+      "text": "builds viz for"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "assigns / routes",
+      "text": "assigns / routes"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "26f91a22-f052-489b-8865-731646053afc",
+      "label": "assigns / routes",
+      "text": "assigns / routes"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "label": "asks for viz",
+      "text": "asks for viz"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -1385,16 +1506,40 @@
       "text": "charters via"
     },
     {
-      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "routes via CoS",
-      "text": "routes via CoS"
-    },
-    {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "092a1b68-f02c-44b2-b74c-c00501761512",
       "label": "assigns Claude work",
       "text": "assigns Claude work"
+    },
+    {
+      "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "surfaces pricing to",
+      "text": "surfaces pricing to"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "label": "assigns / routes",
+      "text": "assigns / routes"
+    },
+    {
+      "from": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "to": "ce012f92-2588-4894-8547-5e318c41054a",
+      "label": "pings roster to",
+      "text": "pings roster to"
+    },
+    {
+      "from": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "to": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "label": "partners on charters",
+      "text": "partners on charters"
+    },
+    {
+      "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
+      "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "label": "partners on charters",
+      "text": "partners on charters"
     },
     {
       "from": "092a1b68-f02c-44b2-b74c-c00501761512",
@@ -1410,18 +1555,6 @@
     },
     {
       "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "label": "surfaces pricing to",
-      "text": "surfaces pricing to"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
-      "label": "assigns / routes",
-      "text": "assigns / routes"
-    },
-    {
-      "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "label": "hands analysis to",
       "text": "hands analysis to"
@@ -1431,17 +1564,101 @@
       "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "label": "files rev-man packs",
       "text": "files rev-man packs"
+    },
+    {
+      "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "to": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "label": "adjacent ops lane",
+      "text": "adjacent ops lane"
+    },
+    {
+      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "label": "pairs on RM deep-dives",
+      "text": "pairs on RM deep-dives"
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "400779c3-c62a-4654-8057-56954b605cbf",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
+    },
+    {
+      "from": "092a1b68-f02c-44b2-b74c-c00501761512",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "genericCos": true
     }
   ],
   "conversations": [
     {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "fromName": "Visuals",
-      "toName": "Revenue Manager",
-      "kind": "reference",
-      "text": "Ref",
-      "ts": "2026-09-13T23:00:22.934Z"
+      "toName": "Chief of Staff",
+      "kind": "builds viz for",
+      "text": "builds viz for",
+      "ts": "2026-09-13T23:07:57.765Z"
+    },
+    {
+      "from": "ce012f92-2588-4894-8547-5e318c41054a",
+      "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
+      "fromName": "Visuals",
+      "toName": "Bot Creator",
+      "kind": "handoff",
+      "text": "Handoff",
+      "ts": "2026-09-13T23:07:57.765Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -1540,7 +1757,16 @@
       "toName": "Market Tracker",
       "kind": "files web OMs from",
       "text": "files web OMs from",
-      "ts": "2026-09-13T15:12:36.048Z"
+      "ts": "2026-09-13T15:30:48.466Z"
+    },
+    {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "fromName": "Underwriting",
+      "toName": "File Explorer",
+      "kind": "files models with",
+      "text": "files models with",
+      "ts": "2026-09-11T21:03:03.142Z"
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
@@ -1598,6 +1824,15 @@
     },
     {
       "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "fromName": "Investment Memo",
+      "toName": "File Explorer",
+      "kind": "files memos via",
+      "text": "files memos via",
+      "ts": "2026-09-10T19:11:59.535Z"
+    },
+    {
+      "from": "acd901b5-c261-4587-b3f1-86a1157bad67",
       "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
       "fromName": "Investment Memo",
       "toName": "Inbound Deals",
@@ -1622,47 +1857,86 @@
       "kind": "pairs with",
       "text": "pairs with",
       "ts": null
-    },
-    {
-      "from": "145527b3-64d7-48a2-b3c7-b2f3d3851175",
-      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "fromName": "Due Diligence",
-      "toName": "File Explorer",
-      "kind": "reads UC filing from",
-      "text": "reads UC filing from",
-      "ts": null
-    },
-    {
-      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Email Organizer",
-      "toName": "Chief of Staff",
-      "kind": "flags items to",
-      "text": "flags items to",
-      "ts": null
-    },
-    {
-      "from": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Investor Inbox",
-      "toName": "Chief of Staff",
-      "kind": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": null
     }
   ],
   "feed": [
     {
-      "ts": "2026-09-13T23:00:36.166Z",
+      "ts": "2026-09-13T23:14:14.978Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-13T23:00:22.934Z",
+      "ts": "2026-09-13T23:14:09.174Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T23:13:58.355Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Working on investment memo"
+    },
+    {
+      "ts": "2026-09-13T23:13:42.454Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T23:13:05.277Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T23:12:59.581Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Shell \u00b7 cat"
+    },
+    {
+      "ts": "2026-09-13T23:12:42.048Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Screening Outlook mail"
+    },
+    {
+      "ts": "2026-09-13T23:12:08.367Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T23:11:46.393Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T23:05:27.756Z",
+      "agentId": "acd901b5-c261-4587-b3f1-86a1157bad67",
+      "agentName": "Investment Memo",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-13T23:02:08.842Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-13T23:02:00.758Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "SharePoint \u00b7 Store #&#39;s TBD - City Storage Portfolio (7 locations) - All Doc\u2026"
+    },
+    {
+      "ts": "2026-09-13T23:00:51.197Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 rg"
     },
     {
       "ts": "2026-09-13T23:00:16.882Z",
@@ -1741,66 +2015,6 @@
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Running TractIQ / market screen"
-    },
-    {
-      "ts": "2026-09-13T21:03:46.505Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Running TractIQ / market screen"
-    },
-    {
-      "ts": "2026-09-13T16:35:19.113Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Filing deal docs"
-    },
-    {
-      "ts": "2026-09-13T16:18:10.762Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-13T15:43:59.626Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-13T15:43:16.554Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-13T15:43:08.181Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Desktop session \u00b7 3 actions"
-    },
-    {
-      "ts": "2026-09-13T15:42:32.136Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-13T15:35:55.535Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-13T15:35:31.749Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-13T15:01:09.276Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-12T23:13:16.850Z",
@@ -1885,12 +2099,6 @@
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
       "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-12T14:50:05.830Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Shell \u00b7 python3"
     }
   ],
   "landmarks": [
@@ -1900,7 +2108,7 @@
       "kind": "meeting",
       "label": "Ian's desk / IC",
       "x": 50,
-      "y": 55
+      "y": 58
     }
   ]
 }
