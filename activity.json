@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T23:00:23.111407Z",
+  "generatedAt": "2026-09-13T23:00:36.264554Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -286,6 +286,12 @@
           "id": "1a7463af-3e4d-41bd-813c-3ffd78536951",
           "name": "Market Tracker",
           "label": "files web OMs from",
+          "direction": "out"
+        },
+        {
+          "id": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+          "name": "Revenue Manager",
+          "label": "files rev-man packs",
           "direction": "out"
         }
       ],
@@ -772,6 +778,12 @@
           "direction": "out"
         },
         {
+          "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+          "name": "File Explorer",
+          "label": "hands analysis to",
+          "direction": "out"
+        },
+        {
           "id": "ce012f92-2588-4894-8547-5e318c41054a",
           "name": "Visuals",
           "label": "references",
@@ -879,8 +891,12 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-13T23:00:22.934000Z",
+      "lastSeenAt": "2026-09-13T23:00:36.166000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T23:00:36.166Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-13T23:00:22.934Z",
           "label": "Refreshing office viz"
@@ -908,10 +924,6 @@
         {
           "ts": "2026-09-13T15:01:09.276Z",
           "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-13T15:00:58.492Z",
-          "label": "Refreshing office viz"
         }
       ]
     }
@@ -923,6 +935,13 @@
       "label": "routes via CoS",
       "text": "routes via CoS",
       "ts": "2026-09-13T22:58:48.788Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "label": "files rev-man packs",
+      "text": "files rev-man packs",
+      "ts": "2026-09-13T22:58:47.075Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -1170,6 +1189,13 @@
       "ts": null
     },
     {
+      "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "hands analysis to",
+      "text": "hands analysis to",
+      "ts": null
+    },
+    {
       "from": "ce012f92-2588-4894-8547-5e318c41054a",
       "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "label": "reference",
@@ -1393,6 +1419,18 @@
       "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "label": "assigns / routes",
       "text": "assigns / routes"
+    },
+    {
+      "from": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "to": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "label": "hands analysis to",
+      "text": "hands analysis to"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "label": "files rev-man packs",
+      "text": "files rev-man packs"
     }
   ],
   "conversations": [
@@ -1413,6 +1451,15 @@
       "kind": "routes via CoS",
       "text": "routes via CoS",
       "ts": "2026-09-13T22:58:48.788Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+      "fromName": "File Explorer",
+      "toName": "Revenue Manager",
+      "kind": "files rev-man packs",
+      "text": "files rev-man packs",
+      "ts": "2026-09-13T22:58:47.075Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -1602,18 +1649,15 @@
       "kind": "routes via CoS",
       "text": "routes via CoS",
       "ts": null
-    },
-    {
-      "from": "ce012f92-2588-4894-8547-5e318c41054a",
-      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "fromName": "Visuals",
-      "toName": "Chief of Staff",
-      "kind": "builds viz for",
-      "text": "builds viz for",
-      "ts": null
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-13T23:00:36.166Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
     {
       "ts": "2026-09-13T23:00:22.934Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -1754,12 +1798,6 @@
     },
     {
       "ts": "2026-09-13T15:01:09.276Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-13T15:00:58.492Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
