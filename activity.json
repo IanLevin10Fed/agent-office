@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T15:35:31.869236Z",
+  "generatedAt": "2026-09-13T16:18:10.885130Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -69,8 +69,12 @@
       "x": 50,
       "y": 34,
       "status": "active",
-      "lastSeenAt": "2026-09-13T15:33:45.990000Z",
+      "lastSeenAt": "2026-09-13T16:16:46.804000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T16:16:46.804Z",
+          "label": "Shell \u00b7 sed"
+        },
         {
           "ts": "2026-09-13T15:33:45.990Z",
           "label": "Running TractIQ / market screen"
@@ -98,10 +102,6 @@
         {
           "ts": "2026-09-12T21:25:09.221Z",
           "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-12T21:25:06.281Z",
-          "label": "Building underwriting model"
         }
       ]
     },
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Working in Outlook (24h ago)",
+      "doingNow": "Idle \u2014 last: Working in Outlook (25h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -256,7 +256,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "SharePoint \u00b7 Investments - Investments - Self Storage - All Documents",
+      "doingNow": "Idle \u2014 last: SharePoint \u00b7 Marketing Tracker.xlsx (34m ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -290,40 +290,40 @@
       "desk": "Filing station",
       "x": 28,
       "y": 60,
-      "status": "active",
-      "lastSeenAt": "2026-09-13T15:35:27.428000Z",
+      "status": "idle",
+      "lastSeenAt": "2026-09-13T15:43:16.554000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-13T15:35:27.428Z",
+          "ts": "2026-09-13T15:43:16.554Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-13T15:35:22.959Z",
-          "label": "SharePoint \u00b7 Investments - Investments - Self Storage - All Documents"
+          "ts": "2026-09-13T15:43:08.181Z",
+          "label": "Desktop session \u00b7 3 actions"
         },
         {
-          "ts": "2026-09-13T15:35:15.852Z",
-          "label": "Filing deal docs"
-        },
-        {
-          "ts": "2026-09-13T15:34:53.162Z",
+          "ts": "2026-09-13T15:42:32.136Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-13T15:34:44.614Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-13T15:34:22.499Z",
+          "ts": "2026-09-13T15:42:06.212Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-13T15:34:17.372Z",
-          "label": "Shell \u00b7 ls"
+          "ts": "2026-09-13T15:40:08.645Z",
+          "label": "SharePoint \u00b7 Marketing Tracker.xlsx"
         },
         {
-          "ts": "2026-09-13T15:33:59.054Z",
-          "label": "SharePoint \u00b7 Market Tracker.xlsx"
+          "ts": "2026-09-13T15:38:34.868Z",
+          "label": "SharePoint \u00b7 Marketing Tracker.xlsx"
+        },
+        {
+          "ts": "2026-09-13T15:37:59.603Z",
+          "label": "Shell \u00b7 mkdir"
+        },
+        {
+          "ts": "2026-09-13T15:37:19.840Z",
+          "label": "SharePoint \u00b7 Marketing Tracker.xlsx"
         }
       ]
     },
@@ -400,7 +400,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (42h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (43h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -658,7 +658,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 cat (16h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 cat (17h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -714,10 +714,10 @@
     {
       "id": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "name": "Market Tracker",
-      "role": "On-market self-storage discovery (All US) \u2014 weekly Mon 8am ET \u2192 Marketing Tracker.xlsx",
-      "definition": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly upserts into Investments\u2026",
-      "mandate": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly upserts into Investments / Shared Documents / Self Storage / Marketing Tracker.xlsx on columns Name/Investment Name, Address (+City/State), Asking Price / Purchase Price, Source, Listing URL, Last Seen, Promote Status (`listed` on NEW only; never overwrite promoted), Listed Date on NEW.\u2026",
-      "instructions": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly upserts into Investments / Shared Documents / Self Storage / Marketing Tracker.xlsx on columns Name/Investment Name, Address (+City/State), Asking Price / Purchase Price, Source, Listing URL, Last Seen, Promote Status (`listed` on NEW only; never overwrite promoted), Listed Date on NEW.\u2026",
+      "role": "On-market self-storage discovery (All US) \u2014 weekly Sun 3:00 AM ET \u2192 Marketing Tracker.xlsx",
+      "definition": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts \u2026",
+      "mandate": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts into Investments / Shared Documents / Self Storage / Marketing Tracker.xlsx (never create a new SoR file; never dual-write old Investment Tracker / Market Tracker names) on columns Name/Investment Name, Address (+City/State), Asking Price, Source, Listing URL, Last Seen, Promote Status, Listed Date.\u2026",
+      "instructions": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts into Investments / Shared Documents / Self Storage / Marketing Tracker.xlsx (never create a new SoR file; never dual-write old Investment Tracker / Market Tracker names) on columns Name/Investment Name, Address (+City/State), Asking Price, Source, Listing URL, Last Seen, Promote Status, Listed Date.\u2026",
       "doingNow": "Idle \u2014 no recent activity",
       "partners": [
         {
@@ -801,8 +801,20 @@
       "x": 86,
       "y": 76,
       "status": "active",
-      "lastSeenAt": "2026-09-13T15:35:31.749000Z",
+      "lastSeenAt": "2026-09-13T16:18:10.762000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-13T16:18:10.762Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-13T15:43:59.626Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-13T15:35:55.535Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-13T15:35:31.749Z",
           "label": "Refreshing office viz"
@@ -821,18 +833,6 @@
         },
         {
           "ts": "2026-09-12T23:13:38.601Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-12T23:13:08.272Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-12T21:46:24.002Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-12T21:37:43.311Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -858,7 +858,7 @@
       "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "files web OMs from",
       "text": "files web OMs from",
-      "ts": "2026-09-13T15:07:08.024Z"
+      "ts": "2026-09-13T15:11:31.198Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -1274,7 +1274,7 @@
       "toName": "Market Tracker",
       "kind": "files web OMs from",
       "text": "files web OMs from",
-      "ts": "2026-09-13T15:07:08.024Z"
+      "ts": "2026-09-13T15:11:31.198Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -1459,58 +1459,82 @@
   ],
   "feed": [
     {
-      "ts": "2026-09-13T15:35:31.749Z",
+      "ts": "2026-09-13T16:18:10.762Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-13T15:35:27.428Z",
+      "ts": "2026-09-13T16:16:46.804Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Shell \u00b7 sed"
+    },
+    {
+      "ts": "2026-09-13T15:43:59.626Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T15:43:16.554Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-13T15:35:22.959Z",
+      "ts": "2026-09-13T15:43:08.181Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "SharePoint \u00b7 Investments - Investments - Self Storage - All Documents"
+      "text": "Desktop session \u00b7 3 actions"
     },
     {
-      "ts": "2026-09-13T15:35:15.852Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Filing deal docs"
-    },
-    {
-      "ts": "2026-09-13T15:34:53.162Z",
+      "ts": "2026-09-13T15:42:32.136Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-13T15:34:44.614Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 ls"
-    },
-    {
-      "ts": "2026-09-13T15:34:22.499Z",
+      "ts": "2026-09-13T15:42:06.212Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-13T15:34:17.372Z",
+      "ts": "2026-09-13T15:40:08.645Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "Shell \u00b7 ls"
+      "text": "SharePoint \u00b7 Marketing Tracker.xlsx"
     },
     {
-      "ts": "2026-09-13T15:33:59.054Z",
+      "ts": "2026-09-13T15:38:34.868Z",
       "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "agentName": "File Explorer",
-      "text": "SharePoint \u00b7 Market Tracker.xlsx"
+      "text": "SharePoint \u00b7 Marketing Tracker.xlsx"
+    },
+    {
+      "ts": "2026-09-13T15:37:59.603Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 mkdir"
+    },
+    {
+      "ts": "2026-09-13T15:37:19.840Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "SharePoint \u00b7 Marketing Tracker.xlsx"
+    },
+    {
+      "ts": "2026-09-13T15:35:55.535Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-13T15:35:31.749Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-13T15:33:45.990Z",
@@ -1567,24 +1591,6 @@
       "text": "Shell \u00b7 cat"
     },
     {
-      "ts": "2026-09-12T23:13:08.272Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-12T21:46:24.002Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-12T21:37:43.311Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-12T21:36:04.204Z",
       "agentId": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
       "agentName": "Process Auditor",
@@ -1607,12 +1613,6 @@
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-12T21:25:06.281Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Building underwriting model"
     },
     {
       "ts": "2026-09-12T21:25:01.974Z",
