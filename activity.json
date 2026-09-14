@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T17:22:29.357222Z",
+  "generatedAt": "2026-09-14T17:33:00.101956Z",
   "timezone": "America/New_York",
   "activeAgentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
   "agents": [
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (54m ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Screening Outlook mail (4h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (5h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -640,7 +640,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (3h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (4h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -706,7 +706,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 cat (4h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 cat (5h ago)",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -951,8 +951,16 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-14T17:22:29.307000Z",
+      "lastSeenAt": "2026-09-14T17:33:00.038000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-14T17:33:00.038Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-14T17:32:55.201Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-14T17:22:29.307Z",
           "label": "Refreshing office viz"
@@ -975,14 +983,6 @@
         },
         {
           "ts": "2026-09-14T11:29:14.424Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-14T01:02:10.372Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-14T01:02:01.536Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-14T17:33:00.038Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-14T17:32:55.201Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-14T17:22:29.307Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -2099,18 +2111,6 @@
       "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
       "agentName": "Off-Market Outreach",
       "text": "Screening Outlook mail"
-    },
-    {
-      "ts": "2026-09-14T12:31:10.947Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Running TractIQ / market screen"
-    },
-    {
-      "ts": "2026-09-14T12:30:22.905Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Shell \u00b7 python3"
     }
   ],
   "landmarks": [
