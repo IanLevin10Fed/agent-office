@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T21:16:20.607168Z",
+  "generatedAt": "2026-09-14T21:37:30.832057Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Screening Outlook for broker OMs",
+      "doingNow": "Working in Outlook",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -69,8 +69,12 @@
       "x": 50,
       "y": 42,
       "status": "active",
-      "lastSeenAt": "2026-09-14T19:57:01.545000Z",
+      "lastSeenAt": "2026-09-14T21:35:23.214000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-14T21:35:23.214Z",
+          "label": "Working in Outlook"
+        },
         {
           "ts": "2026-09-14T19:57:01.545Z",
           "label": "Screening Outlook for broker OMs"
@@ -97,10 +101,6 @@
         },
         {
           "ts": "2026-09-14T18:13:13.981Z",
-          "label": "Browse \u00b7 ca-taylor-chat-eus2-dev.gentlebush-37543ab5.eastus2.azurecontainerapps\u2026"
-        },
-        {
-          "ts": "2026-09-14T18:13:07.261Z",
           "label": "Browse \u00b7 ca-taylor-chat-eus2-dev.gentlebush-37543ab5.eastus2.azurecontainerapps\u2026"
         }
       ]
@@ -262,7 +262,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: SharePoint \u00b7 Marketing Tracker.xlsx (5h ago)",
+      "doingNow": "Idle \u2014 last: SharePoint \u00b7 Marketing Tracker.xlsx (6h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Screening Outlook mail (8h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (9h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -640,7 +640,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (7h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (8h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -700,7 +700,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 cat (8h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 cat (9h ago)",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -951,8 +951,12 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-14T21:16:20.497000Z",
+      "lastSeenAt": "2026-09-14T21:37:30.722000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-14T21:37:30.722Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-14T21:16:20.497Z",
           "label": "Refreshing office viz"
@@ -979,10 +983,6 @@
         },
         {
           "ts": "2026-09-14T19:54:26.644Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-14T19:44:15.189Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-14T21:37:30.722Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-14T21:35:23.214Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Working in Outlook"
+    },
+    {
       "ts": "2026-09-14T21:16:20.497Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1921,12 +1933,6 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-14T19:44:15.189Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-14T18:16:51.813Z",
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
@@ -1958,12 +1964,6 @@
     },
     {
       "ts": "2026-09-14T18:13:13.981Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Browse \u00b7 ca-taylor-chat-eus2-dev.gentlebush-37543ab5.eastus2.azurecontainerapps\u2026"
-    },
-    {
-      "ts": "2026-09-14T18:13:07.261Z",
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Browse \u00b7 ca-taylor-chat-eus2-dev.gentlebush-37543ab5.eastus2.azurecontainerapps\u2026"
