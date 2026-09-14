@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T19:56:16.398692Z",
+  "generatedAt": "2026-09-14T20:10:59.072180Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Browse \u00b7 https://www.google.com/search?q=%22gentlebush-37543ab5%22+%22Company+K\u2026",
+      "doingNow": "Screening Outlook for broker OMs",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -69,8 +69,12 @@
       "x": 50,
       "y": 42,
       "status": "active",
-      "lastSeenAt": "2026-09-14T18:16:51.813000Z",
+      "lastSeenAt": "2026-09-14T19:57:01.545000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-14T19:57:01.545Z",
+          "label": "Screening Outlook for broker OMs"
+        },
         {
           "ts": "2026-09-14T18:16:51.813Z",
           "label": "Desktop session \u00b7 0 actions"
@@ -98,10 +102,6 @@
         {
           "ts": "2026-09-14T18:13:07.261Z",
           "label": "Browse \u00b7 ca-taylor-chat-eus2-dev.gentlebush-37543ab5.eastus2.azurecontainerapps\u2026"
-        },
-        {
-          "ts": "2026-09-14T18:09:56.965Z",
-          "label": "SharePoint \u00b7 Investments - Investments - New OMs - All Documents"
         }
       ]
     },
@@ -951,8 +951,16 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-14T19:56:16.343000Z",
+      "lastSeenAt": "2026-09-14T20:10:59.022000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-14T20:10:59.022Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-14T20:10:41.744Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-14T19:56:16.343Z",
           "label": "Refreshing office viz"
@@ -976,14 +984,6 @@
         {
           "ts": "2026-09-14T19:37:36.432Z",
           "label": "Building underwriting model"
-        },
-        {
-          "ts": "2026-09-14T19:37:36.253Z",
-          "label": "Shell \u00b7 mkdir"
-        },
-        {
-          "ts": "2026-09-14T19:37:12.295Z",
-          "label": "Desktop session \u00b7 0 actions"
         }
       ]
     }
@@ -1873,6 +1873,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-14T20:10:59.022Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-14T20:10:41.744Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-14T19:57:01.545Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
       "ts": "2026-09-14T19:56:16.343Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1907,18 +1925,6 @@
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Building underwriting model"
-    },
-    {
-      "ts": "2026-09-14T19:37:36.253Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Shell \u00b7 mkdir"
-    },
-    {
-      "ts": "2026-09-14T19:37:12.295Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Desktop session \u00b7 0 actions"
     },
     {
       "ts": "2026-09-14T18:16:51.813Z",
@@ -1961,12 +1967,6 @@
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Browse \u00b7 ca-taylor-chat-eus2-dev.gentlebush-37543ab5.eastus2.azurecontainerapps\u2026"
-    },
-    {
-      "ts": "2026-09-14T18:09:56.965Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "SharePoint \u00b7 Investments - Investments - New OMs - All Documents"
     },
     {
       "ts": "2026-09-14T17:39:19.253Z",
