@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:53:59.738481Z",
+  "generatedAt": "2026-09-15T18:59:28.074491Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -951,8 +951,16 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T18:53:59.683000Z",
+      "lastSeenAt": "2026-09-15T18:59:28.019000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T18:59:28.019Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T18:59:23.784Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T18:53:59.683Z",
           "label": "Refreshing office viz"
@@ -975,14 +983,6 @@
         },
         {
           "ts": "2026-09-15T18:26:14.499Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T18:26:12.327Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T18:26:07.480Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T18:59:28.019Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T18:59:23.784Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T18:53:59.683Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1904,18 +1916,6 @@
     },
     {
       "ts": "2026-09-15T18:26:14.499Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T18:26:12.327Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T18:26:07.480Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
