@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:08:50.141926Z",
+  "generatedAt": "2026-09-15T18:26:14.554813Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (52m ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -178,7 +178,7 @@
       "definition": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs.",
       "mandate": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
       "instructions": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
-      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (5h ago)",
+      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (6h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -262,7 +262,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: Desktop session \u00b7 15 actions (5h ago)",
+      "doingNow": "Idle \u2014 last: Desktop session \u00b7 15 actions (6h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -364,7 +364,7 @@
       "definition": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap).",
       "mandate": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
       "instructions": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
-      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (39h ago)",
+      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (40h ago)",
       "partners": [
         {
           "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -436,7 +436,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 find (39h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 find (40h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (54m ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -706,7 +706,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Screening Outlook mail (5h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (6h ago)",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -951,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T18:08:50.089000Z",
+      "lastSeenAt": "2026-09-15T18:26:14.499000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T18:26:14.499Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T18:26:12.327Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T18:26:07.480Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T18:08:50.089Z",
           "label": "Refreshing office viz"
@@ -971,18 +983,6 @@
         },
         {
           "ts": "2026-09-15T17:25:28.066Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T17:25:21.724Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T17:22:39.195Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T17:22:36.512Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T18:26:14.499Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T18:26:12.327Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T18:26:07.480Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T18:08:50.089Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1898,24 +1916,6 @@
     },
     {
       "ts": "2026-09-15T17:25:28.066Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T17:25:21.724Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T17:22:39.195Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T17:22:36.512Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
