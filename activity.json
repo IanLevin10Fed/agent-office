@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-15T20:24:32.704278Z",
+  "generatedAt": "2026-09-15T20:34:58.809809Z",
   "timezone": "America/New_York",
-  "activeAgentId": "400779c3-c62a-4654-8057-56954b605cbf",
+  "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (1h ago)",
+      "doingNow": "Screening Outlook for broker OMs",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -68,7 +68,7 @@
       "desk": "Command hub (center)",
       "x": 50,
       "y": 42,
-      "status": "idle",
+      "status": "active",
       "lastSeenAt": "2026-09-15T19:10:37.997000Z",
       "recentEvents": [
         {
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Shell \u00b7 python3",
+      "doingNow": "Screening Outlook for broker OMs \u00b7 5m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -596,39 +596,39 @@
       "desk": "Outbound \u00b7 Off-Market",
       "x": 8,
       "y": 46,
-      "status": "active",
-      "lastSeenAt": "2026-09-15T17:14:12.549000Z",
+      "status": "recent",
+      "lastSeenAt": "2026-09-15T20:29:20.631000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T20:29:20.631Z",
+          "label": "Screening Outlook for broker OMs"
+        },
+        {
+          "ts": "2026-09-15T20:29:10.574Z",
+          "label": "Shell \u00b7 ls"
+        },
+        {
+          "ts": "2026-09-15T20:29:05.592Z",
+          "label": "Screening Outlook mail"
+        },
+        {
+          "ts": "2026-09-15T20:28:46.061Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-15T20:28:26.864Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-15T20:28:17.180Z",
+          "label": "Screening Outlook mail"
+        },
         {
           "ts": "2026-09-15T17:14:12.549Z",
           "label": "Shell \u00b7 python3"
         },
         {
           "ts": "2026-09-15T14:25:53.413Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-15T14:25:45.432Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-15T14:25:35.784Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-15T14:25:27.210Z",
-          "label": "Shell \u00b7 #"
-        },
-        {
-          "ts": "2026-09-15T14:25:16.960Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-15T14:25:09.484Z",
-          "label": "Screening Outlook for broker OMs"
-        },
-        {
-          "ts": "2026-09-15T14:25:01.191Z",
           "label": "Shell \u00b7 python3"
         }
       ]
@@ -951,8 +951,16 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T20:24:32.653000Z",
+      "lastSeenAt": "2026-09-15T20:34:58.747000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T20:34:58.747Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T20:34:53.731Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T20:24:32.653Z",
           "label": "Refreshing office viz"
@@ -975,14 +983,6 @@
         },
         {
           "ts": "2026-09-15T20:14:33.338Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:14:29.136Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:00:39.688Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,54 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T20:34:58.747Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T20:34:53.731Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T20:29:20.631Z",
+      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
+      "agentName": "Off-Market Outreach",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-15T20:29:10.574Z",
+      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
+      "agentName": "Off-Market Outreach",
+      "text": "Shell \u00b7 ls"
+    },
+    {
+      "ts": "2026-09-15T20:29:05.592Z",
+      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
+      "agentName": "Off-Market Outreach",
+      "text": "Screening Outlook mail"
+    },
+    {
+      "ts": "2026-09-15T20:28:46.061Z",
+      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
+      "agentName": "Off-Market Outreach",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T20:28:26.864Z",
+      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
+      "agentName": "Off-Market Outreach",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T20:28:17.180Z",
+      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
+      "agentName": "Off-Market Outreach",
+      "text": "Screening Outlook mail"
+    },
+    {
       "ts": "2026-09-15T20:24:32.653Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1904,18 +1952,6 @@
     },
     {
       "ts": "2026-09-15T20:14:33.338Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:14:29.136Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:00:39.688Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
@@ -2024,42 +2060,6 @@
     },
     {
       "ts": "2026-09-15T14:25:53.413Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-15T14:25:45.432Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-15T14:25:35.784Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-15T14:25:27.210Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Shell \u00b7 #"
-    },
-    {
-      "ts": "2026-09-15T14:25:16.960Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-15T14:25:09.484Z",
-      "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
-      "agentName": "Off-Market Outreach",
-      "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-15T14:25:01.191Z",
       "agentId": "400779c3-c62a-4654-8057-56954b605cbf",
       "agentName": "Off-Market Outreach",
       "text": "Shell \u00b7 python3"
