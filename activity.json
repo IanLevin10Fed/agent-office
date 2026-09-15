@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T15:17:08.371022Z",
+  "generatedAt": "2026-09-15T15:51:08.527316Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (2h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (3h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -262,7 +262,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: Desktop session \u00b7 15 actions (2h ago)",
+      "doingNow": "Idle \u2014 last: Desktop session \u00b7 15 actions (3h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (51m ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (1h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -640,7 +640,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (1h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (2h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -951,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T15:17:08.319000Z",
+      "lastSeenAt": "2026-09-15T15:51:08.472000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T15:51:08.472Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T15:51:05.929Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T15:51:03.382Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T15:17:08.319Z",
           "label": "Refreshing office viz"
@@ -971,18 +983,6 @@
         },
         {
           "ts": "2026-09-15T13:50:52.814Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T13:50:46.855Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T12:57:10.750Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T12:56:58.511Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T15:51:08.472Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T15:51:05.929Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T15:51:03.382Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T15:17:08.319Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1951,12 +1969,6 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-15T13:50:46.855Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-15T13:37:58.121Z",
       "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "agentName": "Investor Inbox",
@@ -2003,18 +2015,6 @@
       "agentId": "45869c3c-5a26-48d4-838b-2bfd1eb060a7",
       "agentName": "Investor Inbox",
       "text": "Desktop session \u00b7 15 actions"
-    },
-    {
-      "ts": "2026-09-15T12:57:10.750Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T12:56:58.511Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-15T12:34:50.259Z",
