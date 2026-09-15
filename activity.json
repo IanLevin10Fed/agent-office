@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:34:58.809809Z",
+  "generatedAt": "2026-09-15T20:37:31.036117Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 5m ago",
+      "doingNow": "Screening Outlook for broker OMs \u00b7 8m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -951,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T20:34:58.747000Z",
+      "lastSeenAt": "2026-09-15T20:37:30.974000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T20:37:30.974Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T20:37:27.325Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T20:37:23.300Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T20:34:58.747Z",
           "label": "Refreshing office viz"
@@ -971,18 +983,6 @@
         },
         {
           "ts": "2026-09-15T20:20:14.147Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:20:07.288Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:14:35.751Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:14:33.338Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T20:37:30.974Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T20:37:27.325Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T20:37:23.300Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T20:34:58.747Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1934,24 +1952,6 @@
     },
     {
       "ts": "2026-09-15T20:20:14.147Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:20:07.288Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:14:35.751Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:14:33.338Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
