@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T21:17:25.773522Z",
+  "generatedAt": "2026-09-15T21:22:45.139120Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -129,38 +129,38 @@
       "x": 12,
       "y": 72,
       "status": "active",
-      "lastSeenAt": "2026-09-15T21:17:14.226000Z",
+      "lastSeenAt": "2026-09-15T21:22:01.863000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-15T21:17:14.226Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-15T21:17:12.251Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-15T21:16:52.037Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-15T21:16:51.270Z",
-          "label": "Working in Outlook"
-        },
-        {
-          "ts": "2026-09-15T21:16:40.960Z",
+          "ts": "2026-09-15T21:22:01.863Z",
           "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-15T21:16:32.732Z",
+          "ts": "2026-09-15T21:21:57.563Z",
+          "label": "Shell \u00b7 python3"
+        },
+        {
+          "ts": "2026-09-15T21:21:52.989Z",
           "label": "Working in Outlook"
         },
         {
-          "ts": "2026-09-15T21:16:32.643Z",
+          "ts": "2026-09-15T21:21:40.824Z",
           "label": "Working in Outlook"
         },
         {
-          "ts": "2026-09-15T21:16:32.142Z",
+          "ts": "2026-09-15T21:21:35.471Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-15T21:21:27.861Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-15T21:21:24.052Z",
+          "label": "Working in Outlook"
+        },
+        {
+          "ts": "2026-09-15T21:21:17.581Z",
           "label": "Working in Outlook"
         }
       ]
@@ -172,7 +172,7 @@
       "definition": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs.",
       "mandate": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
       "instructions": "Inbound top-of-funnel for 10 Federal: Outlook broker/OM deal intake, immediate New OMs filing via File Explorer, TractIQ market screens (incl. UC visual validation), LOI conversation recs. Retail light screens cue Processed Retail. Does not send off-market owner outreach.",
-      "doingNow": "Screening Outlook for broker OMs \u00b7 12m ago",
+      "doingNow": "Screening Outlook for broker OMs \u00b7 17m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -256,7 +256,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Browse \u00b7 12984 Clayton Blvd, Clayton, NC 27520, USA - Lindsey Self Storage OM (\u2026 \u00b7 4m ago",
+      "doingNow": "Browse \u00b7 12984 Clayton Blvd, Clayton, NC 27520, USA - Lindsey Self Storage OM (\u2026 \u00b7 9m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -451,8 +451,8 @@
           "direction": "out"
         },
         {
-          "id": "1a7463af-3e4d-41bd-813c-3ffd78536951",
-          "name": "Market Tracker",
+          "id": "b7db98c5-34ba-456f-a5c7-2085bf543910",
+          "name": "Revenue Manager",
           "label": "mentions",
           "direction": "out"
         },
@@ -471,39 +471,39 @@
       "x": 80,
       "y": 60,
       "status": "active",
-      "lastSeenAt": "2026-09-15T21:17:22.789000Z",
+      "lastSeenAt": "2026-09-15T21:22:32.595000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-15T21:17:22.789Z",
-          "label": "Shell \u00b7 ls"
-        },
-        {
-          "ts": "2026-09-15T21:17:07.474Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-15T21:17:07.405Z",
+          "ts": "2026-09-15T21:22:32.595Z",
           "label": "Building underwriting model"
         },
         {
-          "ts": "2026-09-15T21:16:40.587Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-15T21:16:40.517Z",
+          "ts": "2026-09-15T21:22:32.586Z",
           "label": "Building underwriting model"
         },
         {
-          "ts": "2026-09-15T21:16:22.726Z",
+          "ts": "2026-09-15T21:22:20.023Z",
           "label": "Building underwriting model"
         },
         {
-          "ts": "2026-09-15T21:16:22.371Z",
-          "label": "Shell \u00b7 rg"
+          "ts": "2026-09-15T21:21:53.635Z",
+          "label": "Building underwriting model"
         },
         {
-          "ts": "2026-09-15T21:15:38.548Z",
-          "label": "Shell \u00b7 wc"
+          "ts": "2026-09-15T21:21:43.654Z",
+          "label": "Building underwriting model"
+        },
+        {
+          "ts": "2026-09-15T21:21:32.116Z",
+          "label": "Running TractIQ / market screen"
+        },
+        {
+          "ts": "2026-09-15T21:20:36.624Z",
+          "label": "Building underwriting model"
+        },
+        {
+          "ts": "2026-09-15T21:19:54.281Z",
+          "label": "Building underwriting model"
         }
       ]
     },
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (48m ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (53m ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -785,12 +785,6 @@
           "name": "Inbound Deals",
           "label": "feeds promoted to",
           "direction": "out"
-        },
-        {
-          "id": "26f91a22-f052-489b-8865-731646053afc",
-          "name": "Underwriting",
-          "label": "mentions",
-          "direction": "in"
         }
       ],
       "color": "cyan",
@@ -830,6 +824,12 @@
           "name": "File Explorer",
           "label": "hands analysis to",
           "direction": "out"
+        },
+        {
+          "id": "26f91a22-f052-489b-8865-731646053afc",
+          "name": "Underwriting",
+          "label": "mentions",
+          "direction": "in"
         }
       ],
       "color": "green",
@@ -951,8 +951,16 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T21:17:25.669000Z",
+      "lastSeenAt": "2026-09-15T21:22:45.077000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T21:22:45.077Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T21:22:41.781Z",
+          "label": "Shell \u00b7 ls"
+        },
         {
           "ts": "2026-09-15T21:17:25.669Z",
           "label": "Refreshing office viz"
@@ -975,14 +983,6 @@
         },
         {
           "ts": "2026-09-15T20:51:39.166Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:37:30.974Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T20:37:27.325Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1359,10 +1359,10 @@
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-15T21:15:11.081Z",
+      "ts": "2026-09-15T21:21:32.116Z",
       "genericCos": false
     }
   ],
@@ -1656,12 +1656,12 @@
   "conversations": [
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "fromName": "Underwriting",
-      "toName": "Market Tracker",
+      "toName": "Revenue Manager",
       "kind": "mention",
       "text": "Ping",
-      "ts": "2026-09-15T21:15:11.081Z"
+      "ts": "2026-09-15T21:21:32.116Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -1873,106 +1873,118 @@
   ],
   "feed": [
     {
-      "ts": "2026-09-15T21:17:25.669Z",
+      "ts": "2026-09-15T21:22:45.077Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-15T21:17:22.789Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
+      "ts": "2026-09-15T21:22:41.781Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
       "text": "Shell \u00b7 ls"
     },
     {
-      "ts": "2026-09-15T21:17:14.226Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-15T21:17:12.251Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-15T21:17:07.474Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-15T21:17:07.405Z",
+      "ts": "2026-09-15T21:22:32.595Z",
       "agentId": "26f91a22-f052-489b-8865-731646053afc",
       "agentName": "Underwriting",
       "text": "Building underwriting model"
     },
     {
-      "ts": "2026-09-15T21:16:52.037Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
+      "ts": "2026-09-15T21:22:32.586Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Building underwriting model"
     },
     {
-      "ts": "2026-09-15T21:16:51.270Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
+      "ts": "2026-09-15T21:22:20.023Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Building underwriting model"
     },
     {
-      "ts": "2026-09-15T21:16:40.960Z",
+      "ts": "2026-09-15T21:22:01.863Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
       "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-15T21:16:40.587Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 rg"
+      "ts": "2026-09-15T21:21:57.563Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Shell \u00b7 python3"
     },
     {
-      "ts": "2026-09-15T21:16:40.517Z",
+      "ts": "2026-09-15T21:21:53.635Z",
       "agentId": "26f91a22-f052-489b-8865-731646053afc",
       "agentName": "Underwriting",
       "text": "Building underwriting model"
     },
     {
-      "ts": "2026-09-15T21:16:32.732Z",
+      "ts": "2026-09-15T21:21:52.989Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
       "text": "Working in Outlook"
     },
     {
-      "ts": "2026-09-15T21:16:32.643Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-15T21:16:32.142Z",
-      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-15T21:16:22.726Z",
+      "ts": "2026-09-15T21:21:43.654Z",
       "agentId": "26f91a22-f052-489b-8865-731646053afc",
       "agentName": "Underwriting",
       "text": "Building underwriting model"
     },
     {
-      "ts": "2026-09-15T21:16:22.371Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 rg"
+      "ts": "2026-09-15T21:21:40.824Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
     },
     {
-      "ts": "2026-09-15T21:15:38.548Z",
+      "ts": "2026-09-15T21:21:35.471Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T21:21:32.116Z",
       "agentId": "26f91a22-f052-489b-8865-731646053afc",
       "agentName": "Underwriting",
-      "text": "Shell \u00b7 wc"
+      "text": "Running TractIQ / market screen"
+    },
+    {
+      "ts": "2026-09-15T21:21:27.861Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T21:21:24.052Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T21:21:17.581Z",
+      "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "agentName": "Email Organizer",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T21:20:36.624Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Building underwriting model"
+    },
+    {
+      "ts": "2026-09-15T21:19:54.281Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Building underwriting model"
+    },
+    {
+      "ts": "2026-09-15T21:17:25.669Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-15T21:13:53.550Z",
@@ -2096,18 +2108,6 @@
     },
     {
       "ts": "2026-09-15T20:51:45.289Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:51:42.938Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T20:51:39.166Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
