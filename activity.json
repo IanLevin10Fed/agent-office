@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T00:12:51.119269Z",
+  "generatedAt": "2026-09-15T11:02:45.086045Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -69,39 +69,39 @@
       "x": 50,
       "y": 42,
       "status": "active",
-      "lastSeenAt": "2026-09-14T23:08:58.098000Z",
+      "lastSeenAt": "2026-09-15T01:28:12.109000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-14T23:08:58.098Z",
-          "label": "Shell \u00b7 cat"
-        },
-        {
-          "ts": "2026-09-14T23:08:46.140Z",
+          "ts": "2026-09-15T01:28:12.109Z",
           "label": "Working in Outlook"
         },
         {
-          "ts": "2026-09-14T23:08:46.342Z",
+          "ts": "2026-09-15T01:28:12.033Z",
           "label": "Working in Outlook"
         },
         {
-          "ts": "2026-09-14T23:08:43.279Z",
+          "ts": "2026-09-15T01:28:03.704Z",
+          "label": "Screening Outlook for broker OMs"
+        },
+        {
+          "ts": "2026-09-15T01:28:03.425Z",
           "label": "Working in Outlook"
         },
         {
-          "ts": "2026-09-14T23:08:45.395Z",
+          "ts": "2026-09-15T00:55:26.828Z",
           "label": "Working in Outlook"
         },
         {
-          "ts": "2026-09-14T23:08:42.091Z",
-          "label": "Working in Outlook"
+          "ts": "2026-09-15T00:55:11.821Z",
+          "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-14T23:08:31.242Z",
-          "label": "Working in Outlook"
+          "ts": "2026-09-15T00:55:11.759Z",
+          "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-14T23:08:29.601Z",
-          "label": "Working in Outlook"
+          "ts": "2026-09-15T00:55:02.307Z",
+          "label": "Screening Outlook for broker OMs"
         }
       ]
     },
@@ -112,7 +112,7 @@
       "definition": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "mandate": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
       "instructions": "Triages Ian\u2019s full Outlook inbox: archives noise, flags what needs attention, coordinates meetings (hour slots 10:00\u201316:30 ET), and notifies Chief of Staff on important items.",
-      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (1h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (11h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -262,7 +262,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "Idle \u2014 last: SharePoint \u00b7 Marketing Tracker.xlsx (8h ago)",
+      "doingNow": "Idle \u2014 last: SharePoint \u00b7 Marketing Tracker.xlsx (19h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -364,7 +364,7 @@
       "definition": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap).",
       "mandate": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
       "instructions": "Builds simplified 1-page initial-screen investment memos for 10 Federal deals. Partners with Inbound Deals (market/TractIQ/demos) and Underwriting (10F screen / retail simple cap). Theme matches the IC Investment Memorandum look (red header, Deal Summary / Returns / Unit Mix / Thesis / Business Plan / Market / Sources & Uses) but stripped for incomplete info \u2014 stamp assumptions and unknowns; never invent. Output saved to the deal folder in Processed OMs via File Explorer.\u2026",
-      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (22h ago)",
+      "doingNow": "Idle \u2014 last: Running TractIQ / market screen (32h ago)",
       "partners": [
         {
           "id": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -442,7 +442,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 find (22h ago)",
+      "doingNow": "Idle \u2014 last: Shell \u00b7 find (32h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -586,7 +586,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Screening Outlook mail (1h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (12h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -646,7 +646,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (10h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (21h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -706,7 +706,7 @@
       "definition": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "mandate": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
       "instructions": "Watches Ian\u2019s 10 Federal deal bots, SharePoint filing, and operating processes. Surfaces concrete SLA/hygiene/efficiency issues to Chief of Staff \u2014 continuous watch, ping only when material.",
-      "doingNow": "Idle \u2014 last: Screening Outlook mail (1h ago)",
+      "doingNow": "Idle \u2014 last: Screening Outlook mail (12h ago)",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -951,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T00:12:51.065000Z",
+      "lastSeenAt": "2026-09-15T11:02:45.008000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T11:02:45.008Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T11:02:41.321Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T11:02:30.970Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T00:12:51.065Z",
           "label": "Refreshing office viz"
@@ -972,18 +984,6 @@
         {
           "ts": "2026-09-14T23:31:56.717Z",
           "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-14T23:31:51.723Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-14T23:31:48.439Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-14T23:21:34.842Z",
-          "label": "Refreshing office viz"
         }
       ]
     }
@@ -996,14 +996,6 @@
       "text": "routes via CoS",
       "ts": "2026-09-14T23:04:21.795Z",
       "genericCos": true
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "assigns / routes",
-      "text": "assigns / routes",
-      "ts": "2026-09-14T22:32:28.906Z",
-      "genericCos": false
     },
     {
       "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
@@ -1162,6 +1154,14 @@
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "builds viz for",
       "text": "builds viz for",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "assigns / routes",
+      "text": "assigns / routes",
       "ts": null,
       "genericCos": false
     },
@@ -1673,15 +1673,6 @@
       "ts": "2026-09-14T23:04:21.795Z"
     },
     {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "Chief of Staff",
-      "toName": "Inbound Deals",
-      "kind": "assigns / routes",
-      "text": "assigns / routes",
-      "ts": "2026-09-14T22:32:28.906Z"
-    },
-    {
       "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
       "to": "ad46438f-79a3-4066-8977-7dbdd40641de",
       "fromName": "Process Auditor",
@@ -1863,6 +1854,15 @@
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "Chief of Staff",
+      "toName": "Inbound Deals",
+      "kind": "assigns / routes",
+      "text": "assigns / routes",
+      "ts": null
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "to": "26f91a22-f052-489b-8865-731646053afc",
       "fromName": "Chief of Staff",
       "toName": "Underwriting",
@@ -1872,6 +1872,72 @@
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-15T11:02:45.008Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T11:02:41.321Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T11:02:30.970Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T01:28:12.109Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T01:28:12.033Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T01:28:03.704Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-15T01:28:03.425Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T00:55:26.828Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Working in Outlook"
+    },
+    {
+      "ts": "2026-09-15T00:55:11.821Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-15T00:55:11.759Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-15T00:55:02.307Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
     {
       "ts": "2026-09-15T00:12:51.065Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -1903,24 +1969,6 @@
       "text": "Refreshing office viz"
     },
     {
-      "ts": "2026-09-14T23:31:51.723Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-14T23:31:48.439Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-14T23:21:34.842Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
       "ts": "2026-09-14T23:09:39.871Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
@@ -1945,57 +1993,9 @@
       "text": "Screening Outlook for broker OMs"
     },
     {
-      "ts": "2026-09-14T23:08:58.098Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Shell \u00b7 cat"
-    },
-    {
-      "ts": "2026-09-14T23:08:46.342Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-14T23:08:46.140Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-14T23:08:45.395Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Working in Outlook"
-    },
-    {
       "ts": "2026-09-14T23:08:44.970Z",
       "agentId": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
       "agentName": "Email Organizer",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-14T23:08:43.279Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-14T23:08:42.091Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-14T23:08:31.242Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Working in Outlook"
-    },
-    {
-      "ts": "2026-09-14T23:08:29.601Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
       "text": "Working in Outlook"
     },
     {
