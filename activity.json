@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T11:24:39.857664Z",
+  "generatedAt": "2026-09-15T11:42:35.445599Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -951,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T11:24:39.804000Z",
+      "lastSeenAt": "2026-09-15T11:42:35.392000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T11:42:35.392Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T11:42:32.856Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T11:42:29.782Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T11:24:39.804Z",
           "label": "Refreshing office viz"
@@ -971,18 +983,6 @@
         },
         {
           "ts": "2026-09-15T11:02:45.008Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T11:02:41.321Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T11:02:30.970Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T00:12:51.065Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T11:42:35.392Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T11:42:32.856Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T11:42:29.782Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T11:24:39.804Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1898,18 +1916,6 @@
     },
     {
       "ts": "2026-09-15T11:02:45.008Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T11:02:41.321Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T11:02:30.970Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
@@ -1961,12 +1967,6 @@
       "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "agentName": "Chief of Staff",
       "text": "Screening Outlook for broker OMs"
-    },
-    {
-      "ts": "2026-09-15T00:12:51.065Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
     },
     {
       "ts": "2026-09-14T23:09:39.871Z",
