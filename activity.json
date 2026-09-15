@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:33:34.324445Z",
+  "generatedAt": "2026-09-15T18:53:59.738481Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -640,7 +640,7 @@
       "definition": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issue\u2026",
       "mandate": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
       "instructions": "Daily coverage of investors@10federal.com: reviews the inbox, preps Outlook drafts (IR signature) for the team to send, checks Juniper Square for facts/docs (no investor-data changes without permission), and flags issues.",
-      "doingNow": "Idle \u2014 last: Browsing Outlook (4h ago)",
+      "doingNow": "Idle \u2014 last: Browsing Outlook (5h ago)",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -951,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T18:33:34.255000Z",
+      "lastSeenAt": "2026-09-15T18:53:59.683000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T18:53:59.683Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T18:53:56.059Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T18:53:52.058Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T18:33:34.255Z",
           "label": "Refreshing office viz"
@@ -971,18 +983,6 @@
         },
         {
           "ts": "2026-09-15T18:26:07.480Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T18:08:50.089Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T18:08:38.185Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T18:00:49.072Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,24 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T18:53:59.683Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T18:53:56.059Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T18:53:52.058Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T18:33:34.255Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1898,24 +1916,6 @@
     },
     {
       "ts": "2026-09-15T18:26:07.480Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T18:08:50.089Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T18:08:38.185Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T18:00:49.072Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
