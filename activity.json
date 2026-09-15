@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-15T20:14:35.808476Z",
+  "generatedAt": "2026-09-15T20:20:14.198807Z",
   "timezone": "America/New_York",
-  "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+  "activeAgentId": "400779c3-c62a-4654-8057-56954b605cbf",
   "agents": [
     {
       "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -10,7 +10,7 @@
       "definition": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues.",
       "mandate": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
       "instructions": "Point person for Ian\u2019s 10 Federal deal bots. Routes work, learns what teammates are doing, and surfaces issues. Significant process changes come through CoS for Ian\u2019s approval. May improve process thoughtfully; never deletes files (archive-first), never large reorgs or mass emails without Ian\u2019s OK.",
-      "doingNow": "Screening Outlook for broker OMs",
+      "doingNow": "Idle \u2014 last: Screening Outlook for broker OMs (1h ago)",
       "partners": [
         {
           "id": "ad46438f-79a3-4066-8977-7dbdd40641de",
@@ -68,7 +68,7 @@
       "desk": "Command hub (center)",
       "x": 50,
       "y": 42,
-      "status": "active",
+      "status": "idle",
       "lastSeenAt": "2026-09-15T19:10:37.997000Z",
       "recentEvents": [
         {
@@ -580,7 +580,7 @@
       "definition": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalf\u2026",
       "mandate": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
       "instructions": "Off-market self-storage for 10 Federal: NC indie research + TractIQ + published emails + Template 3 send/track from ilevin@10federal.com. Weekday 8am ET research; weekday ~10am ET sends only; no CC to ilevin or JMetcalfe.",
-      "doingNow": "Idle \u2014 last: Shell \u00b7 python3 (3h ago)",
+      "doingNow": "Shell \u00b7 python3",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -596,7 +596,7 @@
       "desk": "Outbound \u00b7 Off-Market",
       "x": 8,
       "y": 46,
-      "status": "idle",
+      "status": "active",
       "lastSeenAt": "2026-09-15T17:14:12.549000Z",
       "recentEvents": [
         {
@@ -951,8 +951,16 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T20:14:35.751000Z",
+      "lastSeenAt": "2026-09-15T20:20:14.147000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-15T20:20:14.147Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-15T20:20:07.288Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T20:14:35.751Z",
           "label": "Refreshing office viz"
@@ -975,14 +983,6 @@
         },
         {
           "ts": "2026-09-15T19:57:52.826Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T19:47:31.099Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T19:47:26.242Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1873,6 +1873,18 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-15T20:20:14.147Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-15T20:20:07.288Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-15T20:14:35.751Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -1904,18 +1916,6 @@
     },
     {
       "ts": "2026-09-15T19:57:52.826Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T19:47:31.099Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T19:47:26.242Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
