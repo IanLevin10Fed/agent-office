@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:34:06.437042Z",
+  "generatedAt": "2026-09-16T01:34:27.302419Z",
   "timezone": "America/New_York",
   "activeAgentId": "400779c3-c62a-4654-8057-56954b605cbf",
   "agents": [
@@ -758,8 +758,8 @@
       "name": "Market Tracker",
       "role": "On-market self-storage discovery (All US) \u2014 weekly Sun 3:00 AM ET \u2192 Market Tracker.xlsx",
       "definition": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts \u2026",
-      "mandate": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts into Investments / Shared Documents / Self Storage / Marketing Tracker.xlsx (never create a new SoR file; never dual-write old Investment Tracker / Market Tracker names) on columns Name/Investment Name, Address (+City/State), Asking Price, Source, Listing URL, Last Seen, Promote Status, Listed Date.\u2026",
-      "instructions": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts into Investments / Shared Documents / Self Storage / Marketing Tracker.xlsx (never create a new SoR file; never dual-write old Investment Tracker / Market Tracker names) on columns Name/Investment Name, Address (+City/State), Asking Price, Source, Listing URL, Last Seen, Promote Status, Listed Date.\u2026",
+      "mandate": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts into Investments / Shared Documents / Self Storage / Market Tracker.xlsx (canonical name; never create a new SoR file; never dual-write old Marketing Tracker / Investment Tracker names) on columns Name/Investment Name, Address (+City/State), Asking Price, Source, Listing URL, Last Seen, Promote Status, Listed Date.\u2026",
+      "instructions": "On-market self-storage listing discovery for 10 Federal (All US; retail later): CoStar + Crexi + LoopNet + major/minor broker sites \u2192 normalize \u2192 hard dedupe vs existing deals/email OMs \u2192 weekly update-in-place upserts into Investments / Shared Documents / Self Storage / Market Tracker.xlsx (canonical name; never create a new SoR file; never dual-write old Marketing Tracker / Investment Tracker names) on columns Name/Investment Name, Address (+City/State), Asking Price, Source, Listing URL, Last Seen, Promote Status, Listed Date.\u2026",
       "doingNow": "Idle \u2014 no recent activity",
       "partners": [
         {
@@ -922,7 +922,7 @@
       "definition": "Owns Ian\u2019s private GitHub SoR (IanLevin10Fed/ian-platform; migrate to 10federal/ian-os only on Ian GO): knowledge/, approved skill mirrors, dashboards/ VC. One job: keep the monorepo professional, versioned, and sync-cl\u2026",
       "mandate": "Owns Ian\u2019s private GitHub SoR (IanLevin10Fed/ian-platform; migrate to 10federal/ian-os only on Ian GO): knowledge/, approved skill mirrors, dashboards/ VC. One job: keep the monorepo professional, versioned, and sync-clean. Dashboard rule: latest always at dashboards/current/<slug>/; every publish snapshots prior to releases/YYYY-MM-DD-<slug>/ + CHANGELOG. Skills: only CoS/Ian PASS list into knowledge/skills/ \u2014 seed on main already PASSed; further adds need fresh PASS. Archive-first; never delete.\u2026",
       "instructions": "Owns Ian\u2019s private GitHub SoR (IanLevin10Fed/ian-platform; migrate to 10federal/ian-os only on Ian GO): knowledge/, approved skill mirrors, dashboards/ VC. One job: keep the monorepo professional, versioned, and sync-clean. Dashboard rule: latest always at dashboards/current/<slug>/; every publish snapshots prior to releases/YYYY-MM-DD-<slug>/ + CHANGELOG. Skills: only CoS/Ian PASS list into knowledge/skills/ \u2014 seed on main already PASSed; further adds need fresh PASS. Archive-first; never delete.\u2026",
-      "doingNow": "Shell \u00b7 ls",
+      "doingNow": "Shell \u00b7 ls \u00b7 2m ago",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -944,7 +944,7 @@
       "desk": "Curator desk",
       "x": 52,
       "y": 8,
-      "status": "active",
+      "status": "recent",
       "lastSeenAt": "2026-09-16T01:32:09.389000Z",
       "recentEvents": [
         {
@@ -1023,8 +1023,12 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-16T01:34:06.310000Z",
+      "lastSeenAt": "2026-09-16T01:34:27.201000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-16T01:34:27.201Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-16T01:34:06.310Z",
           "label": "Refreshing office viz"
@@ -1051,10 +1055,6 @@
         },
         {
           "ts": "2026-09-15T23:48:12.490Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T23:37:02.577Z",
           "label": "Refreshing office viz"
         }
       ]
@@ -1987,6 +1987,12 @@
   ],
   "feed": [
     {
+      "ts": "2026-09-16T01:34:27.201Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
       "ts": "2026-09-16T01:34:06.310Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
@@ -2216,12 +2222,6 @@
     },
     {
       "ts": "2026-09-16T00:01:22.503Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-16T00:01:18.858Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
