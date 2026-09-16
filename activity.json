@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:54:46.801073Z",
+  "generatedAt": "2026-09-16T00:01:26.026519Z",
   "timezone": "America/New_York",
   "activeAgentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
   "agents": [
@@ -69,39 +69,39 @@
       "x": 50,
       "y": 42,
       "status": "active",
-      "lastSeenAt": "2026-09-15T23:54:37.979000Z",
+      "lastSeenAt": "2026-09-16T00:01:20.626000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-15T23:54:37.979Z",
+          "ts": "2026-09-16T00:01:20.626Z",
           "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-15T23:54:34.977Z",
-          "label": "Screening Outlook mail"
+          "ts": "2026-09-16T00:01:15.026Z",
+          "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-15T23:54:10.896Z",
-          "label": "Filing deal docs"
+          "ts": "2026-09-16T00:01:12.581Z",
+          "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-15T23:53:55.281Z",
-          "label": "MCP \u00b7 Onedrive: search_drive_items"
+          "ts": "2026-09-16T00:01:07.432Z",
+          "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-15T23:53:55.091Z",
-          "label": "MCP \u00b7 Onedrive: get_drive_item"
+          "ts": "2026-09-16T00:01:07.486Z",
+          "label": "Screening Outlook for broker OMs"
         },
         {
-          "ts": "2026-09-15T23:53:45.884Z",
-          "label": "MCP \u00b7 Onedrive: search_drive_items"
+          "ts": "2026-09-16T00:01:02.197Z",
+          "label": "Desktop session \u00b7 0 actions"
         },
         {
-          "ts": "2026-09-15T23:53:46.369Z",
-          "label": "MCP \u00b7 Onedrive: search_drive_items"
+          "ts": "2026-09-16T00:00:58.174Z",
+          "label": "Browsing Outlook"
         },
         {
-          "ts": "2026-09-15T23:53:37.517Z",
-          "label": "MCP \u00b7 Onedrive: search_files"
+          "ts": "2026-09-16T00:00:24.099Z",
+          "label": "Browsing Outlook"
         }
       ]
     },
@@ -256,7 +256,7 @@
       "definition": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots.",
       "mandate": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
       "instructions": "Go-to file and documentation organizer for 10 Federal Investments (SharePoint Investments department). Owns filing/hygiene/archives for deal bots. When analysis in Grokbot analysis or GrokBot DD is updated: keep one clear live/current file at folder root; move superseded versions into Archive/_Archive inside that folder (archive-first, never delete). Pipeline tracker cells-only updates; no large reorgs without CoS/Ian.",
-      "doingNow": "SharePoint \u00b7 10Fed Critical Files - Search",
+      "doingNow": "MCP \u00b7 Tract IQ: market_summary_tool",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -315,39 +315,39 @@
       "x": 28,
       "y": 9,
       "status": "active",
-      "lastSeenAt": "2026-09-15T23:53:48.200000Z",
+      "lastSeenAt": "2026-09-16T00:01:09.913000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-15T23:53:48.200Z",
-          "label": "SharePoint \u00b7 10Fed Critical Files - Search"
+          "ts": "2026-09-16T00:01:09.913Z",
+          "label": "Shell \u00b7 python3"
         },
         {
-          "ts": "2026-09-15T23:53:14.877Z",
-          "label": "SharePoint \u00b7 02. Properties - Self Storage - All Documents"
-        },
-        {
-          "ts": "2026-09-15T23:52:56.273Z",
-          "label": "Shell \u00b7 find"
-        },
-        {
-          "ts": "2026-09-15T23:52:55.284Z",
-          "label": "Running TractIQ / market screen"
-        },
-        {
-          "ts": "2026-09-15T23:52:53.235Z",
-          "label": "Shell \u00b7 rg"
-        },
-        {
-          "ts": "2026-09-15T23:52:51.378Z",
+          "ts": "2026-09-16T00:01:05.330Z",
           "label": "MCP \u00b7 Tract IQ: market_summary_tool"
         },
         {
-          "ts": "2026-09-15T23:52:48.790Z",
-          "label": "Filing deal docs"
+          "ts": "2026-09-15T23:59:38.045Z",
+          "label": "Desktop session \u00b7 0 actions"
         },
         {
-          "ts": "2026-09-15T23:52:45.170Z",
-          "label": "Shell \u00b7 rg"
+          "ts": "2026-09-15T23:59:32.283Z",
+          "label": "Shell \u00b7 echo"
+        },
+        {
+          "ts": "2026-09-15T23:59:28.884Z",
+          "label": "MCP \u00b7 Tract IQ: market_summary_tool"
+        },
+        {
+          "ts": "2026-09-15T23:59:09.062Z",
+          "label": "SharePoint \u00b7 Annual Inspections - All Documents"
+        },
+        {
+          "ts": "2026-09-15T23:58:26.413Z",
+          "label": "Running TractIQ / market screen"
+        },
+        {
+          "ts": "2026-09-15T23:58:22.125Z",
+          "label": "MCP \u00b7 Tract IQ: market_summary_tool"
         }
       ]
     },
@@ -430,7 +430,7 @@
       "definition": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask).",
       "mandate": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
       "instructions": "First-pass financial underwriter for 10 Federal. Storage: 10F Initial Screen (FULL/FALLBACK, Target Rates Q3) after market screen + Ian LOI yes (or explicit ask). Retail: simple going-in cap v0 (8.5% target, 3% growth, 80% margins, basic debt). Not full IC modeling.",
-      "doingNow": "MCP \u00b7 Tract IQ: geocode_search_tool",
+      "doingNow": "MCP \u00b7 Tract IQ: market_summary_tool",
       "partners": [
         {
           "id": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -445,16 +445,22 @@
           "direction": "out"
         },
         {
-          "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-          "name": "Inbound Deals",
-          "label": "mentions",
-          "direction": "out"
-        },
-        {
           "id": "acd901b5-c261-4587-b3f1-86a1157bad67",
           "name": "Investment Memo",
           "label": "pairs with",
           "direction": "out"
+        },
+        {
+          "id": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+          "name": "Market Tracker",
+          "label": "mentions",
+          "direction": "out"
+        },
+        {
+          "id": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+          "name": "Inbound Deals",
+          "label": "gets LOI yes from",
+          "direction": "in"
         }
       ],
       "color": "violet",
@@ -465,38 +471,38 @@
       "x": 80,
       "y": 60,
       "status": "active",
-      "lastSeenAt": "2026-09-15T23:54:40.745000Z",
+      "lastSeenAt": "2026-09-16T00:01:20.938000Z",
       "recentEvents": [
         {
-          "ts": "2026-09-15T23:54:40.726Z",
-          "label": "MCP \u00b7 Tract IQ: geocode_search_tool"
-        },
-        {
-          "ts": "2026-09-15T23:54:40.745Z",
-          "label": "Running TractIQ / market screen"
-        },
-        {
-          "ts": "2026-09-15T23:54:28.920Z",
-          "label": "MCP \u00b7 Tract IQ: pricing_trends_tool"
-        },
-        {
-          "ts": "2026-09-15T23:54:29.019Z",
-          "label": "Shell \u00b7 python3"
-        },
-        {
-          "ts": "2026-09-15T23:54:18.227Z",
-          "label": "MCP \u00b7 Tract IQ: facility_search_tool"
-        },
-        {
-          "ts": "2026-09-15T23:54:18.032Z",
-          "label": "Running TractIQ / market screen"
-        },
-        {
-          "ts": "2026-09-15T23:54:08.661Z",
+          "ts": "2026-09-16T00:01:20.872Z",
           "label": "MCP \u00b7 Tract IQ: market_summary_tool"
         },
         {
-          "ts": "2026-09-15T23:54:08.827Z",
+          "ts": "2026-09-16T00:01:20.938Z",
+          "label": "Running TractIQ / market screen"
+        },
+        {
+          "ts": "2026-09-16T00:01:17.532Z",
+          "label": "MCP \u00b7 Tract IQ: geocode_search_tool"
+        },
+        {
+          "ts": "2026-09-15T23:59:35.219Z",
+          "label": "Shell \u00b7 echo"
+        },
+        {
+          "ts": "2026-09-15T23:59:28.152Z",
+          "label": "MCP \u00b7 Tract IQ: geocode_search_tool"
+        },
+        {
+          "ts": "2026-09-15T23:59:27.977Z",
+          "label": "Running TractIQ / market screen"
+        },
+        {
+          "ts": "2026-09-15T23:59:20.505Z",
+          "label": "MCP \u00b7 Tract IQ: pricing_trends_tool"
+        },
+        {
+          "ts": "2026-09-15T23:59:20.147Z",
           "label": "Shell \u00b7 python3"
         }
       ]
@@ -779,6 +785,12 @@
           "name": "Inbound Deals",
           "label": "feeds promoted to",
           "direction": "out"
+        },
+        {
+          "id": "26f91a22-f052-489b-8865-731646053afc",
+          "name": "Underwriting",
+          "label": "mentions",
+          "direction": "in"
         }
       ],
       "color": "cyan",
@@ -939,8 +951,20 @@
       "x": 84,
       "y": 8,
       "status": "active",
-      "lastSeenAt": "2026-09-15T23:54:46.746000Z",
+      "lastSeenAt": "2026-09-16T00:01:25.973000Z",
       "recentEvents": [
+        {
+          "ts": "2026-09-16T00:01:25.973Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-16T00:01:22.503Z",
+          "label": "Refreshing office viz"
+        },
+        {
+          "ts": "2026-09-16T00:01:18.858Z",
+          "label": "Refreshing office viz"
+        },
         {
           "ts": "2026-09-15T23:54:46.746Z",
           "label": "Refreshing office viz"
@@ -960,18 +984,6 @@
         {
           "ts": "2026-09-15T23:29:13.893Z",
           "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T23:29:10.883Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T23:20:13.384Z",
-          "label": "Refreshing office viz"
-        },
-        {
-          "ts": "2026-09-15T23:08:10.902Z",
-          "label": "Refreshing office viz"
         }
       ]
     }
@@ -986,19 +998,27 @@
       "genericCos": false
     },
     {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "files for",
-      "text": "files for",
-      "ts": "2026-09-15T23:34:26.315Z",
-      "genericCos": false
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "label": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": "2026-09-15T23:52:52.783Z",
+      "genericCos": true
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "files web OMs from",
       "text": "files web OMs from",
-      "ts": "2026-09-15T23:34:18.654Z",
+      "ts": "2026-09-15T23:43:04.849Z",
+      "genericCos": false
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "files for",
+      "text": "files for",
+      "ts": "2026-09-15T23:40:39.276Z",
       "genericCos": false
     },
     {
@@ -1006,16 +1026,8 @@
       "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "assigns / promotes",
       "text": "assigns / promotes",
-      "ts": "2026-09-15T22:31:21.960Z",
+      "ts": "2026-09-15T23:14:03.603Z",
       "genericCos": false
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "label": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": "2026-09-15T22:25:20.593Z",
-      "genericCos": true
     },
     {
       "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
@@ -1023,14 +1035,6 @@
       "label": "partners on charters",
       "text": "partners on charters",
       "ts": "2026-09-15T22:20:06.175Z",
-      "genericCos": false
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "label": "assigns / routes",
-      "text": "assigns / routes",
-      "ts": "2026-09-15T22:19:48.250Z",
       "genericCos": false
     },
     {
@@ -1174,6 +1178,14 @@
       "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
       "label": "builds viz for",
       "text": "builds viz for",
+      "ts": null,
+      "genericCos": false
+    },
+    {
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "label": "assigns / routes",
+      "text": "assigns / routes",
       "ts": null,
       "genericCos": false
     },
@@ -1347,10 +1359,10 @@
     },
     {
       "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
       "label": "mention",
       "text": "Ping",
-      "ts": "2026-09-15T23:50:11.784Z",
+      "ts": "2026-09-15T23:55:25.714Z",
       "genericCos": false
     }
   ],
@@ -1643,6 +1655,15 @@
   ],
   "conversations": [
     {
+      "from": "26f91a22-f052-489b-8865-731646053afc",
+      "to": "1a7463af-3e4d-41bd-813c-3ffd78536951",
+      "fromName": "Underwriting",
+      "toName": "Market Tracker",
+      "kind": "mention",
+      "text": "Ping",
+      "ts": "2026-09-15T23:55:25.714Z"
+    },
+    {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
       "to": "b7db98c5-34ba-456f-a5c7-2085bf543910",
       "fromName": "File Explorer",
@@ -1652,22 +1673,13 @@
       "ts": "2026-09-15T23:52:53.235Z"
     },
     {
-      "from": "26f91a22-f052-489b-8865-731646053afc",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "Underwriting",
-      "toName": "Inbound Deals",
-      "kind": "mention",
-      "text": "Ping",
-      "ts": "2026-09-15T23:50:11.784Z"
-    },
-    {
-      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "File Explorer",
-      "toName": "Inbound Deals",
-      "kind": "files for",
-      "text": "files for",
-      "ts": "2026-09-15T23:34:26.315Z"
+      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "fromName": "Chief of Staff",
+      "toName": "Email Organizer",
+      "kind": "routes via CoS",
+      "text": "routes via CoS",
+      "ts": "2026-09-15T23:52:52.783Z"
     },
     {
       "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
@@ -1676,7 +1688,16 @@
       "toName": "Market Tracker",
       "kind": "files web OMs from",
       "text": "files web OMs from",
-      "ts": "2026-09-15T23:34:18.654Z"
+      "ts": "2026-09-15T23:43:04.849Z"
+    },
+    {
+      "from": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
+      "fromName": "File Explorer",
+      "toName": "Inbound Deals",
+      "kind": "files for",
+      "text": "files for",
+      "ts": "2026-09-15T23:40:39.276Z"
     },
     {
       "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
@@ -1685,16 +1706,7 @@
       "toName": "Market Tracker",
       "kind": "assigns / promotes",
       "text": "assigns / promotes",
-      "ts": "2026-09-15T22:31:21.960Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
-      "fromName": "Chief of Staff",
-      "toName": "Email Organizer",
-      "kind": "routes via CoS",
-      "text": "routes via CoS",
-      "ts": "2026-09-15T22:25:20.593Z"
+      "ts": "2026-09-15T23:14:03.603Z"
     },
     {
       "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
@@ -1704,15 +1716,6 @@
       "kind": "partners on charters",
       "text": "partners on charters",
       "ts": "2026-09-15T22:20:06.175Z"
-    },
-    {
-      "from": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "to": "ba3c83cf-af56-48ef-9f52-71c088a4db18",
-      "fromName": "Chief of Staff",
-      "toName": "Inbound Deals",
-      "kind": "assigns / routes",
-      "text": "assigns / routes",
-      "ts": "2026-09-15T22:19:48.250Z"
     },
     {
       "from": "5ec874d3-a4e9-4db3-b5a6-238c807d5bf3",
@@ -1857,9 +1860,180 @@
       "kind": "feeds promoted to",
       "text": "feeds promoted to",
       "ts": null
+    },
+    {
+      "from": "565f6b10-7f4b-4b7c-a4c2-93ee4afe0b84",
+      "to": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "fromName": "Email Organizer",
+      "toName": "Chief of Staff",
+      "kind": "flags items to",
+      "text": "flags items to",
+      "ts": null
     }
   ],
   "feed": [
+    {
+      "ts": "2026-09-16T00:01:25.973Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-16T00:01:22.503Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-16T00:01:20.938Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Running TractIQ / market screen"
+    },
+    {
+      "ts": "2026-09-16T00:01:20.872Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "MCP \u00b7 Tract IQ: market_summary_tool"
+    },
+    {
+      "ts": "2026-09-16T00:01:20.626Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-16T00:01:18.858Z",
+      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
+      "agentName": "Visuals",
+      "text": "Refreshing office viz"
+    },
+    {
+      "ts": "2026-09-16T00:01:17.532Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "MCP \u00b7 Tract IQ: geocode_search_tool"
+    },
+    {
+      "ts": "2026-09-16T00:01:15.026Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-16T00:01:12.581Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-16T00:01:09.913Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-16T00:01:07.486Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-16T00:01:07.432Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Screening Outlook for broker OMs"
+    },
+    {
+      "ts": "2026-09-16T00:01:05.330Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "MCP \u00b7 Tract IQ: market_summary_tool"
+    },
+    {
+      "ts": "2026-09-16T00:01:02.197Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Desktop session \u00b7 0 actions"
+    },
+    {
+      "ts": "2026-09-16T00:00:58.174Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-16T00:00:24.099Z",
+      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
+      "agentName": "Chief of Staff",
+      "text": "Browsing Outlook"
+    },
+    {
+      "ts": "2026-09-15T23:59:38.045Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Desktop session \u00b7 0 actions"
+    },
+    {
+      "ts": "2026-09-15T23:59:35.219Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 echo"
+    },
+    {
+      "ts": "2026-09-15T23:59:32.283Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Shell \u00b7 echo"
+    },
+    {
+      "ts": "2026-09-15T23:59:28.884Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "MCP \u00b7 Tract IQ: market_summary_tool"
+    },
+    {
+      "ts": "2026-09-15T23:59:28.152Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "MCP \u00b7 Tract IQ: geocode_search_tool"
+    },
+    {
+      "ts": "2026-09-15T23:59:27.977Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Running TractIQ / market screen"
+    },
+    {
+      "ts": "2026-09-15T23:59:20.505Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "MCP \u00b7 Tract IQ: pricing_trends_tool"
+    },
+    {
+      "ts": "2026-09-15T23:59:20.147Z",
+      "agentId": "26f91a22-f052-489b-8865-731646053afc",
+      "agentName": "Underwriting",
+      "text": "Shell \u00b7 python3"
+    },
+    {
+      "ts": "2026-09-15T23:59:09.062Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "SharePoint \u00b7 Annual Inspections - All Documents"
+    },
+    {
+      "ts": "2026-09-15T23:58:26.413Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "Running TractIQ / market screen"
+    },
+    {
+      "ts": "2026-09-15T23:58:22.125Z",
+      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
+      "agentName": "File Explorer",
+      "text": "MCP \u00b7 Tract IQ: market_summary_tool"
+    },
     {
       "ts": "2026-09-15T23:54:46.746Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
@@ -1871,150 +2045,6 @@
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T23:54:40.745Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Running TractIQ / market screen"
-    },
-    {
-      "ts": "2026-09-15T23:54:40.726Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "MCP \u00b7 Tract IQ: geocode_search_tool"
-    },
-    {
-      "ts": "2026-09-15T23:54:37.979Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Browsing Outlook"
-    },
-    {
-      "ts": "2026-09-15T23:54:34.977Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Screening Outlook mail"
-    },
-    {
-      "ts": "2026-09-15T23:54:29.019Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-15T23:54:28.920Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "MCP \u00b7 Tract IQ: pricing_trends_tool"
-    },
-    {
-      "ts": "2026-09-15T23:54:18.227Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "MCP \u00b7 Tract IQ: facility_search_tool"
-    },
-    {
-      "ts": "2026-09-15T23:54:18.032Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Running TractIQ / market screen"
-    },
-    {
-      "ts": "2026-09-15T23:54:10.896Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "Filing deal docs"
-    },
-    {
-      "ts": "2026-09-15T23:54:08.827Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "Shell \u00b7 python3"
-    },
-    {
-      "ts": "2026-09-15T23:54:08.661Z",
-      "agentId": "26f91a22-f052-489b-8865-731646053afc",
-      "agentName": "Underwriting",
-      "text": "MCP \u00b7 Tract IQ: market_summary_tool"
-    },
-    {
-      "ts": "2026-09-15T23:53:55.281Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Onedrive: search_drive_items"
-    },
-    {
-      "ts": "2026-09-15T23:53:55.091Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Onedrive: get_drive_item"
-    },
-    {
-      "ts": "2026-09-15T23:53:48.200Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "SharePoint \u00b7 10Fed Critical Files - Search"
-    },
-    {
-      "ts": "2026-09-15T23:53:46.369Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Onedrive: search_drive_items"
-    },
-    {
-      "ts": "2026-09-15T23:53:45.884Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Onedrive: search_drive_items"
-    },
-    {
-      "ts": "2026-09-15T23:53:37.517Z",
-      "agentId": "047a4f56-2d22-49bd-a9df-5323d46cb0ab",
-      "agentName": "Chief of Staff",
-      "text": "MCP \u00b7 Onedrive: search_files"
-    },
-    {
-      "ts": "2026-09-15T23:53:14.877Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "SharePoint \u00b7 02. Properties - Self Storage - All Documents"
-    },
-    {
-      "ts": "2026-09-15T23:52:56.273Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 find"
-    },
-    {
-      "ts": "2026-09-15T23:52:55.284Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Running TractIQ / market screen"
-    },
-    {
-      "ts": "2026-09-15T23:52:53.235Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 rg"
-    },
-    {
-      "ts": "2026-09-15T23:52:51.378Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "MCP \u00b7 Tract IQ: market_summary_tool"
-    },
-    {
-      "ts": "2026-09-15T23:52:48.790Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Filing deal docs"
-    },
-    {
-      "ts": "2026-09-15T23:52:45.170Z",
-      "agentId": "7d3b774c-5bb3-403d-82d6-71b02916783d",
-      "agentName": "File Explorer",
-      "text": "Shell \u00b7 rg"
     },
     {
       "ts": "2026-09-15T23:48:12.490Z",
@@ -2030,24 +2060,6 @@
     },
     {
       "ts": "2026-09-15T23:29:13.893Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T23:29:10.883Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T23:20:13.384Z",
-      "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
-      "agentName": "Visuals",
-      "text": "Refreshing office viz"
-    },
-    {
-      "ts": "2026-09-15T23:08:10.902Z",
       "agentId": "ce012f92-2588-4894-8547-5e318c41054a",
       "agentName": "Visuals",
       "text": "Refreshing office viz"
